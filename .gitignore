@@ -1,0 +1,38 @@
+# --- assets com copyright de terceiros (datamine Pokemon GO) ---
+# © Niantic / Nintendo / Creatures / GAME FREAK. Sem licenca de redistribuicao
+# publica -- ver assets/gen3/README.md e assets/gen3_glb (uso local apenas).
+# Os assets CC0 da Kenney (environment/, character/) NAO entram aqui.
+/assets/gen3/
+/assets/gen3_glb/
+
+# --- Claude Code (sessao local) ---
+.claude/
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+
+# --- .NET / C# ---
+csharp/**/bin/
+csharp/**/obj/
+
+# --- Unity ---
+unity/**/Library/
+unity/**/Temp/
+unity/**/Obj/
+unity/**/Build/
+unity/**/Builds/
+unity/**/Logs/
+unity/**/UserSettings/
+unity/**/MemoryCaptures/
+unity/**/.vs/
+unity/**/*.csproj
+unity/**/*.sln
+unity/**/*.user
+unity/**/*.pidb
+unity/**/sysinfo.txt
+unity/**/crashlytics-build.properties
+
+# --- SO ---
+Thumbs.db
+.DS_Store

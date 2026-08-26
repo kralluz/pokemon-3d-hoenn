@@ -1,0 +1,129 @@
+.battle-body { display: block; overflow: auto; }
+.battle-body #canvas { background: transparent; }
+
+#back {
+  position: fixed; top: 16px; left: 16px; z-index: 20;
+  background: var(--panel-2); border: 1px solid var(--line);
+  color: var(--text); text-decoration: none;
+  padding: 8px 14px; border-radius: 8px; font-size: 13px;
+}
+#back:hover { border-color: var(--accent); }
+
+/* ---------- tela de escolha ---------- */
+
+#setup { max-width: 980px; margin: 0 auto; padding: 90px 24px 60px; }
+#setup h1 { font-size: 26px; text-align: center; margin-bottom: 8px; }
+#setup .sub { text-align: center; color: var(--muted); font-size: 13px; margin-bottom: 34px; }
+
+.pickers { display: grid; grid-template-columns: 1fr auto 1fr; gap: 18px; align-items: start; }
+.vs { font-size: 20px; font-weight: 800; color: var(--muted); padding-top: 90px; }
+
+.picker {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+  padding: 16px; display: flex; flex-direction: column; min-height: 420px;
+}
+.picker h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin-bottom: 10px; }
+.picker .search {
+  width: 100%; padding: 9px 11px; background: var(--bg); border: 1px solid var(--line);
+  border-radius: 8px; color: var(--text); font: inherit; outline: none; margin-bottom: 8px;
+}
+.picker .search:focus { border-color: var(--accent); }
+.picker .list { list-style: none; overflow-y: auto; max-height: 320px; flex: 1; }
+.picker .list li {
+  display: flex; align-items: center; gap: 8px; padding: 7px 8px; border-radius: 7px; cursor: pointer;
+}
+.picker .list li:hover { background: var(--panel-2); }
+.picker .list li.sel { background: var(--panel-2); outline: 1px solid var(--accent); }
+.picker .list .dex { font-size: 11px; color: var(--muted); width: 28px; flex: none; }
+.picker .list .nm { flex: 1; font-size: 13px; }
+.picker .list .dots { display: flex; gap: 3px; }
+.picker .list .dots i { width: 7px; height: 7px; border-radius: 50%; display: block; }
+
+.picker .chosen {
+  margin-top: 10px; padding: 10px; border-radius: 8px; background: var(--panel-2);
+  font-size: 13px; display: flex; align-items: center; justify-content: space-between;
+}
+.picker .chosen b { font-size: 14px; }
+
+.setup-actions { display: flex; justify-content: center; gap: 12px; margin-top: 28px; }
+.setup-actions button {
+  padding: 11px 20px; border-radius: 9px; border: 1px solid var(--line);
+  background: var(--panel-2); color: var(--text); font: 600 13.5px/1 inherit; cursor: pointer;
+}
+.setup-actions button:hover:not(:disabled) { border-color: var(--accent); }
+.setup-actions button.primary { background: var(--accent); border-color: var(--accent); color: #08121b; }
+.setup-actions button:disabled { opacity: .4; cursor: not-allowed; }
+
+/* ---------- tela de batalha ---------- */
+
+#arena-screen { display: flex; flex-direction: column; height: 100vh; }
+#arena-wrap { position: relative; flex: 1 1 56%; min-height: 300px; background: linear-gradient(to bottom, #bfe3ff, #d8ecc9 78%, #cfe6b8); }
+#arena-wrap canvas { display: block; width: 100%; height: 100%; }
+
+.hud {
+  position: absolute; width: 240px; background: rgba(21, 26, 34, .82);
+  border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px;
+  backdrop-filter: blur(4px);
+}
+.hud-foe { top: 64px; left: 20px; }
+.hud-player { bottom: 20px; right: 20px; }
+
+.name-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+.name-row .name { font-size: 14px; font-weight: 650; }
+.name-row .lvl { font-size: 11px; color: var(--muted); }
+
+.hpbar { height: 8px; border-radius: 5px; background: #2a3340; overflow: hidden; }
+.hpfill { height: 100%; width: 100%; background: #58c46b; transition: width .35s ease, background-color .35s ease; }
+.hpfill.mid { background: #e8b13a; }
+.hpfill.low { background: #e14b4b; }
+.hpnum { text-align: right; font-size: 11px; color: var(--muted); margin-top: 4px; font-variant-numeric: tabular-nums; }
+
+#banner {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; background: rgba(14, 17, 22, .72); z-index: 10;
+}
+#banner .title { font-size: 30px; font-weight: 800; }
+#banner .title.win { color: #6be27f; }
+#banner .title.lose { color: #ff8b7a; }
+#banner button {
+  padding: 10px 22px; border-radius: 9px; border: 1px solid var(--accent);
+  background: var(--accent); color: #08121b; font: 700 13.5px/1 inherit; cursor: pointer;
+}
+
+#console { flex: 1 1 44%; display: flex; min-height: 220px; border-top: 1px solid var(--line); background: var(--panel); }
+#log {
+  flex: 1 1 58%; overflow-y: auto; padding: 14px 18px; font-size: 13px; line-height: 1.65;
+  border-right: 1px solid var(--line);
+}
+#log p { margin: 0 0 2px; color: var(--text); }
+#log p.sys { color: var(--muted); font-style: italic; }
+#log p.dmg { color: #ffb4a8; }
+#log p.crit { color: #ffd873; font-weight: 700; }
+#log p.turn { margin-top: 10px; color: var(--accent); font-weight: 700; }
+#log p.win { color: #6be27f; font-weight: 700; }
+
+#moves { flex: 1 1 42%; padding: 14px 18px; display: flex; flex-direction: column; }
+#moves h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin-bottom: 10px; }
+.movegrid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+.movebtn {
+  border: 1px solid var(--line); border-radius: 9px; padding: 10px 12px; text-align: left;
+  background: var(--panel-2); color: var(--text); cursor: pointer; font: inherit;
+}
+.movebtn:hover:not(:disabled) { border-color: var(--accent); }
+.movebtn:disabled { opacity: .35; cursor: not-allowed; }
+.movebtn .mv-name { font-size: 13.5px; font-weight: 600; display: block; margin-bottom: 5px; }
+.movebtn .mv-meta { display: flex; justify-content: space-between; align-items: center; }
+.movebtn .type {
+  font: 700 9.5px/1 inherit; text-transform: uppercase; letter-spacing: .4px;
+  padding: 3px 6px; border-radius: 4px; color: #08121b;
+}
+.movebtn .pp { font-size: 11px; color: var(--muted); }
+.waiting { color: var(--muted); font-size: 13px; padding: 10px 2px; }
+
+@media (max-width: 760px) {
+  .pickers { grid-template-columns: 1fr; }
+  .vs { padding-top: 0; text-align: center; }
+  #console { flex-direction: column; }
+  #log { border-right: 0; border-bottom: 1px solid var(--line); }
+  .hud { width: 190px; }
+}

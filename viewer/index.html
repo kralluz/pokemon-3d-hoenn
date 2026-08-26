@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pokédex 3D — Hoenn</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%234cc2ff'/%3E%3Cpath d='M2 16h28' stroke='%230e1116' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%230e1116'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/three.module.js",
+    "three/addons/": "./vendor/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+
+<aside id="sidebar">
+  <header>
+    <h1>Pokédex 3D <small>Hoenn · Gen 3</small></h1>
+    <a class="nav-link" href="world.html">🌍 Mundo (protótipo de movimentação)</a>
+    <a class="nav-link" href="battle.html">⚔️ Batalha (protótipo jogável)</a>
+    <div class="searchbox">
+      <input id="search" type="search" placeholder="Buscar nome, nº ou tipo…" autocomplete="off" spellcheck="false">
+      <button id="clear-search" title="Limpar" hidden>&times;</button>
+    </div>
+    <div id="types" class="types"></div>
+    <p id="count" class="count"></p>
+  </header>
+  <ul id="list" tabindex="0"></ul>
+</aside>
+
+<main id="stage">
+  <canvas id="canvas"></canvas>
+
+  <div id="info" class="overlay-tl">
+    <div class="dex">#<span id="i-dex">—</span></div>
+    <h2 id="i-name">—</h2>
+    <div id="i-types" class="chips"></div>
+  </div>
+
+  <div id="stats" class="overlay-tr"></div>
+
+  <div id="loading" hidden>
+    <div class="spinner"></div>
+    <span id="loading-text">carregando…</span>
+  </div>
+
+  <div id="error" hidden></div>
+
+  <footer id="controls">
+    <div id="variants" class="chips"></div>
+    <div class="spacer"></div>
+    <div class="toggles">
+      <label class="anim" hidden>
+        <select id="anim-select"></select>
+      </label>
+      <button id="t-rotate" class="on" title="Girar sozinho (R)">↻ girar</button>
+      <button id="t-wire" title="Wireframe (W)">▦ wireframe</button>
+      <button id="t-grid" class="on" title="Grade (G)">⊞ grade</button>
+      <button id="t-bg" title="Fundo (B)">◐ fundo</button>
+      <button id="t-reset" title="Recentrar (espaço)">⟲ recentrar</button>
+    </div>
+  </footer>
+
+  <p id="hint">arraste para girar · scroll para zoom · botão direito para mover · ↑↓ troca de Pokémon</p>
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

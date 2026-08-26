@@ -1,0 +1,2488 @@
+{
+ "generation": 3,
+ "region": "Hoenn",
+ "root": "../assets/gen3_glb",
+ "format": "glb",
+ "source": "https://github.com/Pokemon-3D-api/assets",
+ "thumbs": false,
+ "species": [
+  {
+   "dex": 252,
+   "name": "Treecko",
+   "slug": "treecko",
+   "types": [
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0252_normal",
+     "label": "Normal",
+     "file": "0252_normal.glb",
+     "kb": 25
+    }
+   ]
+  },
+  {
+   "dex": 253,
+   "name": "Grovyle",
+   "slug": "grovyle",
+   "types": [
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0253_normal",
+     "label": "Normal",
+     "file": "0253_normal.glb",
+     "kb": 371
+    }
+   ]
+  },
+  {
+   "dex": 254,
+   "name": "Sceptile",
+   "slug": "sceptile",
+   "types": [
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0254_normal",
+     "label": "Normal",
+     "file": "0254_normal.glb",
+     "kb": 89
+    },
+    {
+     "id": "0254_mega",
+     "label": "Mega",
+     "file": "0254_mega.glb",
+     "kb": 22
+    }
+   ]
+  },
+  {
+   "dex": 255,
+   "name": "Torchic",
+   "slug": "torchic",
+   "types": [
+    "fire"
+   ],
+   "variants": [
+    {
+     "id": "0255_normal",
+     "label": "Normal",
+     "file": "0255_normal.glb",
+     "kb": 52
+    }
+   ]
+  },
+  {
+   "dex": 256,
+   "name": "Combusken",
+   "slug": "combusken",
+   "types": [
+    "fire",
+    "fighting"
+   ],
+   "variants": [
+    {
+     "id": "0256_normal",
+     "label": "Normal",
+     "file": "0256_normal.glb",
+     "kb": 65
+    }
+   ]
+  },
+  {
+   "dex": 257,
+   "name": "Blaziken",
+   "slug": "blaziken",
+   "types": [
+    "fire",
+    "fighting"
+   ],
+   "variants": [
+    {
+     "id": "0257_normal",
+     "label": "Normal",
+     "file": "0257_normal.glb",
+     "kb": 88
+    },
+    {
+     "id": "0257_mega",
+     "label": "Mega",
+     "file": "0257_mega.glb",
+     "kb": 29
+    },
+    {
+     "id": "0257_shiny",
+     "label": "Shiny",
+     "file": "0257_shiny.glb",
+     "kb": 92
+    },
+    {
+     "id": "0257_mega-shiny",
+     "label": "Mega shiny",
+     "file": "0257_mega-shiny.glb",
+     "kb": 110
+    }
+   ]
+  },
+  {
+   "dex": 258,
+   "name": "Mudkip",
+   "slug": "mudkip",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0258_normal",
+     "label": "Normal",
+     "file": "0258_normal.glb",
+     "kb": 37
+    }
+   ]
+  },
+  {
+   "dex": 259,
+   "name": "Marshtomp",
+   "slug": "marshtomp",
+   "types": [
+    "water",
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0259_normal",
+     "label": "Normal",
+     "file": "0259_normal.glb",
+     "kb": 46
+    }
+   ]
+  },
+  {
+   "dex": 260,
+   "name": "Swampert",
+   "slug": "swampert",
+   "types": [
+    "water",
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0260_normal",
+     "label": "Normal",
+     "file": "0260_normal.glb",
+     "kb": 76
+    },
+    {
+     "id": "0260_mega",
+     "label": "Mega",
+     "file": "0260_mega.glb",
+     "kb": 23
+    },
+    {
+     "id": "0260_shiny",
+     "label": "Shiny",
+     "file": "0260_shiny.glb",
+     "kb": 84
+    },
+    {
+     "id": "0260_mega-shiny",
+     "label": "Mega shiny",
+     "file": "0260_mega-shiny.glb",
+     "kb": 103
+    }
+   ]
+  },
+  {
+   "dex": 261,
+   "name": "Poochyena",
+   "slug": "poochyena",
+   "types": [
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0261_normal",
+     "label": "Normal",
+     "file": "0261_normal.glb",
+     "kb": 67
+    }
+   ]
+  },
+  {
+   "dex": 262,
+   "name": "Mightyena",
+   "slug": "mightyena",
+   "types": [
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0262_normal",
+     "label": "Normal",
+     "file": "0262_normal.glb",
+     "kb": 93
+    }
+   ]
+  },
+  {
+   "dex": 263,
+   "name": "Zigzagoon",
+   "slug": "zigzagoon",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0263_normal",
+     "label": "Normal",
+     "file": "0263_normal.glb",
+     "kb": 53
+    },
+    {
+     "id": "0263_galar",
+     "label": "Galar",
+     "file": "0263_galar.glb",
+     "kb": 29
+    }
+   ]
+  },
+  {
+   "dex": 264,
+   "name": "Linoone",
+   "slug": "linoone",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0264_normal",
+     "label": "Normal",
+     "file": "0264_normal.glb",
+     "kb": 65
+    },
+    {
+     "id": "0264_galar",
+     "label": "Galar",
+     "file": "0264_galar.glb",
+     "kb": 300
+    }
+   ]
+  },
+  {
+   "dex": 265,
+   "name": "Wurmple",
+   "slug": "wurmple",
+   "types": [
+    "bug"
+   ],
+   "variants": [
+    {
+     "id": "0265_normal",
+     "label": "Normal",
+     "file": "0265_normal.glb",
+     "kb": 50
+    }
+   ]
+  },
+  {
+   "dex": 266,
+   "name": "Silcoon",
+   "slug": "silcoon",
+   "types": [
+    "bug"
+   ],
+   "variants": [
+    {
+     "id": "0266_normal",
+     "label": "Normal",
+     "file": "0266_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 267,
+   "name": "Beautifly",
+   "slug": "beautifly",
+   "types": [
+    "bug",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0267_normal",
+     "label": "Normal",
+     "file": "0267_normal.glb",
+     "kb": 63
+    }
+   ]
+  },
+  {
+   "dex": 268,
+   "name": "Cascoon",
+   "slug": "cascoon",
+   "types": [
+    "bug"
+   ],
+   "variants": [
+    {
+     "id": "0268_normal",
+     "label": "Normal",
+     "file": "0268_normal.glb",
+     "kb": 16
+    }
+   ]
+  },
+  {
+   "dex": 269,
+   "name": "Dustox",
+   "slug": "dustox",
+   "types": [
+    "bug",
+    "poison"
+   ],
+   "variants": [
+    {
+     "id": "0269_normal",
+     "label": "Normal",
+     "file": "0269_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 270,
+   "name": "Lotad",
+   "slug": "lotad",
+   "types": [
+    "water",
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0270_normal",
+     "label": "Normal",
+     "file": "0270_normal.glb",
+     "kb": 19
+    },
+    {
+     "id": "0270_shiny",
+     "label": "Shiny",
+     "file": "0270_shiny.glb",
+     "kb": 232
+    }
+   ]
+  },
+  {
+   "dex": 271,
+   "name": "Lombre",
+   "slug": "lombre",
+   "types": [
+    "water",
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0271_normal",
+     "label": "Normal",
+     "file": "0271_normal.glb",
+     "kb": 89
+    }
+   ]
+  },
+  {
+   "dex": 272,
+   "name": "Ludicolo",
+   "slug": "ludicolo",
+   "types": [
+    "water",
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0272_normal",
+     "label": "Normal",
+     "file": "0272_normal.glb",
+     "kb": 33
+    }
+   ]
+  },
+  {
+   "dex": 273,
+   "name": "Seedot",
+   "slug": "seedot",
+   "types": [
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0273_normal",
+     "label": "Normal",
+     "file": "0273_normal.glb",
+     "kb": 27
+    }
+   ]
+  },
+  {
+   "dex": 274,
+   "name": "Nuzleaf",
+   "slug": "nuzleaf",
+   "types": [
+    "grass",
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0274_normal",
+     "label": "Normal",
+     "file": "0274_normal.glb",
+     "kb": 55
+    }
+   ]
+  },
+  {
+   "dex": 275,
+   "name": "Shiftry",
+   "slug": "shiftry",
+   "types": [
+    "grass",
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0275_normal",
+     "label": "Normal",
+     "file": "0275_normal.glb",
+     "kb": 75
+    }
+   ]
+  },
+  {
+   "dex": 276,
+   "name": "Taillow",
+   "slug": "taillow",
+   "types": [
+    "normal",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0276_normal",
+     "label": "Normal",
+     "file": "0276_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 277,
+   "name": "Swellow",
+   "slug": "swellow",
+   "types": [
+    "normal",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0277_normal",
+     "label": "Normal",
+     "file": "0277_normal.glb",
+     "kb": 37
+    }
+   ]
+  },
+  {
+   "dex": 278,
+   "name": "Wingull",
+   "slug": "wingull",
+   "types": [
+    "water",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0278_normal",
+     "label": "Normal",
+     "file": "0278_normal.glb",
+     "kb": 18
+    }
+   ]
+  },
+  {
+   "dex": 279,
+   "name": "Pelipper",
+   "slug": "pelipper",
+   "types": [
+    "water",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0279_normal",
+     "label": "Normal",
+     "file": "0279_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 280,
+   "name": "Ralts",
+   "slug": "ralts",
+   "types": [
+    "psychic",
+    "fairy"
+   ],
+   "variants": [
+    {
+     "id": "0280_normal",
+     "label": "Normal",
+     "file": "0280_normal.glb",
+     "kb": 46
+    }
+   ]
+  },
+  {
+   "dex": 281,
+   "name": "Kirlia",
+   "slug": "kirlia",
+   "types": [
+    "psychic",
+    "fairy"
+   ],
+   "variants": [
+    {
+     "id": "0281_normal",
+     "label": "Normal",
+     "file": "0281_normal.glb",
+     "kb": 47
+    }
+   ]
+  },
+  {
+   "dex": 282,
+   "name": "Gardevoir",
+   "slug": "gardevoir",
+   "types": [
+    "psychic",
+    "fairy"
+   ],
+   "variants": [
+    {
+     "id": "0282_normal",
+     "label": "Normal",
+     "file": "0282_normal.glb",
+     "kb": 79
+    },
+    {
+     "id": "0282_mega",
+     "label": "Mega",
+     "file": "0282_mega.glb",
+     "kb": 26
+    },
+    {
+     "id": "0282_shiny",
+     "label": "Shiny",
+     "file": "0282_shiny.glb",
+     "kb": 91
+    },
+    {
+     "id": "0282_mega-shiny",
+     "label": "Mega shiny",
+     "file": "0282_mega-shiny.glb",
+     "kb": 467
+    }
+   ]
+  },
+  {
+   "dex": 283,
+   "name": "Surskit",
+   "slug": "surskit",
+   "types": [
+    "bug",
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0283_normal",
+     "label": "Normal",
+     "file": "0283_normal.glb",
+     "kb": 12
+    }
+   ]
+  },
+  {
+   "dex": 284,
+   "name": "Masquerain",
+   "slug": "masquerain",
+   "types": [
+    "bug",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0284_normal",
+     "label": "Normal",
+     "file": "0284_normal.glb",
+     "kb": 16
+    }
+   ]
+  },
+  {
+   "dex": 285,
+   "name": "Shroomish",
+   "slug": "shroomish",
+   "types": [
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0285_normal",
+     "label": "Normal",
+     "file": "0285_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 286,
+   "name": "Breloom",
+   "slug": "breloom",
+   "types": [
+    "grass",
+    "fighting"
+   ],
+   "variants": [
+    {
+     "id": "0286_normal",
+     "label": "Normal",
+     "file": "0286_normal.glb",
+     "kb": 37
+    }
+   ]
+  },
+  {
+   "dex": 287,
+   "name": "Slakoth",
+   "slug": "slakoth",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0287_normal",
+     "label": "Normal",
+     "file": "0287_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 288,
+   "name": "Vigoroth",
+   "slug": "vigoroth",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0288_normal",
+     "label": "Normal",
+     "file": "0288_normal.glb",
+     "kb": 130
+    },
+    {
+     "id": "0288_shiny",
+     "label": "Shiny",
+     "file": "0288_shiny.glb",
+     "kb": 116
+    }
+   ]
+  },
+  {
+   "dex": 289,
+   "name": "Slaking",
+   "slug": "slaking",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0289_normal",
+     "label": "Normal",
+     "file": "0289_normal.glb",
+     "kb": 66
+    }
+   ]
+  },
+  {
+   "dex": 290,
+   "name": "Nincada",
+   "slug": "nincada",
+   "types": [
+    "bug",
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0290_normal",
+     "label": "Normal",
+     "file": "0290_normal.glb",
+     "kb": 28
+    }
+   ]
+  },
+  {
+   "dex": 291,
+   "name": "Ninjask",
+   "slug": "ninjask",
+   "types": [
+    "bug",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0291_normal",
+     "label": "Normal",
+     "file": "0291_normal.glb",
+     "kb": 88
+    }
+   ]
+  },
+  {
+   "dex": 292,
+   "name": "Shedinja",
+   "slug": "shedinja",
+   "types": [
+    "bug",
+    "ghost"
+   ],
+   "variants": [
+    {
+     "id": "0292_normal",
+     "label": "Normal",
+     "file": "0292_normal.glb",
+     "kb": 41
+    }
+   ]
+  },
+  {
+   "dex": 293,
+   "name": "Whismur",
+   "slug": "whismur",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0293_normal",
+     "label": "Normal",
+     "file": "0293_normal.glb",
+     "kb": 15
+    }
+   ]
+  },
+  {
+   "dex": 294,
+   "name": "Loudred",
+   "slug": "loudred",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0294_normal",
+     "label": "Normal",
+     "file": "0294_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 295,
+   "name": "Exploud",
+   "slug": "exploud",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0295_normal",
+     "label": "Normal",
+     "file": "0295_normal.glb",
+     "kb": 44
+    }
+   ]
+  },
+  {
+   "dex": 296,
+   "name": "Makuhita",
+   "slug": "makuhita",
+   "types": [
+    "fighting"
+   ],
+   "variants": [
+    {
+     "id": "0296_normal",
+     "label": "Normal",
+     "file": "0296_normal.glb",
+     "kb": 68
+    }
+   ]
+  },
+  {
+   "dex": 297,
+   "name": "Hariyama",
+   "slug": "hariyama",
+   "types": [
+    "fighting"
+   ],
+   "variants": [
+    {
+     "id": "0297_normal",
+     "label": "Normal",
+     "file": "0297_normal.glb",
+     "kb": 27
+    }
+   ]
+  },
+  {
+   "dex": 298,
+   "name": "Azurill",
+   "slug": "azurill",
+   "types": [
+    "normal",
+    "fairy"
+   ],
+   "variants": [
+    {
+     "id": "0298_normal",
+     "label": "Normal",
+     "file": "0298_normal.glb",
+     "kb": 18
+    }
+   ]
+  },
+  {
+   "dex": 299,
+   "name": "Nosepass",
+   "slug": "nosepass",
+   "types": [
+    "rock"
+   ],
+   "variants": [
+    {
+     "id": "0299_normal",
+     "label": "Normal",
+     "file": "0299_normal.glb",
+     "kb": 14
+    }
+   ]
+  },
+  {
+   "dex": 300,
+   "name": "Skitty",
+   "slug": "skitty",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0300_normal",
+     "label": "Normal",
+     "file": "0300_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 301,
+   "name": "Delcatty",
+   "slug": "delcatty",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0301_normal",
+     "label": "Normal",
+     "file": "0301_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 302,
+   "name": "Sableye",
+   "slug": "sableye",
+   "types": [
+    "dark",
+    "ghost"
+   ],
+   "variants": [
+    {
+     "id": "0302_normal",
+     "label": "Normal",
+     "file": "0302_normal.glb",
+     "kb": 368
+    },
+    {
+     "id": "0302_mega",
+     "label": "Mega",
+     "file": "0302_mega.glb",
+     "kb": 184
+    }
+   ]
+  },
+  {
+   "dex": 303,
+   "name": "Mawile",
+   "slug": "mawile",
+   "types": [
+    "steel",
+    "fairy"
+   ],
+   "variants": [
+    {
+     "id": "0303_normal",
+     "label": "Normal",
+     "file": "0303_normal.glb",
+     "kb": 65
+    },
+    {
+     "id": "0303_mega",
+     "label": "Mega",
+     "file": "0303_mega.glb",
+     "kb": 27
+    }
+   ]
+  },
+  {
+   "dex": 304,
+   "name": "Aron",
+   "slug": "aron",
+   "types": [
+    "steel",
+    "rock"
+   ],
+   "variants": [
+    {
+     "id": "0304_normal",
+     "label": "Normal",
+     "file": "0304_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 305,
+   "name": "Lairon",
+   "slug": "lairon",
+   "types": [
+    "steel",
+    "rock"
+   ],
+   "variants": [
+    {
+     "id": "0305_normal",
+     "label": "Normal",
+     "file": "0305_normal.glb",
+     "kb": 21
+    }
+   ]
+  },
+  {
+   "dex": 306,
+   "name": "Aggron",
+   "slug": "aggron",
+   "types": [
+    "steel",
+    "rock"
+   ],
+   "variants": [
+    {
+     "id": "0306_normal",
+     "label": "Normal",
+     "file": "0306_normal.glb",
+     "kb": 67
+    },
+    {
+     "id": "0306_mega",
+     "label": "Mega",
+     "file": "0306_mega.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 307,
+   "name": "Meditite",
+   "slug": "meditite",
+   "types": [
+    "fighting",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0307_normal",
+     "label": "Normal",
+     "file": "0307_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 308,
+   "name": "Medicham",
+   "slug": "medicham",
+   "types": [
+    "fighting",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0308_normal",
+     "label": "Normal",
+     "file": "0308_normal.glb",
+     "kb": 28
+    },
+    {
+     "id": "0308_mega",
+     "label": "Mega",
+     "file": "0308_mega.glb",
+     "kb": 25
+    }
+   ]
+  },
+  {
+   "dex": 309,
+   "name": "Electrike",
+   "slug": "electrike",
+   "types": [
+    "electric"
+   ],
+   "variants": [
+    {
+     "id": "0309_normal",
+     "label": "Normal",
+     "file": "0309_normal.glb",
+     "kb": 64
+    }
+   ]
+  },
+  {
+   "dex": 310,
+   "name": "Manectric",
+   "slug": "manectric",
+   "types": [
+    "electric"
+   ],
+   "variants": [
+    {
+     "id": "0310_normal",
+     "label": "Normal",
+     "file": "0310_normal.glb",
+     "kb": 83
+    },
+    {
+     "id": "0310_mega",
+     "label": "Mega",
+     "file": "0310_mega.glb",
+     "kb": 87
+    },
+    {
+     "id": "0310_mega-shiny",
+     "label": "Mega shiny",
+     "file": "0310_mega-shiny.glb",
+     "kb": 87
+    }
+   ]
+  },
+  {
+   "dex": 311,
+   "name": "Plusle",
+   "slug": "plusle",
+   "types": [
+    "electric"
+   ],
+   "variants": [
+    {
+     "id": "0311_normal",
+     "label": "Normal",
+     "file": "0311_normal.glb",
+     "kb": 46
+    }
+   ]
+  },
+  {
+   "dex": 312,
+   "name": "Minun",
+   "slug": "minun",
+   "types": [
+    "electric"
+   ],
+   "variants": [
+    {
+     "id": "0312_normal",
+     "label": "Normal",
+     "file": "0312_normal.glb",
+     "kb": 45
+    }
+   ]
+  },
+  {
+   "dex": 313,
+   "name": "Volbeat",
+   "slug": "volbeat",
+   "types": [
+    "bug"
+   ],
+   "variants": [
+    {
+     "id": "0313_normal",
+     "label": "Normal",
+     "file": "0313_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 314,
+   "name": "Illumise",
+   "slug": "illumise",
+   "types": [
+    "bug"
+   ],
+   "variants": [
+    {
+     "id": "0314_normal",
+     "label": "Normal",
+     "file": "0314_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 315,
+   "name": "Roselia",
+   "slug": "roselia",
+   "types": [
+    "grass",
+    "poison"
+   ],
+   "variants": [
+    {
+     "id": "0315_normal",
+     "label": "Normal",
+     "file": "0315_normal.glb",
+     "kb": 86
+    }
+   ]
+  },
+  {
+   "dex": 316,
+   "name": "Gulpin",
+   "slug": "gulpin",
+   "types": [
+    "poison"
+   ],
+   "variants": [
+    {
+     "id": "0316_normal",
+     "label": "Normal",
+     "file": "0316_normal.glb",
+     "kb": 12
+    }
+   ]
+  },
+  {
+   "dex": 317,
+   "name": "Swalot",
+   "slug": "swalot",
+   "types": [
+    "poison"
+   ],
+   "variants": [
+    {
+     "id": "0317_normal",
+     "label": "Normal",
+     "file": "0317_normal.glb",
+     "kb": 15
+    }
+   ]
+  },
+  {
+   "dex": 318,
+   "name": "Carvanha",
+   "slug": "carvanha",
+   "types": [
+    "water",
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0318_normal",
+     "label": "Normal",
+     "file": "0318_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 319,
+   "name": "Sharpedo",
+   "slug": "sharpedo",
+   "types": [
+    "water",
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0319_normal",
+     "label": "Normal",
+     "file": "0319_normal.glb",
+     "kb": 60
+    },
+    {
+     "id": "0319_mega",
+     "label": "Mega",
+     "file": "0319_mega.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 320,
+   "name": "Wailmer",
+   "slug": "wailmer",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0320_normal",
+     "label": "Normal",
+     "file": "0320_normal.glb",
+     "kb": 40
+    }
+   ]
+  },
+  {
+   "dex": 321,
+   "name": "Wailord",
+   "slug": "wailord",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0321_normal",
+     "label": "Normal",
+     "file": "0321_normal.glb",
+     "kb": 53
+    }
+   ]
+  },
+  {
+   "dex": 322,
+   "name": "Numel",
+   "slug": "numel",
+   "types": [
+    "fire",
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0322_normal",
+     "label": "Normal",
+     "file": "0322_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 323,
+   "name": "Camerupt",
+   "slug": "camerupt",
+   "types": [
+    "fire",
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0323_normal",
+     "label": "Normal",
+     "file": "0323_normal.glb",
+     "kb": 80
+    },
+    {
+     "id": "0323_mega",
+     "label": "Mega",
+     "file": "0323_mega.glb",
+     "kb": 23
+    }
+   ]
+  },
+  {
+   "dex": 324,
+   "name": "Torkoal",
+   "slug": "torkoal",
+   "types": [
+    "fire"
+   ],
+   "variants": [
+    {
+     "id": "0324_normal",
+     "label": "Normal",
+     "file": "0324_normal.glb",
+     "kb": 22
+    }
+   ]
+  },
+  {
+   "dex": 325,
+   "name": "Spoink",
+   "slug": "spoink",
+   "types": [
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0325_normal",
+     "label": "Normal",
+     "file": "0325_normal.glb",
+     "kb": 14
+    }
+   ]
+  },
+  {
+   "dex": 326,
+   "name": "Grumpig",
+   "slug": "grumpig",
+   "types": [
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0326_normal",
+     "label": "Normal",
+     "file": "0326_normal.glb",
+     "kb": 20
+    }
+   ]
+  },
+  {
+   "dex": 327,
+   "name": "Spinda",
+   "slug": "spinda",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0327_normal",
+     "label": "Normal",
+     "file": "0327_normal.glb",
+     "kb": 22
+    }
+   ]
+  },
+  {
+   "dex": 328,
+   "name": "Trapinch",
+   "slug": "trapinch",
+   "types": [
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0328_normal",
+     "label": "Normal",
+     "file": "0328_normal.glb",
+     "kb": 186
+    }
+   ]
+  },
+  {
+   "dex": 329,
+   "name": "Vibrava",
+   "slug": "vibrava",
+   "types": [
+    "ground",
+    "dragon"
+   ],
+   "variants": [
+    {
+     "id": "0329_normal",
+     "label": "Normal",
+     "file": "0329_normal.glb",
+     "kb": 110
+    }
+   ]
+  },
+  {
+   "dex": 330,
+   "name": "Flygon",
+   "slug": "flygon",
+   "types": [
+    "ground",
+    "dragon"
+   ],
+   "variants": [
+    {
+     "id": "0330_normal",
+     "label": "Normal",
+     "file": "0330_normal.glb",
+     "kb": 6271
+    },
+    {
+     "id": "0330_shiny",
+     "label": "Shiny",
+     "file": "0330_shiny.glb",
+     "kb": 6273
+    }
+   ]
+  },
+  {
+   "dex": 331,
+   "name": "Cacnea",
+   "slug": "cacnea",
+   "types": [
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0331_normal",
+     "label": "Normal",
+     "file": "0331_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 332,
+   "name": "Cacturne",
+   "slug": "cacturne",
+   "types": [
+    "grass",
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0332_normal",
+     "label": "Normal",
+     "file": "0332_normal.glb",
+     "kb": 63
+    }
+   ]
+  },
+  {
+   "dex": 333,
+   "name": "Swablu",
+   "slug": "swablu",
+   "types": [
+    "normal",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0333_normal",
+     "label": "Normal",
+     "file": "0333_normal.glb",
+     "kb": 105
+    }
+   ]
+  },
+  {
+   "dex": 334,
+   "name": "Altaria",
+   "slug": "altaria",
+   "types": [
+    "dragon",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0334_normal",
+     "label": "Normal",
+     "file": "0334_normal.glb",
+     "kb": 18
+    },
+    {
+     "id": "0334_mega",
+     "label": "Mega",
+     "file": "0334_mega.glb",
+     "kb": 21
+    }
+   ]
+  },
+  {
+   "dex": 335,
+   "name": "Zangoose",
+   "slug": "zangoose",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0335_normal",
+     "label": "Normal",
+     "file": "0335_normal.glb",
+     "kb": 78
+    }
+   ]
+  },
+  {
+   "dex": 336,
+   "name": "Seviper",
+   "slug": "seviper",
+   "types": [
+    "poison"
+   ],
+   "variants": [
+    {
+     "id": "0336_normal",
+     "label": "Normal",
+     "file": "0336_normal.glb",
+     "kb": 88
+    }
+   ]
+  },
+  {
+   "dex": 337,
+   "name": "Lunatone",
+   "slug": "lunatone",
+   "types": [
+    "rock",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0337_normal",
+     "label": "Normal",
+     "file": "0337_normal.glb",
+     "kb": 41
+    }
+   ]
+  },
+  {
+   "dex": 338,
+   "name": "Solrock",
+   "slug": "solrock",
+   "types": [
+    "rock",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0338_normal",
+     "label": "Normal",
+     "file": "0338_normal.glb",
+     "kb": 80
+    }
+   ]
+  },
+  {
+   "dex": 339,
+   "name": "Barboach",
+   "slug": "barboach",
+   "types": [
+    "water",
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0339_normal",
+     "label": "Normal",
+     "file": "0339_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 340,
+   "name": "Whiscash",
+   "slug": "whiscash",
+   "types": [
+    "water",
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0340_normal",
+     "label": "Normal",
+     "file": "0340_normal.glb",
+     "kb": 18
+    }
+   ]
+  },
+  {
+   "dex": 341,
+   "name": "Corphish",
+   "slug": "corphish",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0341_normal",
+     "label": "Normal",
+     "file": "0341_normal.glb",
+     "kb": 2997
+    },
+    {
+     "id": "0341_shiny",
+     "label": "Shiny",
+     "file": "0341_shiny.glb",
+     "kb": 2993
+    }
+   ]
+  },
+  {
+   "dex": 342,
+   "name": "Crawdaunt",
+   "slug": "crawdaunt",
+   "types": [
+    "water",
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0342_normal",
+     "label": "Normal",
+     "file": "0342_normal.glb",
+     "kb": 71
+    }
+   ]
+  },
+  {
+   "dex": 343,
+   "name": "Baltoy",
+   "slug": "baltoy",
+   "types": [
+    "ground",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0343_normal",
+     "label": "Normal",
+     "file": "0343_normal.glb",
+     "kb": 202
+    }
+   ]
+  },
+  {
+   "dex": 344,
+   "name": "Claydol",
+   "slug": "claydol",
+   "types": [
+    "ground",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0344_normal",
+     "label": "Normal",
+     "file": "0344_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 345,
+   "name": "Lileep",
+   "slug": "lileep",
+   "types": [
+    "rock",
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0345_normal",
+     "label": "Normal",
+     "file": "0345_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 346,
+   "name": "Cradily",
+   "slug": "cradily",
+   "types": [
+    "rock",
+    "grass"
+   ],
+   "variants": [
+    {
+     "id": "0346_normal",
+     "label": "Normal",
+     "file": "0346_normal.glb",
+     "kb": 18
+    }
+   ]
+  },
+  {
+   "dex": 347,
+   "name": "Anorith",
+   "slug": "anorith",
+   "types": [
+    "rock",
+    "bug"
+   ],
+   "variants": [
+    {
+     "id": "0347_normal",
+     "label": "Normal",
+     "file": "0347_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 348,
+   "name": "Armaldo",
+   "slug": "armaldo",
+   "types": [
+    "rock",
+    "bug"
+   ],
+   "variants": [
+    {
+     "id": "0348_normal",
+     "label": "Normal",
+     "file": "0348_normal.glb",
+     "kb": 212
+    }
+   ]
+  },
+  {
+   "dex": 349,
+   "name": "Feebas",
+   "slug": "feebas",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0349_normal",
+     "label": "Normal",
+     "file": "0349_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 350,
+   "name": "Milotic",
+   "slug": "milotic",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0350_normal",
+     "label": "Normal",
+     "file": "0350_normal.glb",
+     "kb": 22
+    }
+   ]
+  },
+  {
+   "dex": 351,
+   "name": "Castform",
+   "slug": "castform",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0351_normal",
+     "label": "Normal",
+     "file": "0351_normal.glb",
+     "kb": 31
+    }
+   ]
+  },
+  {
+   "dex": 352,
+   "name": "Kecleon",
+   "slug": "kecleon",
+   "types": [
+    "normal"
+   ],
+   "variants": [
+    {
+     "id": "0352_normal",
+     "label": "Normal",
+     "file": "0352_normal.glb",
+     "kb": 21
+    }
+   ]
+  },
+  {
+   "dex": 353,
+   "name": "Shuppet",
+   "slug": "shuppet",
+   "types": [
+    "ghost"
+   ],
+   "variants": [
+    {
+     "id": "0353_normal",
+     "label": "Normal",
+     "file": "0353_normal.glb",
+     "kb": 126
+    }
+   ]
+  },
+  {
+   "dex": 354,
+   "name": "Banette",
+   "slug": "banette",
+   "types": [
+    "ghost"
+   ],
+   "variants": [
+    {
+     "id": "0354_normal",
+     "label": "Normal",
+     "file": "0354_normal.glb",
+     "kb": 60
+    },
+    {
+     "id": "0354_mega",
+     "label": "Mega",
+     "file": "0354_mega.glb",
+     "kb": 22
+    }
+   ]
+  },
+  {
+   "dex": 355,
+   "name": "Duskull",
+   "slug": "duskull",
+   "types": [
+    "ghost"
+   ],
+   "variants": [
+    {
+     "id": "0355_normal",
+     "label": "Normal",
+     "file": "0355_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 356,
+   "name": "Dusclops",
+   "slug": "dusclops",
+   "types": [
+    "ghost"
+   ],
+   "variants": [
+    {
+     "id": "0356_normal",
+     "label": "Normal",
+     "file": "0356_normal.glb",
+     "kb": 18
+    }
+   ]
+  },
+  {
+   "dex": 357,
+   "name": "Tropius",
+   "slug": "tropius",
+   "types": [
+    "grass",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0357_normal",
+     "label": "Normal",
+     "file": "0357_normal.glb",
+     "kb": 21
+    }
+   ]
+  },
+  {
+   "dex": 358,
+   "name": "Chimecho",
+   "slug": "chimecho",
+   "types": [
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0358_normal",
+     "label": "Normal",
+     "file": "0358_normal.glb",
+     "kb": 875
+    },
+    {
+     "id": "0358_shiny",
+     "label": "Shiny",
+     "file": "0358_shiny.glb",
+     "kb": 875
+    }
+   ]
+  },
+  {
+   "dex": 359,
+   "name": "Absol",
+   "slug": "absol",
+   "types": [
+    "dark"
+   ],
+   "variants": [
+    {
+     "id": "0359_normal",
+     "label": "Normal",
+     "file": "0359_normal.glb",
+     "kb": 68
+    },
+    {
+     "id": "0359_mega",
+     "label": "Mega",
+     "file": "0359_mega.glb",
+     "kb": 89
+    },
+    {
+     "id": "0359_mega-shiny",
+     "label": "Mega shiny",
+     "file": "0359_mega-shiny.glb",
+     "kb": 88
+    }
+   ]
+  },
+  {
+   "dex": 360,
+   "name": "Wynaut",
+   "slug": "wynaut",
+   "types": [
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0360_normal",
+     "label": "Normal",
+     "file": "0360_normal.glb",
+     "kb": 24
+    }
+   ]
+  },
+  {
+   "dex": 361,
+   "name": "Snorunt",
+   "slug": "snorunt",
+   "types": [
+    "ice"
+   ],
+   "variants": [
+    {
+     "id": "0361_normal",
+     "label": "Normal",
+     "file": "0361_normal.glb",
+     "kb": 70
+    },
+    {
+     "id": "0361_shiny",
+     "label": "Shiny",
+     "file": "0361_shiny.glb",
+     "kb": 100
+    }
+   ]
+  },
+  {
+   "dex": 362,
+   "name": "Glalie",
+   "slug": "glalie",
+   "types": [
+    "ice"
+   ],
+   "variants": [
+    {
+     "id": "0362_normal",
+     "label": "Normal",
+     "file": "0362_normal.glb",
+     "kb": 79
+    },
+    {
+     "id": "0362_mega",
+     "label": "Mega",
+     "file": "0362_mega.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 363,
+   "name": "Spheal",
+   "slug": "spheal",
+   "types": [
+    "ice",
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0363_normal",
+     "label": "Normal",
+     "file": "0363_normal.glb",
+     "kb": 21
+    }
+   ]
+  },
+  {
+   "dex": 364,
+   "name": "Sealeo",
+   "slug": "sealeo",
+   "types": [
+    "ice",
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0364_normal",
+     "label": "Normal",
+     "file": "0364_normal.glb",
+     "kb": 31
+    }
+   ]
+  },
+  {
+   "dex": 365,
+   "name": "Walrein",
+   "slug": "walrein",
+   "types": [
+    "ice",
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0365_normal",
+     "label": "Normal",
+     "file": "0365_normal.glb",
+     "kb": 42
+    }
+   ]
+  },
+  {
+   "dex": 366,
+   "name": "Clamperl",
+   "slug": "clamperl",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0366_normal",
+     "label": "Normal",
+     "file": "0366_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 367,
+   "name": "Huntail",
+   "slug": "huntail",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0367_normal",
+     "label": "Normal",
+     "file": "0367_normal.glb",
+     "kb": 19
+    }
+   ]
+  },
+  {
+   "dex": 368,
+   "name": "Gorebyss",
+   "slug": "gorebyss",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0368_normal",
+     "label": "Normal",
+     "file": "0368_normal.glb",
+     "kb": 14
+    }
+   ]
+  },
+  {
+   "dex": 369,
+   "name": "Relicanth",
+   "slug": "relicanth",
+   "types": [
+    "water",
+    "rock"
+   ],
+   "variants": [
+    {
+     "id": "0369_normal",
+     "label": "Normal",
+     "file": "0369_normal.glb",
+     "kb": 42
+    }
+   ]
+  },
+  {
+   "dex": 370,
+   "name": "Luvdisc",
+   "slug": "luvdisc",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0370_normal",
+     "label": "Normal",
+     "file": "0370_normal.glb",
+     "kb": 14
+    }
+   ]
+  },
+  {
+   "dex": 371,
+   "name": "Bagon",
+   "slug": "bagon",
+   "types": [
+    "dragon"
+   ],
+   "variants": [
+    {
+     "id": "0371_normal",
+     "label": "Normal",
+     "file": "0371_normal.glb",
+     "kb": 17
+    }
+   ]
+  },
+  {
+   "dex": 372,
+   "name": "Shelgon",
+   "slug": "shelgon",
+   "types": [
+    "dragon"
+   ],
+   "variants": [
+    {
+     "id": "0372_normal",
+     "label": "Normal",
+     "file": "0372_normal.glb",
+     "kb": 14
+    }
+   ]
+  },
+  {
+   "dex": 373,
+   "name": "Salamence",
+   "slug": "salamence",
+   "types": [
+    "dragon",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0373_normal",
+     "label": "Normal",
+     "file": "0373_normal.glb",
+     "kb": 21
+    },
+    {
+     "id": "0373_mega",
+     "label": "Mega",
+     "file": "0373_mega.glb",
+     "kb": 23
+    }
+   ]
+  },
+  {
+   "dex": 374,
+   "name": "Beldum",
+   "slug": "beldum",
+   "types": [
+    "steel",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0374_normal",
+     "label": "Normal",
+     "file": "0374_normal.glb",
+     "kb": 14
+    }
+   ]
+  },
+  {
+   "dex": 375,
+   "name": "Metang",
+   "slug": "metang",
+   "types": [
+    "steel",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0375_normal",
+     "label": "Normal",
+     "file": "0375_normal.glb",
+     "kb": 18
+    }
+   ]
+  },
+  {
+   "dex": 376,
+   "name": "Metagross",
+   "slug": "metagross",
+   "types": [
+    "steel",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0376_normal",
+     "label": "Normal",
+     "file": "0376_normal.glb",
+     "kb": 89
+    },
+    {
+     "id": "0376_mega",
+     "label": "Mega",
+     "file": "0376_mega.glb",
+     "kb": 28
+    },
+    {
+     "id": "0376_shiny",
+     "label": "Shiny",
+     "file": "0376_shiny.glb",
+     "kb": 72
+    }
+   ]
+  },
+  {
+   "dex": 377,
+   "name": "Regirock",
+   "slug": "regirock",
+   "types": [
+    "rock"
+   ],
+   "variants": [
+    {
+     "id": "0377_normal",
+     "label": "Normal",
+     "file": "0377_normal.glb",
+     "kb": 50
+    }
+   ]
+  },
+  {
+   "dex": 378,
+   "name": "Regice",
+   "slug": "regice",
+   "types": [
+    "ice"
+   ],
+   "variants": [
+    {
+     "id": "0378_normal",
+     "label": "Normal",
+     "file": "0378_normal.glb",
+     "kb": 13
+    }
+   ]
+  },
+  {
+   "dex": 379,
+   "name": "Registeel",
+   "slug": "registeel",
+   "types": [
+    "steel"
+   ],
+   "variants": [
+    {
+     "id": "0379_normal",
+     "label": "Normal",
+     "file": "0379_normal.glb",
+     "kb": 47
+    }
+   ]
+  },
+  {
+   "dex": 380,
+   "name": "Latias",
+   "slug": "latias",
+   "types": [
+    "dragon",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0380_normal",
+     "label": "Normal",
+     "file": "0380_normal.glb",
+     "kb": 59
+    },
+    {
+     "id": "0380_mega",
+     "label": "Mega",
+     "file": "0380_mega.glb",
+     "kb": 23
+    }
+   ]
+  },
+  {
+   "dex": 381,
+   "name": "Latios",
+   "slug": "latios",
+   "types": [
+    "dragon",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0381_normal",
+     "label": "Normal",
+     "file": "0381_normal.glb",
+     "kb": 70
+    },
+    {
+     "id": "0381_mega",
+     "label": "Mega",
+     "file": "0381_mega.glb",
+     "kb": 23
+    }
+   ]
+  },
+  {
+   "dex": 382,
+   "name": "Kyogre",
+   "slug": "kyogre",
+   "types": [
+    "water"
+   ],
+   "variants": [
+    {
+     "id": "0382_normal",
+     "label": "Normal",
+     "file": "0382_normal.glb",
+     "kb": 135
+    },
+    {
+     "id": "0382_primal",
+     "label": "Primal",
+     "file": "0382_primal.glb",
+     "kb": 186
+    }
+   ]
+  },
+  {
+   "dex": 383,
+   "name": "Groudon",
+   "slug": "groudon",
+   "types": [
+    "ground"
+   ],
+   "variants": [
+    {
+     "id": "0383_normal",
+     "label": "Normal",
+     "file": "0383_normal.glb",
+     "kb": 91
+    },
+    {
+     "id": "0383_primal",
+     "label": "Primal",
+     "file": "0383_primal.glb",
+     "kb": 141
+    }
+   ]
+  },
+  {
+   "dex": 384,
+   "name": "Rayquaza",
+   "slug": "rayquaza",
+   "types": [
+    "dragon",
+    "flying"
+   ],
+   "variants": [
+    {
+     "id": "0384_normal",
+     "label": "Normal",
+     "file": "0384_normal.glb",
+     "kb": 75
+    },
+    {
+     "id": "0384_mega",
+     "label": "Mega",
+     "file": "0384_mega.glb",
+     "kb": 136
+    },
+    {
+     "id": "0384_shiny",
+     "label": "Shiny",
+     "file": "0384_shiny.glb",
+     "kb": 56
+    },
+    {
+     "id": "0384_mega-shiny",
+     "label": "Mega shiny",
+     "file": "0384_mega-shiny.glb",
+     "kb": 184
+    }
+   ]
+  },
+  {
+   "dex": 385,
+   "name": "Jirachi",
+   "slug": "jirachi",
+   "types": [
+    "steel",
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0385_normal",
+     "label": "Normal",
+     "file": "0385_normal.glb",
+     "kb": 63
+    }
+   ]
+  },
+  {
+   "dex": 386,
+   "name": "Deoxys",
+   "slug": "deoxys-normal",
+   "types": [
+    "psychic"
+   ],
+   "variants": [
+    {
+     "id": "0386_normal",
+     "label": "Normal",
+     "file": "0386_normal.glb",
+     "kb": 165
+    },
+    {
+     "id": "0386_shiny",
+     "label": "Shiny",
+     "file": "0386_shiny.glb",
+     "kb": 165
+    }
+   ]
+  }
+ ]
+}

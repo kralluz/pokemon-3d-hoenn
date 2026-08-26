@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Batalha — Gen 3</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23e8622a'/%3E%3Cpath d='M2 16h28' stroke='%230e1116' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%230e1116'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="battle.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/three.module.js",
+    "three/addons/": "./vendor/jsm/",
+    "@pkmn/sim": "./vendor/pkmn/sim.js"
+  }
+}
+</script>
+</head>
+<body class="battle-body">
+
+<a id="back" href="index.html">← Pokédex 3D</a>
+
+<!-- tela de escolha -->
+<section id="setup">
+  <h1>Escolha os dois lados</h1>
+  <p class="sub">Cada um entra com um moveset legal de Gen 3 (nível 50, IVs perfeitos) montado a partir do próprio learnset — sem golpe inventado.</p>
+
+  <div class="pickers">
+    <div class="picker" data-side="p1">
+      <h2>Seu Pokémon</h2>
+      <input class="search" type="search" placeholder="Buscar…" autocomplete="off">
+      <ul class="list"></ul>
+      <div class="chosen" hidden></div>
+    </div>
+
+    <div class="vs">VS</div>
+
+    <div class="picker" data-side="p2">
+      <h2>Oponente</h2>
+      <input class="search" type="search" placeholder="Buscar…" autocomplete="off">
+      <ul class="list"></ul>
+      <div class="chosen" hidden></div>
+    </div>
+  </div>
+
+  <div class="setup-actions">
+    <button id="randomize">🎲 sortear os dois</button>
+    <button id="start-battle" class="primary" disabled>Lutar!</button>
+  </div>
+</section>
+
+<!-- tela de batalha -->
+<section id="arena-screen" hidden>
+  <div id="arena-wrap">
+    <canvas id="canvas"></canvas>
+
+    <div class="hud hud-foe">
+      <div class="name-row"><span class="name"></span><span class="lvl"></span></div>
+      <div class="hpbar"><div class="hpfill"></div></div>
+    </div>
+
+    <div class="hud hud-player">
+      <div class="name-row"><span class="name"></span><span class="lvl"></span></div>
+      <div class="hpbar"><div class="hpfill"></div></div>
+      <div class="hpnum"></div>
+    </div>
+
+    <div id="banner" hidden></div>
+  </div>
+
+  <div id="console">
+    <div id="log"></div>
+    <div id="moves"></div>
+  </div>
+</section>
+
+<script type="module" src="battle.js"></script>
+</body>
+</html>
