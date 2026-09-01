@@ -1,0 +1,2264 @@
+{
+  "layouts": {
+    "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry",
+      "fields": [
+        {
+          "name": "LocalizableName",
+          "node": {
+            "kind": "string"
+          }
+        },
+        {
+          "name": "LocalizableDescription",
+          "node": {
+            "kind": "string"
+          }
+        },
+        {
+          "name": "DocsURL",
+          "node": {
+            "kind": "string"
+          }
+        },
+        {
+          "name": "DexNumber",
+          "node": {
+            "kind": "prim",
+            "type": "u32",
+            "align": false
+          }
+        },
+        {
+          "name": "AvailableForms",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+            }
+          }
+        },
+        {
+          "name": "DataByForm",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "class",
+              "name": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.DataByFormEntry",
+              "fields": [
+                {
+                  "name": "Form",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+                  }
+                },
+                {
+                  "name": "DeveloperComments",
+                  "node": {
+                    "kind": "string"
+                  }
+                },
+                {
+                  "name": "HasMaleMaterialOverride",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "Front",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "Back",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "FrontMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "BackMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "FrontShiny",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "BackShiny",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "FrontShinyMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "BackShinyMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "Icon",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "IconShiny",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "IconMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "IconShinyMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "EggMaterial",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Material"
+                  }
+                },
+                {
+                  "name": "EggIcon",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "HasWorldSprites",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteDown",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteUp",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteLeft",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteRight",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteDownMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteUpMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteLeftMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleSpriteRightMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteDown",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteUp",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteLeft",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteRight",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteDownMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteUpMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteLeftMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingSpriteRightMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteDown",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteUp",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteLeft",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteRight",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteDownMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteUpMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteLeftMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldIdleShinySpriteRightMale",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "UnityEngine.Sprite"
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteDown",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteUp",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteLeft",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteRight",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteDownMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteUpMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteLeftMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "WorldWalkingShinySpriteRightMale",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "UnityEngine.Sprite"
+                    }
+                  }
+                },
+                {
+                  "name": "FirstType",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.MonsterType"
+                  }
+                },
+                {
+                  "name": "SecondType",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.MonsterType"
+                  }
+                },
+                {
+                  "name": "DexDescriptionKey",
+                  "node": {
+                    "kind": "string"
+                  }
+                },
+                {
+                  "name": "Species",
+                  "node": {
+                    "kind": "pptr",
+                    "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Species.MonsterSpecies"
+                  }
+                },
+                {
+                  "name": "Height",
+                  "node": {
+                    "kind": "prim",
+                    "type": "f32",
+                    "align": false
+                  }
+                },
+                {
+                  "name": "Weight",
+                  "node": {
+                    "kind": "prim",
+                    "type": "f32",
+                    "align": false
+                  }
+                },
+                {
+                  "name": "Cry",
+                  "node": {
+                    "kind": "class",
+                    "name": "WhateverDevs.TwoDAudio.Runtime.AudioReference",
+                    "fields": [
+                      {
+                        "name": "Audio",
+                        "node": {
+                          "kind": "string"
+                        }
+                      },
+                      {
+                        "name": "AudioLibrary",
+                        "node": {
+                          "kind": "pptr",
+                          "type": "WhateverDevs.TwoDAudio.Runtime.AudioLibrary"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "Abilities",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Abilities.Ability"
+                    }
+                  }
+                },
+                {
+                  "name": "HiddenAbilities",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Abilities.Ability"
+                    }
+                  }
+                },
+                {
+                  "name": "EVYield",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "class",
+                      "name": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.StatByteValuePair",
+                      "fields": [
+                        {
+                          "name": "Stat",
+                          "node": {
+                            "kind": "prim",
+                            "type": "u8",
+                            "align": true,
+                            "enum": "Varguiniano.YAPU.Runtime.MonsterDatabase.Stats.Stat"
+                          }
+                        },
+                        {
+                          "name": "Value",
+                          "node": {
+                            "kind": "prim",
+                            "type": "u8",
+                            "align": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "name": "CatchRate",
+                  "node": {
+                    "kind": "prim",
+                    "type": "u8",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "BaseFriendship",
+                  "node": {
+                    "kind": "prim",
+                    "type": "u8",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "BaseExperience",
+                  "node": {
+                    "kind": "prim",
+                    "type": "u32",
+                    "align": false
+                  }
+                },
+                {
+                  "name": "GrowthRate",
+                  "node": {
+                    "kind": "prim",
+                    "type": "i32",
+                    "align": false,
+                    "enum": "Varguiniano.YAPU.Runtime.MonsterDatabase.Experience.GrowthRate"
+                  }
+                },
+                {
+                  "name": "EggGroups",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.EggGroups.EggGroup"
+                    }
+                  }
+                },
+                {
+                  "name": "EggCycles",
+                  "node": {
+                    "kind": "prim",
+                    "type": "u8",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "BreedingData",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "managedref",
+                      "type": "Varguiniano.YAPU.Runtime.Monster.Breeding.BreedingData"
+                    }
+                  }
+                },
+                {
+                  "name": "HasBinaryGender",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "FemaleRatio",
+                  "node": {
+                    "kind": "prim",
+                    "type": "f32",
+                    "align": false
+                  }
+                },
+                {
+                  "name": "WildRunChance",
+                  "node": {
+                    "kind": "prim",
+                    "type": "f32",
+                    "align": false
+                  }
+                },
+                {
+                  "name": "WildHeldItems",
+                  "node": {
+                    "kind": "class",
+                    "name": "WhateverDevs.Core.Runtime.DataStructures.SerializableDictionary\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Items.Item,System.Single\u003E",
+                    "fields": [
+                      {
+                        "name": "SerializedList",
+                        "node": {
+                          "kind": "array",
+                          "elem": {
+                            "kind": "class",
+                            "name": "WhateverDevs.Core.Runtime.DataStructures.ObjectPair\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Items.Item,System.Single\u003E",
+                            "fields": [
+                              {
+                                "name": "Key",
+                                "node": {
+                                  "kind": "pptr",
+                                  "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+                                }
+                              },
+                              {
+                                "name": "Value",
+                                "node": {
+                                  "kind": "prim",
+                                  "type": "f32",
+                                  "align": false
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "MovesByLevel",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "class",
+                      "name": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MoveLevelPair",
+                      "fields": [
+                        {
+                          "name": "Move",
+                          "node": {
+                            "kind": "pptr",
+                            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+                          }
+                        },
+                        {
+                          "name": "Level",
+                          "node": {
+                            "kind": "prim",
+                            "type": "u8",
+                            "align": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "name": "OnEvolutionMoves",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+                    }
+                  }
+                },
+                {
+                  "name": "EggMoves",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+                    }
+                  }
+                },
+                {
+                  "name": "OtherLearnMoves",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "pptr",
+                      "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+                    }
+                  }
+                },
+                {
+                  "name": "BaseStats",
+                  "node": {
+                    "kind": "class",
+                    "name": "WhateverDevs.Core.Runtime.DataStructures.SerializableDictionary\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Stats.Stat,System.Byte\u003E",
+                    "fields": [
+                      {
+                        "name": "SerializedList",
+                        "node": {
+                          "kind": "array",
+                          "elem": {
+                            "kind": "class",
+                            "name": "WhateverDevs.Core.Runtime.DataStructures.ObjectPair\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Stats.Stat,System.Byte\u003E",
+                            "fields": [
+                              {
+                                "name": "Key",
+                                "node": {
+                                  "kind": "prim",
+                                  "type": "u8",
+                                  "align": true,
+                                  "enum": "Varguiniano.YAPU.Runtime.MonsterDatabase.Stats.Stat"
+                                }
+                              },
+                              {
+                                "name": "Value",
+                                "node": {
+                                  "kind": "prim",
+                                  "type": "u8",
+                                  "align": true
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "StatLimits",
+                  "node": {
+                    "kind": "class",
+                    "name": "WhateverDevs.Core.Runtime.DataStructures.SerializableDictionary\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Stats.Stat,System.UInt32\u003E",
+                    "fields": [
+                      {
+                        "name": "SerializedList",
+                        "node": {
+                          "kind": "array",
+                          "elem": {
+                            "kind": "class",
+                            "name": "WhateverDevs.Core.Runtime.DataStructures.ObjectPair\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Stats.Stat,System.UInt32\u003E",
+                            "fields": [
+                              {
+                                "name": "Key",
+                                "node": {
+                                  "kind": "prim",
+                                  "type": "u8",
+                                  "align": true,
+                                  "enum": "Varguiniano.YAPU.Runtime.MonsterDatabase.Stats.Stat"
+                                }
+                              },
+                              {
+                                "name": "Value",
+                                "node": {
+                                  "kind": "prim",
+                                  "type": "u32",
+                                  "align": false
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "Evolutions",
+                  "node": {
+                    "kind": "array",
+                    "elem": {
+                      "kind": "managedref",
+                      "type": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolutionData"
+                    }
+                  }
+                },
+                {
+                  "name": "MegaEvolutions",
+                  "node": {
+                    "kind": "class",
+                    "name": "WhateverDevs.Core.Runtime.DataStructures.SerializableDictionary\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Items.Item,Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form\u003E",
+                    "fields": [
+                      {
+                        "name": "SerializedList",
+                        "node": {
+                          "kind": "array",
+                          "elem": {
+                            "kind": "class",
+                            "name": "WhateverDevs.Core.Runtime.DataStructures.ObjectPair\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Items.Item,Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form\u003E",
+                            "fields": [
+                              {
+                                "name": "Key",
+                                "node": {
+                                  "kind": "pptr",
+                                  "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+                                }
+                              },
+                              {
+                                "name": "Value",
+                                "node": {
+                                  "kind": "pptr",
+                                  "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "IsUltraBeast",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "IsLegendary",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "IsMythical",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "CanLearnAnyMove",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                },
+                {
+                  "name": "UsesSpindaShader",
+                  "node": {
+                    "kind": "prim",
+                    "type": "bool",
+                    "align": true
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "refTypes": {
+    "Varguiniano.YAPU.Runtime.Monster.Breeding.DifferentOffspringIfHoldingItemBreeding": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Breeding.DifferentOffspringIfHoldingItemBreeding",
+      "fields": [
+        {
+          "name": "DefaultOffspringSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "DefaultPossibleForms",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+            }
+          }
+        },
+        {
+          "name": "ItemToHold",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        },
+        {
+          "name": "HoldingItemOffspringSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "HoldingItemPossibleForms",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Breeding.SingleOffspringBreeding": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Breeding.SingleOffspringBreeding",
+      "fields": [
+        {
+          "name": "OffspringSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "PossibleForms",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByCriticalHitCounter": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByCriticalHitCounter",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetCounter",
+          "node": {
+            "kind": "prim",
+            "type": "u32",
+            "align": false
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByFriendship": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByFriendship",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetFriendship",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByFriendshipAtSpecificTime": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByFriendshipAtSpecificTime",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetFriendship",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "EvolvingTimes",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "prim",
+              "type": "i32",
+              "align": false,
+              "enum": "Varguiniano.YAPU.Runtime.GameFlow.DayMoment"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByFriendshipWithMoveOfType": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByFriendshipWithMoveOfType",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetFriendship",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "Type",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.MonsterType"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevel": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevel",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelAtSpecificTime": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelAtSpecificTime",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "EvolvingTimes",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "prim",
+              "type": "i32",
+              "align": false,
+              "enum": "Varguiniano.YAPU.Runtime.GameFlow.DayMoment"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWhenAttackEqualsDefense": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWhenAttackEqualsDefense",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWhenAttackIsHigherThanDefense": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWhenAttackIsHigherThanDefense",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWhenDefenseIsHigherThanAttack": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWhenDefenseIsHigherThanAttack",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWithSceneTag": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWithSceneTag",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "CompatibleTags",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.World.SceneTag"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWithSceneTagAtSpecificTime": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByLevelWithSceneTagAtSpecificTime",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "EvolvingTimes",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "prim",
+              "type": "i32",
+              "align": false,
+              "enum": "Varguiniano.YAPU.Runtime.GameFlow.DayMoment"
+            }
+          }
+        },
+        {
+          "name": "CompatibleTags",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.World.SceneTag"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByUsingMoveXTimes": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveByUsingMoveXTimes",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetCounter",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "Move",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUse": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUse",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "ItemToUse",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUseAtSpecificTime": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUseAtSpecificTime",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "ItemToUse",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        },
+        {
+          "name": "EvolvingTimes",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "prim",
+              "type": "i32",
+              "align": false,
+              "enum": "Varguiniano.YAPU.Runtime.GameFlow.DayMoment"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUseOnSpecificGender": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUseOnSpecificGender",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "ItemToUse",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        },
+        {
+          "name": "Gender",
+          "node": {
+            "kind": "prim",
+            "type": "i32",
+            "align": false,
+            "enum": "Varguiniano.YAPU.Runtime.Monster.MonsterGender"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUseWithSceneTag": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnItemUseWithSceneTag",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "ItemToUse",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        },
+        {
+          "name": "CompatibleTags",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.World.SceneTag"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpHoldingItem": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpHoldingItem",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "ItemToHold",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpHoldingItemAtSpecificTime": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpHoldingItemAtSpecificTime",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "ItemToHold",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        },
+        {
+          "name": "EvolvingTimes",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "prim",
+              "type": "i32",
+              "align": false,
+              "enum": "Varguiniano.YAPU.Runtime.GameFlow.DayMoment"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWhenAMoveHasBeenLearnt": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWhenAMoveHasBeenLearnt",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "Move",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWhenAMoveHasBeenLearntWithSceneTag": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWhenAMoveHasBeenLearntWithSceneTag",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "Move",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+          }
+        },
+        {
+          "name": "CompatibleTags",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.World.SceneTag"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWhenConditionHasLevel": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWhenConditionHasLevel",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "Conditions",
+          "node": {
+            "kind": "class",
+            "name": "WhateverDevs.Core.Runtime.DataStructures.SerializableDictionary\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Stats.Condition,System.Byte\u003E",
+            "fields": [
+              {
+                "name": "SerializedList",
+                "node": {
+                  "kind": "array",
+                  "elem": {
+                    "kind": "class",
+                    "name": "WhateverDevs.Core.Runtime.DataStructures.ObjectPair\u00602\u003CVarguiniano.YAPU.Runtime.MonsterDatabase.Stats.Condition,System.Byte\u003E",
+                    "fields": [
+                      {
+                        "name": "Key",
+                        "node": {
+                          "kind": "prim",
+                          "type": "u8",
+                          "align": true,
+                          "enum": "Varguiniano.YAPU.Runtime.MonsterDatabase.Stats.Condition"
+                        }
+                      },
+                      {
+                        "name": "Value",
+                        "node": {
+                          "kind": "prim",
+                          "type": "u8",
+                          "align": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWithOtherMonInParty": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWithOtherMonInParty",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "OtherSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "OtherForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWithSceneTag": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveOnLevelUpWithSceneTag",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "CompatibleTags",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.World.SceneTag"
+            }
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveToRandomFormOnLevelUpWhenAMoveHasBeenLearnt": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveToRandomFormOnLevelUpWhenAMoveHasBeenLearnt",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "Move",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Moves.Move"
+          }
+        },
+        {
+          "name": "OtherForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "PersonalityThreshold",
+          "node": {
+            "kind": "prim",
+            "type": "i32",
+            "align": false
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveToRandomSpeciesByLevel": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveToRandomSpeciesByLevel",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "OtherSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "OtherForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "PersonalityThreshold",
+          "node": {
+            "kind": "prim",
+            "type": "i32",
+            "align": false
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveWhenTraded": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveWhenTraded",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveWhenTradedHoldingItem": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.EvolveWhenTradedHoldingItem",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "ItemToHold",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Item"
+          }
+        }
+      ]
+    },
+    "Varguiniano.YAPU.Runtime.Monster.Evolution.NincadaEvolution": {
+      "kind": "class",
+      "name": "Varguiniano.YAPU.Runtime.Monster.Evolution.NincadaEvolution",
+      "fields": [
+        {
+          "name": "TargetSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "TargetForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "KeepShinyIfItIs",
+          "node": {
+            "kind": "prim",
+            "type": "bool",
+            "align": true
+          }
+        },
+        {
+          "name": "TargetLevel",
+          "node": {
+            "kind": "prim",
+            "type": "u8",
+            "align": true
+          }
+        },
+        {
+          "name": "OtherSpecies",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Monsters.MonsterEntry"
+          }
+        },
+        {
+          "name": "OtherForm",
+          "node": {
+            "kind": "pptr",
+            "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Forms.Form"
+          }
+        },
+        {
+          "name": "CompatibleBalls",
+          "node": {
+            "kind": "array",
+            "elem": {
+              "kind": "pptr",
+              "type": "Varguiniano.YAPU.Runtime.MonsterDatabase.Items.Balls.Ball"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "warnings": [
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.LoggableScriptableObject\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog",
+    "not [Serializable]: log4net.ILog",
+    "skip field WhateverDevs.Core.Runtime.Common.Loggable\u00601.logger : log4net.ILog"
+  ]
+}

@@ -36,3 +36,55 @@ unity/**/crashlytics-build.properties
 # --- SO ---
 Thumbs.db
 .DS_Store
+
+# --- Assets extraidos da demo YAPU (~910 MB, gerados por AssetRipper/UnityPy) ---
+# Reproduziveis a partir de YAPU_Demo/YAPUDevWindows/. Fan project sem licenca
+# de redistribuicao -- ver YAPU/License.md.
+YAPU_Demo/Ripped/
+YAPU_Demo/extracted/
+tools/yapu-extract/.venv/
+tools/yapu-map/guid_index.json
+tools/yapu-map/out/
+unity_mapbuild.log
+
+# Extração do APK Omega Ruby (arquivos grandes, não versionar)
+apk/
+.venv-apk/
+tools/_bin/
+
+# --- logs de execucao do Unity em batchmode (regerados a cada rodada) ---
+*.log
+nelord_*.log
+unity_*.log
+
+# --- capturas de conferencia (regeradas pelos scripts de foto) ---
+anim_check.png
+campo_perto.png
+campo_longe.png
+demo_shot.png
+mixamo_pose.png
+
+# --- instaladores e pacotes baixados ---
+UnitySetup64-*.exe
+DOTween.zip
+DOTween_extracted/
+PlayableDemoWindows.zip
+YAPU/
+YAPU_Demo/
+YapuDev-Borderless.lnk
+
+# --- lixo do Unity criado na raiz por rodadas de batchmode fora de lugar ---
+/Logs/
+/Temp/
+/ProjectSettings/
+
+# --- projeto Unity antigo (~1 GB). Foi migrado para nel-ord/, que usa Git LFS;
+# aqui nao ha LFS e versionar isto estouraria o repositorio. ---
+/unity/
+
+# --- nel-ord/ e um repositorio proprio (github.com/Mhgfxv00/Nel-Ord) ---
+/nel-ord/
+
+# --- ambientes virtuais e cache do Python ---
+tools/**/.venv/
+tools/**/__pycache__/

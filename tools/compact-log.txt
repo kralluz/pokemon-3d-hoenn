@@ -147,3 +147,62 @@
 [10:26:44] Compactando (196.26 GB): docker_data.vhdx
 [10:26:44]   C:\Users\Carlos Henrique\AppData\Local\Docker\wsl\disk\docker_data.vhdx
 [10:26:44]   rodando diskpart (isso pode levar varios minutos, sem barra de progresso)...
+[10:31:06]   OK em 262s: 196,26 GB -> 196,24 GB (liberou 0,02 GB)
+[11:06:53] Compactando (32.11 GB): ext4.vhdx
+[11:06:53]   C:\Users\Carlos Henrique\AppData\Local\wsl\{5430d1f0-21b1-48b6-bd5a-53619ab03cfb}\ext4.vhdx
+[11:06:53]   rodando diskpart (isso pode levar varios minutos, sem barra de progresso)...
+=== nova execucao 2026-08-26 11:08:06 ===
+[11:08:06] administrador = False | elevated = False
+[11:08:06] Sem privilegio -- pedindo elevacao (UAC)...
+[11:08:06] argumentos: -NoProfile -ExecutionPolicy Bypass -File "C:\Users\Carlos Henrique\OneDrive\Desktop\pokemon\tools\Compact-Vhdx.ps1" -Elevated -MinimumGB 1
+[11:08:08] Janela elevada aberta. Continue por la.
+=== nova execucao 2026-08-26 11:08:09 ===
+[11:08:09] administrador = True | elevated = True
+[11:08:09] Espaco livre em C: 7.31 GB
+[11:08:09] Procurando discos virtuais...
+[11:08:09] procurando em: C:\Users\Carlos Henrique\AppData\Local\Docker ; C:\Users\Carlos Henrique\AppData\Local\wsl ; C:\Users\Carlos Henrique\AppData\Local\Packages
+[11:08:10] encontrados: 2 arquivo(s) acima de 1 GB
+[11:08:10]   198,30 GB  C:\Users\Carlos Henrique\AppData\Local\Docker\wsl\disk\docker_data.vhdx
+[11:08:10]    32,11 GB  C:\Users\Carlos Henrique\AppData\Local\wsl\{5430d1f0-21b1-48b6-bd5a-53619ab03cfb}\ext4.vhdx
+[11:08:10] total: 230.41 GB
+[11:08:12] Desligando Docker Desktop e WSL...
+[11:08:12]   parando Docker Desktop (pid 5232)
+[11:08:12]   parando Docker Desktop (pid 12772)
+[11:08:12]   parando Docker Desktop (pid 39016)
+[11:08:12]   parando Docker Desktop (pid 39904)
+[11:08:12]   parando com.docker.backend (pid 10524)
+[11:08:12]   parando com.docker.backend (pid 15348)
+[11:08:12]   parando com.docker.build (pid 2852)
+[11:08:12]   parando wslservice (pid 40904)
+[11:08:21]   WSL desligado.
+[11:08:21] Compactando (198.3 GB): docker_data.vhdx
+[11:08:21]   C:\Users\Carlos Henrique\AppData\Local\Docker\wsl\disk\docker_data.vhdx
+[11:08:21]   rodando diskpart (isso pode levar varios minutos, sem barra de progresso)...
+=== nova execucao 2026-08-26 11:41:03 ===
+[11:41:03] administrador = False | elevated = False
+[11:41:03] Sem privilegio -- pedindo elevacao (UAC)...
+[11:41:03] argumentos: -NoProfile -ExecutionPolicy Bypass -File "C:\Users\Carlos Henrique\OneDrive\Desktop\pokemon\tools\Compact-Vhdx.ps1" -Elevated -MinimumGB 1
+[11:41:05] Janela elevada aberta. Continue por la.
+=== nova execucao 2026-08-26 11:41:06 ===
+[11:41:06] administrador = True | elevated = True
+[11:41:06] Espaco livre em C: 15.37 GB
+[11:41:06] Procurando discos virtuais...
+[11:41:06] procurando em: C:\Users\Carlos Henrique\AppData\Local\Docker ; C:\Users\Carlos Henrique\AppData\Local\wsl ; C:\Users\Carlos Henrique\AppData\Local\Packages
+[11:41:07] encontrados: 2 arquivo(s) acima de 1 GB
+[11:41:07]   198,30 GB  C:\Users\Carlos Henrique\AppData\Local\Docker\wsl\disk\docker_data.vhdx
+[11:41:07]    32,11 GB  C:\Users\Carlos Henrique\AppData\Local\wsl\{5430d1f0-21b1-48b6-bd5a-53619ab03cfb}\ext4.vhdx
+[11:41:07] total: 230.41 GB
+[11:41:09] Desligando Docker Desktop e WSL...
+[11:41:09]   parando Docker Desktop (pid 1048)
+[11:41:09]   parando Docker Desktop (pid 8772)
+[11:41:09]   parando Docker Desktop (pid 10052)
+[11:41:09]   parando Docker Desktop (pid 11828)
+[11:41:09]   parando Docker Desktop (pid 14892)
+[11:41:09]   parando com.docker.backend (pid 2348)
+[11:41:10]   parando com.docker.backend (pid 3024)
+[11:41:10]   parando com.docker.build (pid 6376)
+[11:41:10]   parando wslservice (pid 4760)
+[11:41:19]   WSL desligado.
+[11:41:19] Compactando (198.3 GB): docker_data.vhdx
+[11:41:19]   C:\Users\Carlos Henrique\AppData\Local\Docker\wsl\disk\docker_data.vhdx
+[11:41:19]   rodando diskpart (isso pode levar varios minutos, sem barra de progresso)...

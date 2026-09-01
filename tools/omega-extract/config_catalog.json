@@ -1,0 +1,6645 @@
+[
+ {
+  "file": "config/achievement/Achievement.txt",
+  "bytes": 156370,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Achievement",
+   "Describe",
+   "Icon",
+   "IconAtlas",
+   "Action",
+   "Progress",
+   "Condition",
+   "AchievePoint",
+   "GetExp",
+   "GoldReward",
+   "DiamondReward",
+   "GetArenaPoint",
+   "GetPvpPoint",
+   "GetCrossPoint",
+   "ItemId",
+   "ItemNumber",
+   "Achievement_TW",
+   "Describe_TW",
+   "Achievement_EN",
+   "Describe_EN",
+   "Achievement_DE",
+   "Describe_DE",
+   "Achievement_KR",
+   "Describe_KR",
+   "Achievement_PT",
+   "Describe_PT"
+  ],
+  "linhas": 386
+ },
+ {
+  "file": "config/achievementbox/AchievementBox.txt",
+  "bytes": 811,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NeedAchievePoint",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 30
+ },
+ {
+  "file": "config/arenagrade/ArenaGrade.txt",
+  "bytes": 896,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Grade",
+   "ArenaPoints",
+   "RankCondition",
+   "TitleType",
+   "GloryPoints",
+   "Diamond",
+   "Pet",
+   "Gold",
+   "StoreCredit",
+   "RuneNumber",
+   "RuneType",
+   "IsChoice",
+   "RuneStar",
+   "RuneStarWeight",
+   "RuneRarity",
+   "RuneRarityWeight",
+   "RuneGiftBagIcon",
+   "RuneGiftBagDesc"
+  ],
+  "linhas": 9
+ },
+ {
+  "file": "config/arenastore/ArenaStore.txt",
+  "bytes": 457,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "CostStorePoint",
+   "ItemId",
+   "ItemName",
+   "PetId",
+   "PetName"
+  ],
+  "linhas": 12
+ },
+ {
+  "file": "config/atlas/Atlas.txt",
+  "bytes": 53977,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "AtlasName",
+   "SpriteName"
+  ],
+  "linhas": 1846
+ },
+ {
+  "file": "config/attrconquestclearrwd/AttrConquestClearRwd.txt",
+  "bytes": 14176,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "AttrType",
+   "Diffculty",
+   "RwdBoxIndex",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber"
+  ],
+  "linhas": 162
+ },
+ {
+  "file": "config/attrconquestnpc/AttrConquestNpc.txt",
+  "bytes": 69020,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "AttrType",
+   "Diffculty",
+   "NpcIndex",
+   "NpcName",
+   "Model",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "ConquestTitle",
+   "NpcName_TW",
+   "ConquestTitle_TW",
+   "NpcName_EN",
+   "ConquestTitle_EN",
+   "NpcName_DE",
+   "ConquestTitle_DE",
+   "NpcName_KR",
+   "ConquestTitle_KR",
+   "NpcName_PT",
+   "ConquestTitle_PT"
+  ],
+  "linhas": 270
+ },
+ {
+  "file": "config/attrconquestnpcpet/AttrConquestNpcPet.txt",
+  "bytes": 131154,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "name",
+   "attrtype",
+   "diffculty",
+   "npcindex",
+   "PetId",
+   "petname",
+   "Sex",
+   "Level",
+   "OrigStar",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "CarryItemId",
+   "Ability",
+   "SkillId",
+   "BattleAI",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd"
+  ],
+  "linhas": 1350
+ },
+ {
+  "file": "config/attribute/Attribute.txt",
+  "bytes": 1020,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18"
+  ],
+  "linhas": 18
+ },
+ {
+  "file": "config/berryplant/BerryPlant.txt",
+  "bytes": 2227,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ChineseName",
+   "Description",
+   "EnglishName",
+   "Model",
+   "Rarity",
+   "MinNumber",
+   "MaxNumber",
+   "TotalHour"
+  ],
+  "linhas": 34
+ },
+ {
+  "file": "config/bike/Bike.txt",
+  "bytes": 15886,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "RideType",
+   "Rank",
+   "CostDiamond",
+   "SaleNumber",
+   "Speed",
+   "Model",
+   "Atlas",
+   "Description",
+   "IsSell",
+   "AtyTypeOpen",
+   "AtyNumberOpen",
+   "Name_TW",
+   "Description_TW",
+   "Name_EN",
+   "Description_EN",
+   "Name_DE",
+   "Description_DE",
+   "Name_KR",
+   "Description_KR",
+   "Name_PT",
+   "Description_PT"
+  ],
+  "linhas": 20
+ },
+ {
+  "file": "config/camerashake/CameraShake.txt",
+  "bytes": 2553,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "DistanceX",
+   "DistanceY",
+   "DistanceZ",
+   "RotationX",
+   "RotationY",
+   "RotationZ",
+   "RotationW",
+   "ShakeSpeed",
+   "DecreaseMultiplier",
+   "ShakeNumber",
+   "LoopTimes"
+  ],
+  "linhas": 62
+ },
+ {
+  "file": "config/challengeentry/ChallengeEntry.txt",
+  "bytes": 327,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FunctionType",
+   "SpriteName",
+   "AtlasName"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/character/Character.txt",
+  "bytes": 6239,
+  "fmt": "tsv",
+  "cols": [
+   "Lv",
+   "Exp",
+   "addexp",
+   "MaxPower",
+   "AddPower",
+   "PowerTopLimit",
+   "PowerRestoreInterval",
+   "SpriteMaxLv",
+   "MaxFatigue",
+   "AddFatigue",
+   "FatigueRestoreInterval",
+   "PetLv",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy"
+  ],
+  "linhas": 90
+ },
+ {
+  "file": "config/characteristics/Characteristics.txt",
+  "bytes": 1492,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "AddValueType",
+   "DelValueType",
+   "Name_TW",
+   "Name_EN",
+   "Name_DE",
+   "Name_KR",
+   "Name_PT"
+  ],
+  "linhas": 25
+ },
+ {
+  "file": "config/charge/Charge.txt",
+  "bytes": 16584,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ChargeType",
+   "ChargePointID",
+   "Diamond",
+   "Param1",
+   "Name",
+   "Price",
+   "ProductId",
+   "Price_TW",
+   "Name_TW",
+   "Price_EN",
+   "Name_EN",
+   "GameValue",
+   "Price_PT",
+   "Name_PT"
+  ],
+  "linhas": 119
+ },
+ {
+  "file": "config/commonrule/CommonRule.txt",
+  "bytes": 163016,
+  "fmt": "tsv",
+  "cols": [
+   "RuleType",
+   "RuleName",
+   "Description",
+   "TitleAtlas",
+   "TitleBg",
+   "RuleName_TW",
+   "Description_TW",
+   "RuleName_EN",
+   "Description_EN",
+   "RuleName_DE",
+   "Description_DE",
+   "RuleName_KR",
+   "Description_KR",
+   "RuleName_PT",
+   "Description_PT"
+  ],
+  "linhas": 46
+ },
+ {
+  "file": "config/commonstore/CommonStore.txt",
+  "bytes": 269,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StoreType",
+   "RefreshType",
+   "IsCanRefresh",
+   "RefreshCostDiamond",
+   "RefreshItemNumber"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/commonstoreitem/CommonStoreItem.txt",
+  "bytes": 16560,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StoreType",
+   "CostStorePoint",
+   "IsEnsure",
+   "ItemId",
+   "ItemName",
+   "PetId",
+   "PetName",
+   "DayBuyCnt",
+   "UnlockConsortiaLevel",
+   "IsOffline"
+  ],
+  "linhas": 344
+ },
+ {
+  "file": "config/consortia/consortiabox/ConsortiaBox.txt",
+  "bytes": 827,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "BoxType",
+   "BoxLv",
+   "NeedStarNumber",
+   "NeedConsortiaLv",
+   "NeedPlayerAddStar",
+   "GetGold",
+   "GetConsortiaPoint",
+   "GetConsortiaSciTechPoint",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 15
+ },
+ {
+  "file": "config/consortia/consortiagymlevel/ConsortiaGymLevel.txt",
+  "bytes": 2753,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GymIndex",
+   "NpcIndex",
+   "GetGold",
+   "0",
+   "ItemId",
+   "ItemNumber",
+   "CostDiamond"
+  ],
+  "linhas": 40
+ },
+ {
+  "file": "config/consortia/consortiagymnpc/ConsortiaGymNpc.txt",
+  "bytes": 1677,
+  "fmt": "tsv",
+  "cols": [
+   "NpcId",
+   "GymIndex",
+   "NpcIndex",
+   "NpcModel",
+   "NeedPoint",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 40
+ },
+ {
+  "file": "config/consortia/consortiagymnpcpet/ConsortiaGymNpcPet.txt",
+  "bytes": 32413,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "PetId",
+   "Name",
+   "Level",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "CarryItemId",
+   "Ability",
+   "SkillId",
+   "BattleAI",
+   "Name_TW",
+   "Name_EN",
+   "Name_DE",
+   "Name_KR",
+   "Name_PT"
+  ],
+  "linhas": 240
+ },
+ {
+  "file": "config/consortia/consortiagympoint/ConsortiaGymPoint.txt",
+  "bytes": 1493,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GymIndex",
+   "RankIndex",
+   "GetGold",
+   "GetConsortiaSciTechPoint",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 54
+ },
+ {
+  "file": "config/consortia/consortiapve/ConsortiaPve.txt",
+  "bytes": 284,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NeedConsortiaLv",
+   "BossId"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/consortia/consortiapveboss/ConsortiaPveBoss.txt",
+  "bytes": 11466,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetId",
+   "Level",
+   "SkillId",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd",
+   "BattleAI",
+   "BossName",
+   "BossName_TW",
+   "BossName_EN",
+   "BossName_KR",
+   "BossName_DE",
+   "BossName_PT"
+  ],
+  "linhas": 50
+ },
+ {
+  "file": "config/consortia/consortiapverankrwd/ConsortiaPveRankRwd.txt",
+  "bytes": 1838,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PveId",
+   "RankIndex",
+   "GetGold",
+   "GetDiamond",
+   "GetConsortiaPoint",
+   "GetConsortiaSciTechPoint",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 50
+ },
+ {
+  "file": "config/consortia/consortiapvpboxrwd/ConsortiaPvpBoxRwd.txt",
+  "bytes": 229,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GetGold",
+   "GetDiamond",
+   "GetConsortiaPoint",
+   "GetConsortiaSciTechPoint",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/consortia/consortiapvprankrwd/ConsortiaPvpRankRwd.txt",
+  "bytes": 1013,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RankType",
+   "RankIndex",
+   "GetGold",
+   "GetDiamond",
+   "GetConsortiaPoint",
+   "GetConsortiaSciTechPoint",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 24
+ },
+ {
+  "file": "config/consortia/consortiarpgive/ConsortiaRPGive.txt",
+  "bytes": 184,
+  "fmt": "tsv",
+  "cols": [
+   "Type",
+   "CostDiamond",
+   "NeedVipLv",
+   "PocketDiamond",
+   "GetConsortiaSciTechPoint"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/consortia/consortiarpwelfare/ConsortiaRPWelfare.txt",
+  "bytes": 229,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Type",
+   "ConsortiaLv",
+   "PocketNumber",
+   "GetGold",
+   "GetDiamond",
+   "GetConsortiaPoint"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/consortia/consortiascitech/ConsortiaSciTech.txt",
+  "bytes": 75705,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "AttrType",
+   "SciTechLv",
+   "AddPercent",
+   "NeedConsortiaLv",
+   "CostGold",
+   "CostSciTechPoint",
+   "CostItem",
+   "CostItemNumber"
+  ],
+  "linhas": 1818
+ },
+ {
+  "file": "config/consortiaboss/ConsortiaBoss.txt",
+  "bytes": 1125,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "UnlockLv",
+   "TotalFightCnt",
+   "PetId",
+   "PetLv",
+   "CDSeconds",
+   "RunSeconds",
+   "SkillId",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd",
+   "BattleAI",
+   "RecommendedAttribute",
+   "BossName",
+   "CombatRound",
+   "BossName_TW"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/consortiabossreward/ConsortiaBossReward.txt",
+  "bytes": 1401,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "BossId",
+   "DamageValue",
+   "IsKill",
+   "ConsortiaHonor",
+   "ConsortiaMaterial",
+   "ConsortiaGold",
+   "ConsortiaStoreGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "GetGold"
+  ],
+  "linhas": 30
+ },
+ {
+  "file": "config/consortiabossrule/ConsortiaBossRule.txt",
+  "bytes": 3145,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RuleDesc",
+   "RuleDesc_TW",
+   "RuleDesc_EN",
+   "RuleDesc_DE",
+   "RuleDesc_KR",
+   "RuleDesc_PT"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/consortiadonate/ConsortiaDonate.txt",
+  "bytes": 246,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "CostGold",
+   "CostDiamond",
+   "GetConsortiaExp",
+   "GetConsortiaPoint",
+   "GetConsortiaSciTechPoint",
+   "DonateValue"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/consortiadonatebox/ConsortiaDonateBox.txt",
+  "bytes": 271,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NeedDonateCnt",
+   "GetGold",
+   "GetDiamond",
+   "GetConsortiaPoint",
+   "GetConsortiaSciTechPoint",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/consortialevel/ConsortiaLevel.txt",
+  "bytes": 442,
+  "fmt": "tsv",
+  "cols": [
+   "ConsortiaLv",
+   "ConsortiaHonor",
+   "MaxMember",
+   "VicePresident",
+   "UnlockBoss",
+   "MaxGroupMission",
+   "PrayItemNumber"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/consortiaquest/ConsortiaQuest.txt",
+  "bytes": 8122,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "QuestId",
+   "ShowQuestType",
+   "QuestDiffculty",
+   "LoseHonor",
+   "LimitTime",
+   "ConsortiaHonor",
+   "ConsortiaMaterial",
+   "ConsortiaGold",
+   "QuestHonor",
+   "Gold",
+   "Diamond",
+   "ItemId",
+   "ItemNumber",
+   "ShowQuestType_TW"
+  ],
+  "linhas": 105
+ },
+ {
+  "file": "config/consortiaradarcalculation/ConsortiaRadarCalculation.txt",
+  "bytes": 654,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Type",
+   "NumberRange",
+   "RadarNumber",
+   "ShowName"
+  ],
+  "linhas": 25
+ },
+ {
+  "file": "config/constvalue/ConstValue.txt",
+  "bytes": 23341,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Value",
+   "Notes"
+  ],
+  "linhas": 375
+ },
+ {
+  "file": "config/crosspvp/honorpvpcarryitem/HonorPvpCarryItem.txt",
+  "bytes": 658,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 82
+ },
+ {
+  "file": "config/crosspvp/honorpvpcostdiamond/HonorPvpCostDiamond.txt",
+  "bytes": 597,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "CostType",
+   "Number",
+   "CostDiamond"
+  ],
+  "linhas": 36
+ },
+ {
+  "file": "config/crosspvp/honorpvpleagueseason/HonorPvpLeagueSeason.txt",
+  "bytes": 8261,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FightType",
+   "StartTime",
+   "EndTime",
+   "PetLvLimit",
+   "FunctionOpenTime"
+  ],
+  "linhas": 130
+ },
+ {
+  "file": "config/crosspvp/honorpvppet/HonorPvpPet.txt",
+  "bytes": 28362,
+  "fmt": "tsv",
+  "cols": [
+   "PetId",
+   "Rank",
+   "EffortCost",
+   "SkillId"
+  ],
+  "linhas": 637
+ },
+ {
+  "file": "config/crosspvp/honorpvprewardbox/HonorPvpRewardBox.txt",
+  "bytes": 799,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "WinNumber",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetId"
+  ],
+  "linhas": 9
+ },
+ {
+  "file": "config/crosspvp/honorpvpseasonrwd/HonorPvpSeasonRwd.txt",
+  "bytes": 362,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "WinNumber",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetId"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/crosspvp/honorpvpwinrwd/HonorPvpWinRwd.txt",
+  "bytes": 988,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "WinNumber",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetId"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/cultivateshareunlock/CultivateShareUnlock.txt",
+  "bytes": 182,
+  "fmt": "tsv",
+  "cols": [
+   "UnlockIndex",
+   "CultivateSharePoint"
+  ],
+  "linhas": 18
+ },
+ {
+  "file": "config/daily/Daily.txt",
+  "bytes": 6845,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "TaskName",
+   "Describe",
+   "TaskTypeNumber",
+   "Group",
+   "Param1",
+   "Activeness",
+   "GetPower",
+   "GetExp",
+   "GoldReward",
+   "DiamondReward",
+   "LotteryEggPoint",
+   "ItemID",
+   "ItemName",
+   "ItemNumber",
+   "TaskName_TW",
+   "Describe_TW",
+   "TaskName_EN",
+   "Describe_EN",
+   "TaskName_DE",
+   "Describe_DE",
+   "TaskName_KR",
+   "Describe_KR",
+   "TaskName_PT",
+   "Describe_PT"
+  ],
+  "linhas": 19
+ },
+ {
+  "file": "config/dailyquestrwd/DailyQuestRwd.txt",
+  "bytes": 565,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "BoxRwdType",
+   "NeedActiveness",
+   "GetExp",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetId",
+   "LotteryEggPoint"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/detective/Detective.txt",
+  "bytes": 10749,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MinPlayerLv",
+   "Rank",
+   "WaitingSecond",
+   "OneMinuteCostDiamond",
+   "TeamFightPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "SpecialPetRank",
+   "SpecialPetStar",
+   "SpecialPetDegree",
+   "SpecialItem",
+   "SpecialItemNumber"
+  ],
+  "linhas": 162
+ },
+ {
+  "file": "config/detectiverefresh/DetectiveRefresh.txt",
+  "bytes": 406,
+  "fmt": "tsv",
+  "cols": [
+   "Time",
+   "CostDiamond"
+  ],
+  "linhas": 50
+ },
+ {
+  "file": "config/diamondgiftbag/DiamondGiftBag.txt",
+  "bytes": 153,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GiftBagID",
+   "DiamondCost",
+   "GiftName"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/effect/Effect.txt",
+  "bytes": 3042,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "EffectFolder",
+   "EffectName"
+  ],
+  "linhas": 69
+ },
+ {
+  "file": "config/evolvestonezone/EvolveStoneZone.txt",
+  "bytes": 972,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "Position",
+   "CostItem",
+   "DropItemId",
+   "DropItemWeight",
+   "Npc",
+   "NpcGetItem",
+   "MapGetItem",
+   "Desc"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/expedition/expedition/Expedition.txt",
+  "bytes": 250,
+  "fmt": "tsv",
+  "cols": [
+   "TimePeriod",
+   "StartTime",
+   "EndTime",
+   "Title",
+   "PetLvLimit"
+  ],
+  "linhas": 2
+ },
+ {
+  "file": "config/expedition/expeditionlayerrwd/ExpeditionLayerRwd.txt",
+  "bytes": 1884,
+  "fmt": "tsv",
+  "cols": [
+   "Layer",
+   "BackGroundMusic",
+   "GetExp",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber"
+  ],
+  "linhas": 15
+ },
+ {
+  "file": "config/expedition/expeditionnpc/ExpeditionNpc.txt",
+  "bytes": 17746,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PeriodNumber",
+   "Diffculty",
+   "NpcIndex",
+   "NpcName",
+   "Model",
+   "Location",
+   "Rotation",
+   "FightTalk",
+   "VictoryTalk",
+   "DefeatedTalk",
+   "BackGroundMusic",
+   "FightEffectId",
+   "GetExp",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "WeatherType"
+  ],
+  "linhas": 60
+ },
+ {
+  "file": "config/expedition/expeditionnpcpet/ExpeditionNpcPet.txt",
+  "bytes": 25313,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "name",
+   "Diffculty",
+   "PetId",
+   "petname",
+   "Sex",
+   "OrigStar",
+   "CarryItemId",
+   "Ability",
+   "SkillId",
+   "BattleAI",
+   "PlayerDiffLevel"
+  ],
+  "linhas": 360
+ },
+ {
+  "file": "config/expedition/expeditionrwdbox/ExpeditionRwdBox.txt",
+  "bytes": 329,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PassLevel",
+   "VIPBuyCostDiamond",
+   "GetDiamond",
+   "GetGold",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/fatigue/Fatigue.txt",
+  "bytes": 163,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StartTime",
+   "EndTime",
+   "FatigueNumber",
+   "CostDiamond"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/festivalwelfare/FestivalWelfare.txt",
+  "bytes": 1543,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FunctionID",
+   "SpriteName",
+   "AtlasName",
+   "Describe",
+   "Name",
+   "Name_EN",
+   "Describe_EN",
+   "Name_KR",
+   "Describe_KR",
+   "Describe_TW",
+   "Name_TW",
+   "Name_DE",
+   "Describe_DE",
+   "Name_PT",
+   "Describe_PT"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/firstname/FirstName.txt",
+  "bytes": 15698,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FirstName",
+   "FirstName_TW",
+   "FirstName_EN",
+   "FirstName_DE",
+   "FirstName_KR",
+   "FirstName_PT"
+  ],
+  "linhas": 280
+ },
+ {
+  "file": "config/forbiddentext/ForbiddenText.txt",
+  "bytes": 831634,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ID_TW",
+   "ID_EN",
+   "ID_DE",
+   "ID_KR",
+   "ID_PT"
+  ],
+  "linhas": 13886
+ },
+ {
+  "file": "config/forest/forestlayer/ForestLayer.txt",
+  "bytes": 25048,
+  "fmt": "tsv",
+  "cols": [
+   "Layer",
+   "NpcName",
+   "Model",
+   "GetExp",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "PetRank",
+   "Level",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd"
+  ],
+  "linhas": 300
+ },
+ {
+  "file": "config/forest/forestrwdbox/ForestRwdBox.txt",
+  "bytes": 1530,
+  "fmt": "tsv",
+  "cols": [
+   "Layer",
+   "GetExp",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 60
+ },
+ {
+  "file": "config/functionnotice/FunctionNotice.txt",
+  "bytes": 15778,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FunctionID",
+   "AtlasName",
+   "SpriteName",
+   "FunctionName",
+   "UnlockShowWords",
+   "IsPrompt",
+   "PromptTime",
+   "PromptParameter",
+   "DelayTime",
+   "PromptText",
+   "FunctionName_TW",
+   "UnlockShowWords_TW",
+   "PromptText_TW",
+   "FunctionName_EN",
+   "UnlockShowWords_EN",
+   "PromptText_EN",
+   "FunctionName_DE",
+   "UnlockShowWords_DE",
+   "PromptText_DE",
+   "FunctionName_KR",
+   "UnlockShowWords_KR",
+   "PromptText_KR",
+   "FunctionName_PT",
+   "UnlockShowWords_PT",
+   "PromptText_PT"
+  ],
+  "linhas": 25
+ },
+ {
+  "file": "config/functionunlock/FunctionUnlock.txt",
+  "bytes": 25629,
+  "fmt": "tsv",
+  "cols": [
+   "Function",
+   "SystemName",
+   "UnlockCondition",
+   "ConditionNum",
+   "SystemName_TW",
+   "UnlockReminder",
+   "UnlockReminder_TW",
+   "SystemName_EN",
+   "UnlockReminder_EN",
+   "SystemName_DE",
+   "UnlockReminder_DE",
+   "SystemName_KR",
+   "UnlockReminder_KR",
+   "SystemName_PT",
+   "UnlockReminder_PT"
+  ],
+  "linhas": 87
+ },
+ {
+  "file": "config/giftbag/GiftBag.txt",
+  "bytes": 8586,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Atlas",
+   "AtyType",
+   "CostDiamond",
+   "DayBuyCnt",
+   "WeekBuyCnt",
+   "ForeverBuyCnt",
+   "GiftBagType",
+   "Category",
+   "LevelLimit",
+   "GiftName",
+   "GiftDesc",
+   "IconSprite",
+   "IconSize",
+   "BgSprite",
+   "ChooseRwdId",
+   "Power",
+   "Diamond",
+   "Gold",
+   "GoldCritOdds",
+   "GoldCritAddNumber",
+   "ItemId",
+   "ItemNumber",
+   "ItemOdds",
+   "ItemOddsNumber",
+   "ExtraItem",
+   "MustGetItem",
+   "RuneId",
+   "RuneIdWeight",
+   "RuneIdNumber",
+   "RuneStar",
+   "StarWeight",
+   "RuneRarity",
+   "RarityWeight",
+   "RuneNumber",
+   "MustRuneStar",
+   "MustRuneRarity",
+   "MustRuneNumber",
+   "IsShowStore",
+   "MaleStylishId",
+   "FemaleStylishId",
+   "MaleHair",
+   "FemaleHair",
+   "GiftName_TW",
+   "GiftDesc_TW",
+   "GiftName_EN",
+   "GiftDesc_EN",
+   "GiftName_DE",
+   "GiftDesc_DE",
+   "GiftName_KR",
+   "GiftDesc_KR",
+   "GiftName_PT",
+   "GiftDesc_PT"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/goldbuy/GoldBuy.txt",
+  "bytes": 1085,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Time",
+   "CostDiamond",
+   "GetGold"
+  ],
+  "linhas": 60
+ },
+ {
+  "file": "config/goldzone/GoldZone.txt",
+  "bytes": 1151,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "Position",
+   "CostItem",
+   "CostPower",
+   "Npc",
+   "TotalFightCnt",
+   "RefreshRoomNumber",
+   "NpcPosition",
+   "NpcNumber",
+   "Desc",
+   "Detail",
+   "Desc_TW",
+   "Desc_EN",
+   "Desc_DE",
+   "Desc_KR",
+   "Desc_PT"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/grade/Grade.txt",
+  "bytes": 4493,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "LeagueType",
+   "Grade",
+   "GradeName",
+   "GradePoint",
+   "LeagueRank",
+   "AtlasName",
+   "SpriteName",
+   "GradeName_TW",
+   "GradeName_EN",
+   "GradeName_DE",
+   "GradeName_KR",
+   "GradeName_PT"
+  ],
+  "linhas": 40
+ },
+ {
+  "file": "config/graderwd/GradeRwd.txt",
+  "bytes": 6249,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "LeagueType",
+   "RwdType",
+   "Grade",
+   "GradeName",
+   "GetArenaPoint",
+   "GetPvpPoint",
+   "GetCrossPoint",
+   "GetStrategyPoint",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 120
+ },
+ {
+  "file": "config/guide/Guide.txt",
+  "bytes": 65943,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GuideType",
+   "TriggerType",
+   "TriggerParam1",
+   "WaitingUIName",
+   "NoticeType",
+   "IsTips",
+   "IsLeft",
+   "IsBlackBg",
+   "LightRadius",
+   "TalkWidgetPosition",
+   "IsHand",
+   "HandPosition",
+   "HandRotation",
+   "IsClickPath",
+   "UIName",
+   "UICtrlPath",
+   "GuideTip",
+   "AfterGuideTalk",
+   "SingleGuideTalk",
+   "ExtendParam1",
+   "ExtendParam2",
+   "ExtendParam3",
+   "EndCondition",
+   "JumpLocation",
+   "GuideTip_TW",
+   "GuideTip_EN",
+   "GuideTip_DE",
+   "GuideTip_KR",
+   "GuideTip_PT"
+  ],
+  "linhas": 183
+ },
+ {
+  "file": "config/gym/Gym.txt",
+  "bytes": 7679,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "InCitySceneId",
+   "Position",
+   "GymIndex",
+   "BadgeAtlasId",
+   "Title",
+   "Content",
+   "Difficulty",
+   "RecommendAttribute",
+   "CharacterLevelReward",
+   "BossNpc",
+   "Npc",
+   "DayMaxCnt",
+   "PassMinutes",
+   "CostPower",
+   "GetExp",
+   "GetGold",
+   "ItemId",
+   "ItemNumber",
+   "ItemWeight",
+   "FirstExp",
+   "FirstGold",
+   "FirstDiamond",
+   "FirstRune",
+   "FirstItems",
+   "FirstItemNumber",
+   "name"
+  ],
+  "linhas": 24
+ },
+ {
+  "file": "config/hunting/huntingarea/HuntingArea.txt",
+  "bytes": 1157,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "Position",
+   "PetAreaCfgId",
+   "Name_TW",
+   "Name_EN",
+   "Name_DE",
+   "Name_KR",
+   "Name_PT"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/hunting/huntingdayareapet/HuntingDayAreaPet.txt",
+  "bytes": 25039,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Day",
+   "PetArea",
+   "PetAreaPetId",
+   "PetAreaPetOdds"
+  ],
+  "linhas": 377
+ },
+ {
+  "file": "config/huntingfield/HuntingField.txt",
+  "bytes": 1255,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "Position",
+   "CostItemId",
+   "TotalWalkStep",
+   "DropItemId",
+   "DropItemWeight",
+   "BallItemId",
+   "BallNumber",
+   "UIShowGoodPet",
+   "UIShowNormalPet"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/huntingquickcatch/HuntingQuickCatch.txt",
+  "bytes": 141,
+  "fmt": "tsv",
+  "cols": [
+   "PetRank",
+   "CostItemId",
+   "CostItemNumber"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/item/Item.txt",
+  "bytes": 6515426,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "EnglishName",
+   "ItemType",
+   "IsCarry",
+   "UseType",
+   "Rank",
+   "SalePrice",
+   "Param1",
+   "Param2",
+   "Param3",
+   "Param1List",
+   "Param2List",
+   "Param3List",
+   "CompoundItemID",
+   "ComposeNumber",
+   "ComposeCostGold",
+   "SceneID",
+   "Position",
+   "GiftItem",
+   "GiftItemNumber",
+   "Description",
+   "AtlasId",
+   "LittleSign",
+   "IconName",
+   "Power",
+   "MergeCostGold",
+   "ItemValue",
+   "IsDiscard",
+   "MainAccess",
+   "SubAccess",
+   "ExchangeMaterial",
+   "ExchangePersonalHonor",
+   "BagCategory",
+   "Name_TW",
+   "Description_TW",
+   "IconName_TW",
+   "Name_EN",
+   "Description_EN",
+   "IconName_EN",
+   "Name_KR",
+   "Description_KR",
+   "IconName_KR",
+   "Name_DE",
+   "Description_DE",
+   "IconName_DE",
+   "Name_PT",
+   "Description_PT",
+   "IconName_PT",
+   "Name_VN",
+   "Description_VN",
+   "IconName_VN",
+   "Name_RUS",
+   "Description_RUS",
+   "IconName_RUS"
+  ],
+  "linhas": 6654
+ },
+ {
+  "file": "config/itemconversion/ItemConversion.txt",
+  "bytes": 22359,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "OldItem",
+   "OldItemName",
+   "NewItem",
+   "NewItemName",
+   "ConversionRatio",
+   "ConversionDiamond",
+   "CostGold",
+   "ItemValue",
+   "Rank"
+  ],
+  "linhas": 313
+ },
+ {
+  "file": "config/itemdaygiftbag/ItemDayGiftBag.txt",
+  "bytes": 364,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GiftBagItemId",
+   "LoginDay",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "LotteryEggPoint"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/itemsynthesis/ItemSynthesis.txt",
+  "bytes": 13138,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "OldItem",
+   "OldItemName",
+   "NewItem",
+   "NewItemName",
+   "ConversionRatio",
+   "CostGold",
+   "ItemValue",
+   "Rank"
+  ],
+  "linhas": 154
+ },
+ {
+  "file": "config/lastname/LastName.txt",
+  "bytes": 51878,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "LastName",
+   "LastName_TW",
+   "LastName_EN",
+   "LastName_DE",
+   "LastName_KR",
+   "LastName_PT"
+  ],
+  "linhas": 807
+ },
+ {
+  "file": "config/lendarycome/lendarycome/LendaryCome.txt",
+  "bytes": 2040,
+  "fmt": "tsv",
+  "cols": [
+   "PetCfgId",
+   "SceneId",
+   "ScenePos",
+   "Weight",
+   "FightCnt",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd",
+   "BattleAI",
+   "CombatRound",
+   "LendaryPoint",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName"
+  ],
+  "linhas": 12
+ },
+ {
+  "file": "config/level/Level.txt",
+  "bytes": 4117,
+  "fmt": "tsv",
+  "cols": [
+   "MonsterType",
+   "Exp"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/loadingtips/LoadingTips.txt",
+  "bytes": 37484,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Tip",
+   "Tip_TW",
+   "Tip_EN",
+   "Tip_DE",
+   "Tip_KR",
+   "Tip_PT"
+  ],
+  "linhas": 73
+ },
+ {
+  "file": "config/lottery/runecapsule/RuneCapsule.txt",
+  "bytes": 105699,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Rare",
+   "RuneStar",
+   "Type",
+   "Location",
+   "RunePrimary",
+   "RunePrimaryWeight",
+   "RuneSubsidiary",
+   "RuneSubsidiaryWeight",
+   "Description"
+  ],
+  "linhas": 720
+ },
+ {
+  "file": "config/lotteryeggcategory/LotteryEggCategory.txt",
+  "bytes": 477,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "LotteryEggType",
+   "RefreshType",
+   "Category",
+   "CategoryWeight",
+   "Description"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/lotteryline/LotteryLine.txt",
+  "bytes": 8,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2
+ },
+ {
+  "file": "config/lotterylinereward/LotteryLineReward.txt",
+  "bytes": 65858,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Weight",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "Value",
+   "ItemNumber",
+   "PetId",
+   "PetName",
+   "Probability",
+   "IsRefresh"
+  ],
+  "linhas": 962
+ },
+ {
+  "file": "config/message/Message.txt",
+  "bytes": 680262,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "Message",
+   "Message_TW",
+   "Message_EN",
+   "Message_DE",
+   "Message_KR",
+   "Message_PT",
+   "Message_VN"
+  ],
+  "linhas": 2667
+ },
+ {
+  "file": "config/monthcard/MonthCard.txt",
+  "bytes": 216,
+  "fmt": "tsv",
+  "cols": [
+   "CardType",
+   "BuyGetDiamond",
+   "GetDiamond",
+   "GetPower",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 2
+ },
+ {
+  "file": "config/movesmachinelearning/MovesMachineLearning.txt",
+  "bytes": 12126,
+  "fmt": "tsv",
+  "cols": [
+   "PetID",
+   "600001",
+   "600002",
+   "600003",
+   "600004",
+   "600005",
+   "600006",
+   "600007",
+   "600008",
+   "600009",
+   "600010",
+   "600011",
+   "600012",
+   "600013",
+   "600014",
+   "600015",
+   "600016",
+   "600017",
+   "600018",
+   "600019",
+   "600020",
+   "600021",
+   "600022",
+   "600023",
+   "600024",
+   "600025",
+   "600026",
+   "600027",
+   "600028",
+   "600029",
+   "600030",
+   "600031",
+   "600032",
+   "600033",
+   "600034",
+   "600035",
+   "600036",
+   "600037",
+   "600038",
+   "600039",
+   "600040",
+   "600041",
+   "600042",
+   "600043",
+   "600044",
+   "600045",
+   "600046",
+   "600047",
+   "600048",
+   "600049",
+   "600050",
+   "600051",
+   "600052",
+   "600053",
+   "600054",
+   "600055",
+   "600056",
+   "600057",
+   "600058",
+   "600059",
+   "600060",
+   "600061",
+   "600062",
+   "600063",
+   "600064",
+   "600065",
+   "600066",
+   "600067",
+   "600068",
+   "600069",
+   "600070",
+   "600071",
+   "600072",
+   "600073",
+   "600074",
+   "600075",
+   "600076",
+   "600077",
+   "600078",
+   "600079",
+   "600080",
+   "600081",
+   "600082",
+   "600083",
+   "600084",
+   "600085",
+   "600086",
+   "600087",
+   "600088",
+   "600089",
+   "600090",
+   "600091",
+   "600092",
+   "600093",
+   "600094",
+   "600095",
+   "600096",
+   "600097",
+   "600098",
+   "600099",
+   "600100"
+  ],
+  "linhas": 105
+ },
+ {
+  "file": "config/movietalk/MovieTalk.txt",
+  "bytes": 2067179,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MovieID",
+   "NpcId",
+   "name",
+   "Content",
+   "Content_TW",
+   "Content_EN",
+   "Content_DE",
+   "Content_KR",
+   "Content_PT"
+  ],
+  "linhas": 7093
+ },
+ {
+  "file": "config/nightpvpreward/NightPvpReward.txt",
+  "bytes": 746,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Rank",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetId"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/nightpvptime/NightPvpTime.txt",
+  "bytes": 1238,
+  "fmt": "tsv",
+  "cols": [
+   "TimeId",
+   "StartTime",
+   "EndTime",
+   "BetDiamond",
+   "BattleSeconds",
+   "BattleRound",
+   "RoundName",
+   "RoundName_TW",
+   "RoundName_EN",
+   "RoundName_DE",
+   "RoundName_KR",
+   "RoundName_PT"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/pet/Pet.txt",
+  "bytes": 1984918,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "PokeID",
+   "OriginName",
+   "ResourceName",
+   "Rank",
+   "TrainRank",
+   "Type",
+   "Ability",
+   "AbilityName",
+   "HiddenAbility",
+   "HiddenAbilityName",
+   "HP",
+   "Attack",
+   "Defense",
+   "SpecialAttack",
+   "SpecialDefense",
+   "Speed",
+   "SumValue",
+   "Effort",
+   "BaseExp",
+   "Height",
+   "Weight",
+   "LevelingRate",
+   "CatchRate",
+   "GenderRatio",
+   "EggGroup",
+   "HatchStep",
+   "BaseHappiness",
+   "CarryItem",
+   "IsHaveShiny",
+   "RunAwayId",
+   "JLType",
+   "PetDex",
+   "PetDexIntro",
+   "IsAlola",
+   "IsMega",
+   "MegaID",
+   "AlolaID",
+   "FollowNeedHappiness",
+   "FollowType",
+   "FollowSpeed",
+   "FollowScale",
+   "IsWalking",
+   "FollowOffset",
+   "RankLevel",
+   "PetStar",
+   "AtlasName",
+   "Generation",
+   "PetCry",
+   "PetMusic",
+   "FollowRunOffset",
+   "FollowIdleOffset",
+   "HPShiny",
+   "AttackShiny",
+   "DefenseShiny",
+   "SpecialAttackShiny",
+   "SpecialDefenseShiny",
+   "SpeedShiny",
+   "SumValueShiny",
+   "EvolvedLearnSkillId",
+   "InitSkill",
+   "HatchSkill",
+   "LearnSkillLv",
+   "LearnSkillId",
+   "TMSkill",
+   "TutorSkill",
+   "Name_TW",
+   "AbilityName_TW",
+   "HiddenAbilityName_TW",
+   "JLType_TW",
+   "PetDexIntro_TW",
+   "TieId",
+   "Name_EN",
+   "JLType_EN",
+   "PetDexIntro_EN",
+   "Name_DE",
+   "JLType_DE",
+   "PetDexIntro_DE",
+   "Name_KR",
+   "JLType_KR",
+   "PetDexIntro_KR",
+   "Name_PT",
+   "JLType_PT",
+   "PetDexIntro_PT"
+  ],
+  "linhas": 1331
+ },
+ {
+  "file": "config/petability/PetAbility.txt",
+  "bytes": 358318,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "OriginName",
+   "Describe",
+   "RealDeScribe",
+   "FightPower",
+   "Rank",
+   "Name_TW",
+   "Describe_TW",
+   "Name_EN",
+   "Describe_EN",
+   "Name_KR",
+   "Describe_KR",
+   "Name_DE",
+   "Describe_DE",
+   "Name_PT",
+   "Describe_PT",
+   "Name_VN",
+   "Describe_VN",
+   "Name_RUS",
+   "Describe_RUS"
+  ],
+  "linhas": 396
+ },
+ {
+  "file": "config/petabilityitem/PetAbilityItem.txt",
+  "bytes": 4385,
+  "fmt": "tsv",
+  "cols": [
+   "ItemId",
+   "RefinePoint"
+  ],
+  "linhas": 345
+ },
+ {
+  "file": "config/petabilityitemrefine/PetAbilityItemRefine.txt",
+  "bytes": 3704,
+  "fmt": "tsv",
+  "cols": [
+   "Star",
+   "RefinePoint",
+   "ItemId",
+   "ItemWeight",
+   "GuranteeNumber"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/petadvanced/PetAdvanced.txt",
+  "bytes": 10596,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetType",
+   "AdvancedLevel",
+   "Quality",
+   "SubLevel",
+   "LevelLimit",
+   "Item1",
+   "Item2",
+   "Item3",
+   "Item4",
+   "Item5",
+   "Item6",
+   "StarLimit",
+   "CostGold"
+  ],
+  "linhas": 156
+ },
+ {
+  "file": "config/petadvancedcomposite/PetAdvancedComposite.txt",
+  "bytes": 6697,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "CompositeItem",
+   "CostGold",
+   "NeedItem1",
+   "ItemNumber1",
+   "NeedItem2",
+   "ItemNumber2",
+   "NeedItem3",
+   "ItemNumber3",
+   "NeedItem4",
+   "ItemNumber4",
+   "NeedItem5",
+   "ItemNumber5"
+  ],
+  "linhas": 144
+ },
+ {
+  "file": "config/petadvancedpromotion/PetAdvancedPromotion.txt",
+  "bytes": 614,
+  "fmt": "tsv",
+  "cols": [
+   "AdvancedLevel",
+   "LastPromotionDegree",
+   "NextPromotionDegree",
+   "TotalWeight",
+   "ResetCostDiamond"
+  ],
+  "linhas": 25
+ },
+ {
+  "file": "config/petcarryitemforge/PetCarryItemForge.txt",
+  "bytes": 7569,
+  "fmt": "tsv",
+  "cols": [
+   "ItemId",
+   "ForgeNeedGold",
+   "ForgeMinRate",
+   "ForgeMaxRate",
+   "ForgeMaxLuckyPoint",
+   "ForgeSuccessItem",
+   "ForgeSuccessItemWeight",
+   "ForgeFailItem",
+   "ForgeFailItemWeight"
+  ],
+  "linhas": 64
+ },
+ {
+  "file": "config/petcarryitemforgematerial/PetCarryItemForgeMaterial.txt",
+  "bytes": 118,
+  "fmt": "tsv",
+  "cols": [
+   "ItemId",
+   "LuckyPoint"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/petcarryitemresolve/PetCarryItemResolve.txt",
+  "bytes": 8907,
+  "fmt": "tsv",
+  "cols": [
+   "ItemId",
+   "ResolveItem",
+   "ResolveItemNumber"
+  ],
+  "linhas": 490
+ },
+ {
+  "file": "config/petconvert/PetConvert.txt",
+  "bytes": 49807,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetId",
+   "name",
+   "ConvertPetId",
+   "convername",
+   "ConverItemId"
+  ],
+  "linhas": 752
+ },
+ {
+  "file": "config/peteffortcostitem/PetEffortCostItem.txt",
+  "bytes": 154,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MinValue",
+   "MaxValue",
+   "CostItemNumber"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/petevolution/PetEvolution.txt",
+  "bytes": 82206,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "FromSpecies",
+   "ShowName",
+   "EvolutionChain",
+   "EvolvedType",
+   "NeedLv",
+   "MinimumHappiness",
+   "DayTime",
+   "LearnSkill",
+   "CarryItem",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 1331
+ },
+ {
+  "file": "config/petexclusiveitem/PetExclusiveItem.txt",
+  "bytes": 3709,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetID",
+   "PetName",
+   "TotalValue",
+   "Item",
+   "ItemNumber",
+   "Price",
+   "BuyNumber"
+  ],
+  "linhas": 55
+ },
+ {
+  "file": "config/petformconvert/PetFormConvert.txt",
+  "bytes": 5109,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FromPetCfgId",
+   "FromPetName",
+   "ToPetCfgId",
+   "ToPetName",
+   "ItemId",
+   "ItemNumber",
+   "CostDiamond",
+   "CostGold",
+   "IsNeedReset"
+  ],
+  "linhas": 66
+ },
+ {
+  "file": "config/petformconvert/PetFormConvet.txt",
+  "bytes": 2588,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FromPetCfgId",
+   "FromPetName",
+   "ToPetCfgId",
+   "ToPetName",
+   "ItemId",
+   "ItemNumber",
+   "CostDiamond",
+   "CostGold"
+  ],
+  "linhas": 55
+ },
+ {
+  "file": "config/petindividual/PetIndividual.txt",
+  "bytes": 337,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "LockCostItem",
+   "LockItemNumber",
+   "CostGold",
+   "NeedItem",
+   "ItemNumber",
+   "RandomCtrl"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/petintimacy/PetIntimacy.txt",
+  "bytes": 6089,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "IntimacyLv",
+   "MinValue",
+   "MaxValue",
+   "TotalWeight",
+   "ConvertCostDiamond",
+   "LockCostItem",
+   "LockItemNumber",
+   "CostGold",
+   "NeedItem",
+   "ItemNumber",
+   "RandomCtrl"
+  ],
+  "linhas": 30
+ },
+ {
+  "file": "config/petitem/PetItem.txt",
+  "bytes": 4584,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "IsEgg",
+   "PetId",
+   "Name",
+   "Level",
+   "IsShiny",
+   "Ability",
+   "Sex",
+   "Characteristics",
+   "IndividualValue",
+   "SkillId",
+   "CarryItemId",
+   "ItemName"
+  ],
+  "linhas": 82
+ },
+ {
+  "file": "config/petmega/PetMega.txt",
+  "bytes": 10752,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NAME"
+  ],
+  "linhas": 373
+ },
+ {
+  "file": "config/petmodeleffect/PetModelEffect.txt",
+  "bytes": 56890,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "AttachPath",
+   "LoadEffect",
+   "Scale"
+  ],
+  "linhas": 317
+ },
+ {
+  "file": "config/petmovemachine/PetMoveMachine.txt",
+  "bytes": 3716,
+  "fmt": "tsv",
+  "cols": [
+   "PetID",
+   "600001",
+   "600002",
+   "600003",
+   "600004",
+   "600005",
+   "600006",
+   "600007",
+   "600008",
+   "600009",
+   "600010",
+   "600011",
+   "600012",
+   "600013",
+   "600014",
+   "600015",
+   "600016",
+   "600017",
+   "600018",
+   "600019",
+   "600020",
+   "600021",
+   "600022",
+   "600023",
+   "600024",
+   "600025",
+   "600026",
+   "600027",
+   "600028",
+   "600029",
+   "600030",
+   "600031",
+   "600032",
+   "600033",
+   "600034",
+   "600035",
+   "600036",
+   "600037",
+   "600038",
+   "600039",
+   "600040",
+   "600041",
+   "600042",
+   "600043",
+   "600044",
+   "600045",
+   "600046",
+   "600047",
+   "600048",
+   "600049",
+   "600050",
+   "600051",
+   "600052",
+   "600053",
+   "600054",
+   "600055",
+   "600056",
+   "600057",
+   "600058",
+   "600059",
+   "600060",
+   "600061",
+   "600062",
+   "600063",
+   "600064",
+   "600065",
+   "600066",
+   "600067",
+   "600068",
+   "600069",
+   "600070",
+   "600071",
+   "600072",
+   "600073",
+   "600074",
+   "600075",
+   "600076",
+   "600077",
+   "600078",
+   "600079",
+   "600080",
+   "600081",
+   "600082",
+   "600083",
+   "600084",
+   "600085",
+   "600086",
+   "600087",
+   "600088",
+   "600089",
+   "600090",
+   "600091",
+   "600092",
+   "600093",
+   "600094",
+   "600095",
+   "600096",
+   "600097",
+   "600098",
+   "600099",
+   "600100",
+   "601001",
+   "601002",
+   "601003",
+   "601004",
+   "601005",
+   "601006",
+   "601007",
+   "601008",
+   "601009",
+   "601010",
+   "601011",
+   "601012",
+   "601013",
+   "601014",
+   "601015",
+   "601016",
+   "601017",
+   "601018",
+   "601019",
+   "601020",
+   "601021",
+   "601022",
+   "601023",
+   "601024",
+   "601025",
+   "601026",
+   "601027",
+   "601028",
+   "601029",
+   "601030",
+   "601031",
+   "601032",
+   "601033",
+   "601034",
+   "601035",
+   "601036",
+   "601037",
+   "601038",
+   "601039",
+   "601040",
+   "601041",
+   "601042",
+   "601043",
+   "601044",
+   "601045",
+   "601046",
+   "601047",
+   "601048",
+   "601049",
+   "601050",
+   "601051",
+   "601052",
+   "601053",
+   "601054",
+   "601055",
+   "601056",
+   "601057",
+   "601058",
+   "601059",
+   "601060",
+   "601061",
+   "601062",
+   "601063",
+   "601064",
+   "601065",
+   "601066",
+   "601067",
+   "601068",
+   "601069",
+   "601070",
+   "601071",
+   "601072",
+   "601073",
+   "601074",
+   "601075",
+   "601076",
+   "601077",
+   "601078",
+   "601079",
+   "601080",
+   "601081",
+   "601082",
+   "601083",
+   "601084",
+   "601085",
+   "601086",
+   "601087",
+   "601088",
+   "601089",
+   "601090",
+   "601091",
+   "601092",
+   "601093",
+   "601094",
+   "601095",
+   "601096",
+   "601097",
+   "601098",
+   "601099",
+   "601100",
+   "601101",
+   "601102",
+   "601103",
+   "601104",
+   "601105",
+   "601106",
+   "601107",
+   "601108",
+   "601109",
+   "601110",
+   "601111",
+   "601112",
+   "601113",
+   "601114",
+   "601115",
+   "601116",
+   "601117",
+   "601118",
+   "601119",
+   "601120",
+   "601121",
+   "601122",
+   "601123",
+   "601124",
+   "601125",
+   "601126",
+   "601127",
+   "601128",
+   "601129",
+   "601130",
+   "601131",
+   "601132",
+   "601133",
+   "601134",
+   "601135",
+   "601136",
+   "601137",
+   "601138",
+   "601139",
+   "601140",
+   "601141",
+   "601142",
+   "601143",
+   "601144"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/petmyth/PetMyth.txt",
+  "bytes": 2094,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 312
+ },
+ {
+  "file": "config/petpreview/PetPreview.txt",
+  "bytes": 102934,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Position",
+   "Euler",
+   "Scale",
+   "PlayerPosition",
+   "PlayerEuler",
+   "PlayerScale",
+   "PositionInPlayerAndPet",
+   "EulerInPlayerAndPet",
+   "ScaleInPlayerAndPet"
+  ],
+  "linhas": 1486
+ },
+ {
+  "file": "config/petshinyconvert/PetShinyConvert.txt",
+  "bytes": 198,
+  "fmt": "tsv",
+  "cols": [
+   "PetRank",
+   "ItemId",
+   "ItemNumber",
+   "CostDiamond",
+   "CostGold"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/petstar/PetStar.txt",
+  "bytes": 3255,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Star",
+   "SubStar",
+   "TotalWeight",
+   "ResetCostDiamond"
+  ],
+  "linhas": 166
+ },
+ {
+  "file": "config/pettie/PetTie.txt",
+  "bytes": 15040,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NeedPlayerLv",
+   "NeedVipLv",
+   "TabIndex",
+   "TeamName",
+   "TieId",
+   "AttrType",
+   "DegreeLv",
+   "BaseValue",
+   "ShinyAddvalue",
+   "TeamName_TW",
+   "TeamName_EN",
+   "TeamName_DE",
+   "TeamName_KR",
+   "TeamName_PT"
+  ],
+  "linhas": 64
+ },
+ {
+  "file": "config/pettrain/PetTrain.txt",
+  "bytes": 4547,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "TrainLv",
+   "Degree",
+   "SubDegree",
+   "NeedExp",
+   "NeedExpMyth",
+   "NeedExpLegend",
+   "NeedExpEpic",
+   "NeedExpOther",
+   "TotalWeight",
+   "ResetCostDiamond"
+  ],
+  "linhas": 101
+ },
+ {
+  "file": "config/pettrainbreak/PetTrainBreak.txt",
+  "bytes": 437,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Degree",
+   "SubDegree",
+   "CostGold",
+   "StarLimit"
+  ],
+  "linhas": 20
+ },
+ {
+  "file": "config/pettrainitem/PetTrainItem.txt",
+  "bytes": 3978,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "PetType",
+   "PetRank",
+   "ItemId"
+  ],
+  "linhas": 90
+ },
+ {
+  "file": "config/petupstarlv/PetUpStarLv.txt",
+  "bytes": 23122,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetType",
+   "Star",
+   "SubStar",
+   "LvLimit",
+   "CostGold",
+   "NeedItem",
+   "ItemNumber",
+   "NeedPetNumber"
+  ],
+  "linhas": 498
+ },
+ {
+  "file": "config/petwashcharacter/PetWashCharacter.txt",
+  "bytes": 123,
+  "fmt": "tsv",
+  "cols": [
+   "Rank",
+   "CostGold",
+   "NeedRankPet"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/playertitle/PlayerTitle.txt",
+  "bytes": 332,
+  "fmt": "tsv",
+  "cols": [
+   "TitleType",
+   "TitleName"
+  ],
+  "linhas": 17
+ },
+ {
+  "file": "config/power/Power.txt",
+  "bytes": 158,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StartTime",
+   "EndTime",
+   "PowerNumber",
+   "CostDiamond"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/powerbuy/PowerBuy.txt",
+  "bytes": 541,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Time",
+   "CostDiamond",
+   "GetPower",
+   "CumulativeConsumption"
+  ],
+  "linhas": 23
+ },
+ {
+  "file": "config/pvpleaguegrade/PvpLeagueGrade.txt",
+  "bytes": 4392,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GradeName",
+   "Grade",
+   "SubGradeName",
+   "SubGrade",
+   "UpStar",
+   "TotalStar",
+   "GradeName_TW",
+   "SubGradeName_TW",
+   "GradeName_EN",
+   "SubGradeName_EN",
+   "GradeName_DE",
+   "SubGradeName_DE",
+   "GradeName_KR",
+   "SubGradeName_KR",
+   "GradeName_PT",
+   "SubGradeName_PT"
+  ],
+  "linhas": 24
+ },
+ {
+  "file": "config/pvpleaguerankreward/PvpLeagueRankReward.txt",
+  "bytes": 414,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RankRange",
+   "Grade",
+   "Diamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "TitleType",
+   "StoreCredit"
+  ],
+  "linhas": 9
+ },
+ {
+  "file": "config/pvpleaguestore/PvpLeagueStore.txt",
+  "bytes": 779,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "CostStorePoint",
+   "ItemId",
+   "ItemName",
+   "Rank"
+  ],
+  "linhas": 22
+ },
+ {
+  "file": "config/quest/Quest.txt",
+  "bytes": 801204,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "QuestType",
+   "Title",
+   "AvailableContent",
+   "Content",
+   "QuestTarget",
+   "name",
+   "QuestReward",
+   "PreQuestId",
+   "NextShowQuestId",
+   "NextQuestId",
+   "MinLv",
+   "CompleteMission",
+   "AcceptMovieId",
+   "CompleteMovieId",
+   "ScenePetID",
+   "IsFly",
+   "Title_TW",
+   "AvailableContent_TW",
+   "Content_TW",
+   "Title_EN",
+   "AvailableContent_EN",
+   "Content_EN",
+   "Title_DE",
+   "AvailableContent_DE",
+   "Content_DE",
+   "Title_KR",
+   "AvailableContent_KR",
+   "Content_KR",
+   "Title_PT",
+   "AvailableContent_PT",
+   "Content_PT",
+   "Title_VN",
+   "AvailableContent_VN",
+   "Content_VN"
+  ],
+  "linhas": 1181
+ },
+ {
+  "file": "config/questlocale/QuestLocale.txt",
+  "bytes": 202,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "AcceptMovieId",
+   "CompleteMovieId",
+   "Title",
+   "Content"
+  ],
+  "linhas": 2
+ },
+ {
+  "file": "config/questreward/QuestReward.txt",
+  "bytes": 147096,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "name",
+   "Exp",
+   "Gold",
+   "Diamond",
+   "TargetType",
+   "TargetCount",
+   "Param1",
+   "ShowTarget",
+   "RuneId",
+   "PetId",
+   "PetEgg",
+   "Item",
+   "ItemNumber",
+   "itemname",
+   "PetItemId",
+   "GoankeItem",
+   "GoankePet",
+   "QuestHonor",
+   "QuestType"
+  ],
+  "linhas": 1181
+ },
+ {
+  "file": "config/questtarget/QuestTarget.txt",
+  "bytes": 74715,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "TargetType",
+   "TargetSceneId",
+   "TargetPos",
+   "TargetCount",
+   "Param1",
+   "name",
+   "Param2",
+   "Param3",
+   "FightMovieId",
+   "CompleteMovieId",
+   "ConsortiaGetRwdCnt"
+  ],
+  "linhas": 1276
+ },
+ {
+  "file": "config/repetition/Repetition.txt",
+  "bytes": 117,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RepType",
+   "Position",
+   "RepQuestID"
+  ],
+  "linhas": 2
+ },
+ {
+  "file": "config/reward/accumulatelogin/AccumulateLogin.txt",
+  "bytes": 448,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "Days",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetItem",
+   "RuneId"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/reward/activityinfo/ActivityInfo.txt",
+  "bytes": 13602,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "AtyType",
+   "AtyNumber",
+   "IsOpen",
+   "Param1",
+   "Param2",
+   "Param3",
+   "Param4",
+   "StartTime",
+   "EndTime",
+   "AtyDesc"
+  ],
+  "linhas": 32
+ },
+ {
+  "file": "config/reward/arenareward/arenapointreward/ArenaPointReward.txt",
+  "bytes": 484,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ArenaPoint",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetItem",
+   "BikeId",
+   "StylishId"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/reward/arenareward/arenarewardperiod/ArenaRewardPeriod.txt",
+  "bytes": 91,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StartTime",
+   "EndTime"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/reward/arenareward/arenatimerankreward/ArenaTimeRankReward.txt",
+  "bytes": 598,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RankRange",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetItem",
+   "BikeId",
+   "GiftBagId"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/reward/atyanniversaryboss/AtyAnniversaryBoss.txt",
+  "bytes": 2422,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetId",
+   "Level",
+   "SkillId",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd",
+   "BattleAI",
+   "CombatRound",
+   "BossName",
+   "BossName_TW",
+   "BossName_EN",
+   "BossName_KR",
+   "BossName_DE"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/reward/atyanniversarysubject/AtyAnniversarySubject.txt",
+  "bytes": 51427,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "TitleDesc",
+   "AnswerDesc",
+   "AnswerIndex",
+   "TitleDesc_EN",
+   "AnswerDesc_EN",
+   "TitleDesc_DE",
+   "AnswerDesc_DE",
+   "TitleDesc_KR",
+   "AnswerDesc_KR",
+   "TitleDesc_PT",
+   "AnswerDesc_PT",
+   "TitleDesc_VN",
+   "AnswerDesc_VN"
+  ],
+  "linhas": 63
+ },
+ {
+  "file": "config/reward/atycatchpetrankrwd/AtyCatchPetRankRwd.txt",
+  "bytes": 342,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RankIndex",
+   "ItemId",
+   "ItemNumber",
+   "GetDiamond",
+   "GetGold"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/reward/atygiftbag/AtyGiftBag.txt",
+  "bytes": 6256,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GiftType",
+   "LimitCnt",
+   "GiftName",
+   "AtlasId",
+   "LimitSeconds",
+   "TriggerType",
+   "TriggerParam1",
+   "TriggerMsg",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "LotteryEggPoint",
+   "ItemId",
+   "ItemNumber",
+   "GiftName_TW",
+   "TriggerMsg_TW",
+   "GiftName_EN",
+   "TriggerMsg_EN",
+   "GiftName_DE",
+   "TriggerMsg_DE",
+   "GiftName_KR",
+   "TriggerMsg_KR",
+   "GiftName_PT",
+   "TriggerMsg_PT"
+  ],
+  "linhas": 26
+ },
+ {
+  "file": "config/reward/atygiftbagbox/AtyGiftBagBox.txt",
+  "bytes": 251,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/reward/atyhuntingpet/AtyHuntingPet.txt",
+  "bytes": 209,
+  "fmt": "tsv",
+  "cols": [
+   "PetAttr",
+   "PetId"
+  ],
+  "linhas": 18
+ },
+ {
+  "file": "config/reward/atysevencarnivalquest/AtySevenCarnivalQuest.txt",
+  "bytes": 17424,
+  "fmt": "tsv",
+  "cols": [
+   "AtyType",
+   "AtyCalcType",
+   "TabName",
+   "Desc",
+   "TabName_TW",
+   "Desc_TW",
+   "TabName_EN",
+   "Desc_EN",
+   "TabName_KR",
+   "Desc_KR",
+   "TabName_DE",
+   "Desc_DE",
+   "TabName_PT",
+   "Desc_PT"
+  ],
+  "linhas": 60
+ },
+ {
+  "file": "config/reward/atyspringfestivalquest/AtySpringFestivalQuest.txt",
+  "bytes": 6143,
+  "fmt": "tsv",
+  "cols": [
+   "TaskType",
+   "TaskName",
+   "Describe",
+   "TaskName_TW",
+   "Describe_TW",
+   "TaskName_EN",
+   "Describe_EN",
+   "TaskName_KR",
+   "Describe_KR",
+   "TaskName_DE",
+   "Describe_DE",
+   "TaskName_PT",
+   "Describe_PT"
+  ],
+  "linhas": 21
+ },
+ {
+  "file": "config/reward/catchpetreward/catchpetnumberreward/CatchPetNumberReward.txt",
+  "bytes": 486,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "CatchNumber",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetItem",
+   "PetShowIndex"
+  ],
+  "linhas": 9
+ },
+ {
+  "file": "config/reward/catchpetreward/catchpettimerankreward/CatchPetTimeRankReward.txt",
+  "bytes": 467,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RankRange",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetItem"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/reward/choosereward/ChooseReward.txt",
+  "bytes": 334,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetItem",
+   "PetId",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 15
+ },
+ {
+  "file": "config/reward/dailydiamondreward/DailyDiamondReward.txt",
+  "bytes": 829,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "DayCostDiamond",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetId",
+   "PetName"
+  ],
+  "linhas": 15
+ },
+ {
+  "file": "config/reward/dailyonepay/DailyOnePay.txt",
+  "bytes": 181,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/reward/dailysign/DailySign.txt",
+  "bytes": 1167,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetId",
+   "PetName",
+   "VipDouble"
+  ],
+  "linhas": 28
+ },
+ {
+  "file": "config/reward/dailysignbox/DailySignBox.txt",
+  "bytes": 328,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "SignDay",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetId",
+   "PetName"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/reward/enterinviterreward/EnterInviterReward.txt",
+  "bytes": 78,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/reward/firstchargereward/FirstChargeReward.txt",
+  "bytes": 703,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Tab",
+   "TotalChargeNumber",
+   "TotalChargeNumber_TW",
+   "TotalChargeNumber_EN",
+   "TotalChargeNumber_DE",
+   "TotalChargeNumber_KR",
+   "TotalChargeNumber_PT",
+   "PetItem",
+   "ItemId",
+   "ItemNumber",
+   "PetName"
+  ],
+  "linhas": 4
+ },
+ {
+  "file": "config/reward/invitereward/InviteReward.txt",
+  "bytes": 2399,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PlayerNumber",
+   "Type",
+   "Param",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "LotteryEggPoint",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "BikeId",
+   "PetId",
+   "PetName",
+   "GiftBagID",
+   "GiftName"
+  ],
+  "linhas": 45
+ },
+ {
+  "file": "config/reward/levelreward/LevelReward.txt",
+  "bytes": 1337,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "Level",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetId",
+   "BikeId",
+   "GoankeItem"
+  ],
+  "linhas": 13
+ },
+ {
+  "file": "config/reward/limitedtimecharge/LimitedTimeCharge.txt",
+  "bytes": 135,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "ChargeNumber",
+   "PetId",
+   "PetName"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/reward/limitedtimegiftbag/LimitedTimeGiftBag.txt",
+  "bytes": 7489,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "TriggerType",
+   "TriggerParam1",
+   "LimitSeconds",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "LotteryEggPoint",
+   "ItemId",
+   "ItemNumber",
+   "Discount",
+   "Desc",
+   "Desc_TW",
+   "Desc_EN",
+   "Desc_KR",
+   "Desc_DE",
+   "Desc_PT"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/reward/onlinetimereward/OnlineTimeReward.txt",
+  "bytes": 1942,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Day",
+   "OnlineSeconds",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "LotteryEggPoint",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 64
+ },
+ {
+  "file": "config/reward/openrankaty/OpenRankAty.txt",
+  "bytes": 1197,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RankType",
+   "RwdType",
+   "RankIndex",
+   "ValueNumber",
+   "PetId",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 31
+ },
+ {
+  "file": "config/reward/openservatyreward/OpenServAtyReward.txt",
+  "bytes": 47246,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Day",
+   "TabCategory",
+   "AtyType",
+   "Param1",
+   "Param2",
+   "GetPoint",
+   "Desc",
+   "GetGold",
+   "GetDiamond",
+   "GetPower",
+   "ItemId",
+   "ItemNumber",
+   "LotteryEggPoint",
+   "GetArenaPoint",
+   "GetPvpPoint",
+   "GetCrossPoint",
+   "PetId",
+   "RuneId",
+   "Desc_TW",
+   "Desc_EN",
+   "Desc_DE",
+   "Desc_KR",
+   "Desc_PT"
+  ],
+  "linhas": 195
+ },
+ {
+  "file": "config/reward/openservpointreward/OpenServPointReward.txt",
+  "bytes": 285,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NeedPoint",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "PetId",
+   "RuneId"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/reward/payreward/paypetexchangecurrency/PayPetExchangeCurrency.txt",
+  "bytes": 95,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetId",
+   "AncientSilver",
+   "AncientGold"
+  ],
+  "linhas": 2
+ },
+ {
+  "file": "config/reward/payreward/paytimerankreward/PayTimeRankReward.txt",
+  "bytes": 689,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RankRange",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetItem"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/rune/Rune.txt",
+  "bytes": 2511,
+  "fmt": "tsv",
+  "cols": [
+   "RuneID",
+   "Type",
+   "Location",
+   "RuneStar",
+   "RareLevel",
+   "PowerLevel",
+   "PrimaryStats",
+   "name",
+   "PrimaryNumber",
+   "SubStats1",
+   "name1",
+   "SubStats1Number",
+   "SubStats2",
+   "name2",
+   "SubStats2Number",
+   "SubStats3",
+   "name3",
+   "SubStats3Number",
+   "SubStats4",
+   "name4",
+   "SubStats4Number",
+   "MapID"
+  ],
+  "linhas": 34
+ },
+ {
+  "file": "config/runeconvert/RuneConvert.txt",
+  "bytes": 18455,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RuneStar",
+   "ConvertItemID1",
+   "Number1",
+   "Rare",
+   "ConvertItemID2",
+   "Number2",
+   "Power",
+   "ConvertItemID3",
+   "Number3"
+  ],
+  "linhas": 480
+ },
+ {
+  "file": "config/runepowerup/RunePowerUp.txt",
+  "bytes": 1242,
+  "fmt": "tsv",
+  "cols": [
+   "Lv",
+   "1Gold",
+   "2Gold",
+   "3Gold",
+   "4Gold",
+   "5Gold",
+   "6Gold",
+   "Rate",
+   "1DustNumber",
+   "2DustNumber",
+   "3DustNumber",
+   "4DustNumber",
+   "5DustNumber",
+   "6DustNumber"
+  ],
+  "linhas": 15
+ },
+ {
+  "file": "config/runeprefixstats/RunePrefixStats.txt",
+  "bytes": 164,
+  "fmt": "tsv",
+  "cols": [
+   "StatsType",
+   "Value"
+  ],
+  "linhas": 14
+ },
+ {
+  "file": "config/runeprimarystats/RunePrimaryStats.txt",
+  "bytes": 678,
+  "fmt": "tsv",
+  "cols": [
+   "StatsType",
+   "Star1",
+   "Star2",
+   "Star3",
+   "Star4",
+   "Star5",
+   "Star6"
+  ],
+  "linhas": 12
+ },
+ {
+  "file": "config/runeremovecost/RuneRemoveCost.txt",
+  "bytes": 77,
+  "fmt": "tsv",
+  "cols": [
+   "Star",
+   "Cost"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/runesale/RuneSale.txt",
+  "bytes": 138,
+  "fmt": "tsv",
+  "cols": [
+   "StatsType",
+   "UnitPrice"
+  ],
+  "linhas": 12
+ },
+ {
+  "file": "config/runeslot/RuneSlot.txt",
+  "bytes": 195,
+  "fmt": "tsv",
+  "cols": [
+   "Slot",
+   "StatType"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/runesubstats/RuneSubStats.txt",
+  "bytes": 463,
+  "fmt": "tsv",
+  "cols": [
+   "StatsType",
+   "Star1",
+   "Star2",
+   "Star3",
+   "Star4",
+   "Star5",
+   "Star6"
+  ],
+  "linhas": 12
+ },
+ {
+  "file": "config/runetower/runetower/RuneTower.txt",
+  "bytes": 76487,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Type",
+   "Layer",
+   "CharacterLevelLimit",
+   "CostPower",
+   "BattleArrayLimit",
+   "AttributeLimit",
+   "IsUesItem",
+   "RecomAttribute",
+   "RecomCombatPower",
+   "HumanExp",
+   "DropGold",
+   "DropItemProbability",
+   "DropItemID",
+   "ItemNumber",
+   "ItemWeight",
+   "RuneType",
+   "DropRuneProbability",
+   "RunePos",
+   "RunePosWeight",
+   "RuneStar",
+   "RuneStarWeight",
+   "RuneRarity",
+   "RuneRarityWeight",
+   "DropProbabilityUp",
+   "RunePrimary",
+   "RunePrimaryWeight",
+   "RuneSubsidiary",
+   "RuneSubsidiaryWeight",
+   "FirstDropItem",
+   "FirstDropItemNumber",
+   "FirstDropRune"
+  ],
+  "linhas": 288
+ },
+ {
+  "file": "config/runetower/runetowerbuycnt/RuneTowerBuyCnt.txt",
+  "bytes": 200,
+  "fmt": "tsv",
+  "cols": [
+   "BuyCnt",
+   "CostDiamond"
+  ],
+  "linhas": 20
+ },
+ {
+  "file": "config/runetower/runetowernpc/RuneTowerNpc.txt",
+  "bytes": 1651304,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "TowerType",
+   "TowerLayer",
+   "NpcName",
+   "Model",
+   "FightTalk",
+   "VictoryTalk",
+   "DefeatedTalk",
+   "BackGroundMusic",
+   "FightEffectId",
+   "IsAlternative",
+   "GetExpRatio",
+   "NpcName_TW",
+   "FightTalk_TW",
+   "VictoryTalk_TW",
+   "DefeatedTalk_TW",
+   "NpcName_EN",
+   "FightTalk_EN",
+   "VictoryTalk_EN",
+   "DefeatedTalk_EN",
+   "NpcName_DE",
+   "FightTalk_DE",
+   "VictoryTalk_DE",
+   "DefeatedTalk_DE",
+   "NpcName_KR",
+   "FightTalk_KR",
+   "VictoryTalk_KR",
+   "DefeatedTalk_KR",
+   "NpcName_PT",
+   "FightTalk_PT",
+   "VictoryTalk_PT",
+   "DefeatedTalk_PT"
+  ],
+  "linhas": 1368
+ },
+ {
+  "file": "config/runetower/runetowernpcpet/RuneTowerNpcPet.txt",
+  "bytes": 544451,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RuneTowerNpcId",
+   "name",
+   "PetId",
+   "petname",
+   "Sex",
+   "Level",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "CarryItemId",
+   "Ability",
+   "SkillId",
+   "BattleAI",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd"
+  ],
+  "linhas": 6270
+ },
+ {
+  "file": "config/runetower/runetoweropen/RuneTowerOpen.txt",
+  "bytes": 111,
+  "fmt": "tsv",
+  "cols": [
+   "TypeID",
+   "OpenLimit",
+   "Param1"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/runetype/RuneType.txt",
+  "bytes": 120,
+  "fmt": "tsv",
+  "cols": [
+   "Type",
+   "SuitNumber",
+   "SuitPercent"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/runewash/RuneWash.txt",
+  "bytes": 513,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "RuneStar",
+   "StatType",
+   "RequireLevel",
+   "CostGold",
+   "CostDiamond",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 12
+ },
+ {
+  "file": "config/scene/berrysoftsoil/BerrySoftSoil.txt",
+  "bytes": 7197,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "Position",
+   "Rotation",
+   "TriggerRange",
+   "BerryID",
+   "Description",
+   "Rarity",
+   "BerryNumber"
+  ],
+  "linhas": 79
+ },
+ {
+  "file": "config/scene/convey/Convey.txt",
+  "bytes": 17211,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "Name",
+   "ToScene",
+   "ToPosition",
+   "BackPosition",
+   "CenterPosition",
+   "ConveyRect"
+  ],
+  "linhas": 161
+ },
+ {
+  "file": "config/scene/dropitem/DropItem.txt",
+  "bytes": 15747,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Type",
+   "Position",
+   "Rotation",
+   "Model",
+   "PickRange",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "SceneId",
+   "PickSFX",
+   "GetRate"
+  ],
+  "linhas": 176
+ },
+ {
+  "file": "config/scene/fisharea/FishArea.txt",
+  "bytes": 15857,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "AreaId",
+   "TargetPoint",
+   "PolygonPoint",
+   "EnterEffectId",
+   "FightSceneResource",
+   "ScenePetMap"
+  ],
+  "linhas": 62
+ },
+ {
+  "file": "config/scene/largearea/LargeArea.txt",
+  "bytes": 340,
+  "fmt": "tsv",
+  "cols": [
+   "LargeAreaId",
+   "SceneId"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/scene/largeareaconvey/LargeAreaConvey.txt",
+  "bytes": 339,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FromLargeAreaId",
+   "ToLargeAreaId",
+   "SceneId",
+   "Position"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/scene/npc/Npc.txt",
+  "bytes": 1745190,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "ShowSceneId",
+   "GiveQuestId",
+   "ResponseQuestId",
+   "IsRefresh",
+   "Name",
+   "Model",
+   "Position",
+   "Rotation",
+   "WalkSpeed",
+   "WalkRange",
+   "TalkRange",
+   "Range",
+   "FightRadar",
+   "FightRadarRectRotationY",
+   "FightRadarRect",
+   "NormalTalk",
+   "FightTalk",
+   "DefeatedTalk",
+   "IsTalkRotation",
+   "GYMFightTalk",
+   "GYMDefeatedTalk",
+   "AreaPetCfgId",
+   "EyeMeetMusic",
+   "BackGroundMusic",
+   "FightEffectId",
+   "Name_TW",
+   "NormalTalk_TW",
+   "FightTalk_TW",
+   "DefeatedTalk_TW",
+   "Name_EN",
+   "NormalTalk_EN",
+   "FightTalk_EN",
+   "DefeatedTalk_EN",
+   "Name_DE",
+   "NormalTalk_DE",
+   "FightTalk_DE",
+   "DefeatedTalk_DE",
+   "Name_KR",
+   "NormalTalk_KR",
+   "FightTalk_KR",
+   "DefeatedTalk_KR",
+   "Name_PT",
+   "NormalTalk_PT",
+   "FightTalk_PT",
+   "DefeatedTalk_PT",
+   "Name_VN",
+   "NormalTalk_VN",
+   "FightTalk_VN",
+   "DefeatedTalk_VN"
+  ],
+  "linhas": 1319
+ },
+ {
+  "file": "config/scene/npcconvey/NpcConvey.txt",
+  "bytes": 1220,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "name",
+   "SceneId",
+   "ScenePosition",
+   "NpcBtnDesc",
+   "NpcBtnDesc_TW",
+   "NpcBtnDesc_EN",
+   "NpcBtnDesc_DE",
+   "NpcBtnDesc_KR",
+   "NpcBtnDesc_PT"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/scene/npceventtrigger/NpcEventTrigger.txt",
+  "bytes": 175206,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "name",
+   "TriggerType",
+   "TriggerParam1",
+   "questname",
+   "TriggerParam2",
+   "EventType",
+   "EventParam1",
+   "EventParam2",
+   "EventTalk",
+   "ItemName",
+   "EventTalk_TW",
+   "EventTalk_EN",
+   "EventTalk_DE",
+   "EventTalk_KR",
+   "EventTalk_PT",
+   "EventTalk_VN"
+  ],
+  "linhas": 1568
+ },
+ {
+  "file": "config/scene/npcfight/NpcFight.txt",
+  "bytes": 55553,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "name",
+   "FinishQuestCanFight",
+   "FinishQuestTargetCanFight",
+   "Difficulty",
+   "CostPower",
+   "GetExp",
+   "GetGold",
+   "SweepReward",
+   "PetGetExp",
+   "DailyFightCnt",
+   "RecommendAttribute",
+   "ArrayLimit",
+   "NpcHeadImage",
+   "SweepExp",
+   "BuyFightCntCostDiamond",
+   "RoundNumber",
+   "ShowOrder"
+  ],
+  "linhas": 548
+ },
+ {
+  "file": "config/scene/npchairstore/NpcHairStore.txt",
+  "bytes": 7988,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "SexType",
+   "Param",
+   "Name",
+   "CostCurrencyType",
+   "CostNumber",
+   "Desc",
+   "Name_TW",
+   "Desc_TW",
+   "Name_EN",
+   "Desc_EN",
+   "Name_DE",
+   "Desc_DE",
+   "Name_KR",
+   "Desc_KR",
+   "Name_PT",
+   "Desc_PT"
+  ],
+  "linhas": 24
+ },
+ {
+  "file": "config/scene/npcintheway/NpcInTheWay.txt",
+  "bytes": 73329,
+  "fmt": "tsv",
+  "cols": [
+   "NpcId",
+   "npcname",
+   "CheckRectRotationY",
+   "CheckRect",
+   "ReturnPos",
+   "Level",
+   "AccptedQuestId",
+   "UnfinishedQuestId",
+   "OwnItemId",
+   "GymDefeatedNpc",
+   "TalkContent",
+   "TalkContent_TW",
+   "TalkContent_EN",
+   "TalkContent_DE",
+   "TalkContent_KR",
+   "TalkContent_PT",
+   "TalkContent_VN"
+  ],
+  "linhas": 115
+ },
+ {
+  "file": "config/scene/npcpet/NpcPet.txt",
+  "bytes": 241424,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "name",
+   "Difficulty",
+   "PetId",
+   "petname",
+   "Level",
+   "Star",
+   "Sex",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "CarryItemId",
+   "Ability",
+   "SkillId",
+   "BattleAI",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd"
+  ],
+  "linhas": 2493
+ },
+ {
+  "file": "config/scene/npcstore/NpcStore.txt",
+  "bytes": 5038,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "NpcName",
+   "ItemId",
+   "ItemName",
+   "CurrencyType",
+   "Price",
+   "UnlockType",
+   "Param1",
+   "PurchaseLimit"
+  ],
+  "linhas": 108
+ },
+ {
+  "file": "config/scene/npcstylishstore/NpcStylishStore.txt",
+  "bytes": 6928,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "NpcId",
+   "StylishId",
+   "StylishDesc",
+   "CurrencyType",
+   "Price",
+   "UnlockType",
+   "Param1",
+   "UnlockTips",
+   "IsUnlockStore",
+   "UnlockTips_TW"
+  ],
+  "linhas": 142
+ },
+ {
+  "file": "config/scene/petarea/PetArea.txt",
+  "bytes": 122903,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "AreaId",
+   "PolygonPoint",
+   "EnterEffectId",
+   "FightSceneResource",
+   "MeetPetParam",
+   "ScenePetMap"
+  ],
+  "linhas": 188
+ },
+ {
+  "file": "config/scene/petareapet/PetAreaPet.txt",
+  "bytes": 131634,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "Name",
+   "PetId",
+   "Area",
+   "Weight",
+   "CarryItem",
+   "RangeLv",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "BattleAI",
+   "Characteric",
+   "RodParam",
+   "RunAwayId"
+  ],
+  "linhas": 2141
+ },
+ {
+  "file": "config/scene/scene/Scene.txt",
+  "bytes": 39077,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "ShowName",
+   "Scene",
+   "PlayerLevelLimit",
+   "IsElite",
+   "EnterEffectId",
+   "FightSceneResource",
+   "RegionType",
+   "FlyPosition",
+   "Rotation",
+   "SceneSound",
+   "IsChildScene",
+   "IsMiniMap",
+   "BoundSize",
+   "BoundCenter",
+   "WeatherType",
+   "IsWeatherForever",
+   "IsOfflineRetLastScene",
+   "Name_TW",
+   "ShowName_TW",
+   "Name_EN",
+   "ShowName_EN",
+   "Name_DE",
+   "ShowName_DE",
+   "Name_KR",
+   "ShowName_KR",
+   "Name_PT",
+   "ShowName_PT",
+   "Name_VN",
+   "ShowName_VN"
+  ],
+  "linhas": 96
+ },
+ {
+  "file": "config/scene/scenepet/ScenePet.txt",
+  "bytes": 21133,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "PetId",
+   "Name",
+   "Position",
+   "Rotation",
+   "Scale",
+   "WalkSpeed",
+   "WalkRange",
+   "TalkRange",
+   "Talk",
+   "FightPlayerLevelLimit",
+   "GymIdLimit",
+   "IsFight",
+   "Level",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "BattleAI",
+   "SkillId",
+   "IsRotation",
+   "RunawayAI",
+   "Talk_TW",
+   "Talk_EN",
+   "Talk_DE",
+   "Talk_KR",
+   "Talk_PT"
+  ],
+  "linhas": 132
+ },
+ {
+  "file": "config/scenepet/ScenePet.txt",
+  "bytes": 634,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "SceneId",
+   "Area",
+   "PetId",
+   "Weight",
+   "RangeLv",
+   "Characteric",
+   "Shiny"
+  ],
+  "linhas": 14
+ },
+ {
+  "file": "config/sceneposition/ScenePosition.txt",
+  "bytes": 158,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "Position"
+  ],
+  "linhas": 4
+ },
+ {
+  "file": "config/shinypetcome/ShinyPetCome.txt",
+  "bytes": 5641,
+  "fmt": "tsv",
+  "cols": [
+   "PetId",
+   "AtlasName",
+   "BigTitleSprite",
+   "SmallTitleSprite"
+  ],
+  "linhas": 102
+ },
+ {
+  "file": "config/skill/Skill.txt",
+  "bytes": 351555,
+  "fmt": "tsv",
+  "cols": [
+   "NewID",
+   "Name",
+   "Resource",
+   "Type",
+   "DamageClass",
+   "Power",
+   "Accuracy",
+   "PP",
+   "Target",
+   "Priority",
+   "Param1",
+   "Param2",
+   "Param3",
+   "Stockpile",
+   "FightPower",
+   "RecallCostItem",
+   "Describe",
+   "IsTouch",
+   "IsPowder",
+   "IsPressed",
+   "IsPunch",
+   "IsSound",
+   "IsAura",
+   "IsBiting",
+   "IsBallOrBomb",
+   "IsCanLearnLvOrHatch",
+   "Name_TW",
+   "Describe_TW",
+   "Name_EN",
+   "Describe_EN",
+   "Name_DE",
+   "Describe_DE",
+   "Name_KR",
+   "Describe_KR",
+   "Name_PT",
+   "Describe_PT"
+  ],
+  "linhas": 514
+ },
+ {
+  "file": "config/skillmachine/SkillMachine.txt",
+  "bytes": 323,
+  "fmt": "tsv",
+  "cols": [
+   "RankType",
+   "CommonItemId",
+   "GuranteeNumber",
+   "BuyCostItemNumber",
+   "ComposeNeedNumber",
+   "DecomposeGetNumber"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/status/Status.txt",
+  "bytes": 1017,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StatusType",
+   "ExpiredType",
+   "ExpiredParam",
+   "Param1",
+   "Param2"
+  ],
+  "linhas": 48
+ },
+ {
+  "file": "config/store/Store.txt",
+  "bytes": 3110,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ItemId",
+   "Name",
+   "TabIndex",
+   "StoreType",
+   "Price",
+   "DailyRandom",
+   "DailyBuyLimit",
+   "IsUnlockTalkNpcId",
+   "UnlockType",
+   "Param1"
+  ],
+  "linhas": 69
+ },
+ {
+  "file": "config/strengthen/Strengthen.txt",
+  "bytes": 18163,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Tab",
+   "Icon",
+   "IconAtlas",
+   "Title",
+   "Descript",
+   "FuncToken",
+   "Param1",
+   "Param2",
+   "Param3",
+   "Title_TW",
+   "Descript_TW",
+   "Title_EN",
+   "Descript_EN",
+   "Title_DE",
+   "Descript_DE",
+   "Title_KR",
+   "Descript_KR",
+   "Title_PT",
+   "Descript_PT"
+  ],
+  "linhas": 38
+ },
+ {
+  "file": "config/strengthenbattle/StrengthenBattle.txt",
+  "bytes": 30468,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "BattleType",
+   "Index",
+   "Title",
+   "Title_TW",
+   "Descript",
+   "Descript_TW",
+   "Title_EN",
+   "Descript_EN",
+   "Title_DE",
+   "Descript_DE",
+   "Title_KR",
+   "Descript_KR",
+   "Title_PT",
+   "Descript_PT",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber"
+  ],
+  "linhas": 41
+ },
+ {
+  "file": "config/stylish/Stylish.txt",
+  "bytes": 60185,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SexType",
+   "StylishType",
+   "Param",
+   "Name",
+   "Desc",
+   "OpenCity",
+   "Name_TW",
+   "Desc_TW",
+   "Name_EN",
+   "Desc_EN",
+   "Name_DE",
+   "Desc_DE",
+   "Name_KR",
+   "Desc_KR",
+   "Name_PT",
+   "Desc_PT"
+  ],
+  "linhas": 336
+ },
+ {
+  "file": "config/stylishstore/StylishStore.txt",
+  "bytes": 14330,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StylishId",
+   "FashionName",
+   "CostCurrencyType",
+   "CostNumber",
+   "IsUnlockTalkNpcId",
+   "UnlockType",
+   "Param1",
+   "Tips",
+   "IsDefault"
+  ],
+  "linhas": 326
+ },
+ {
+  "file": "config/sys/loadabpolicy/LoadABPolicy.txt",
+  "bytes": 128044,
+  "fmt": "tsv",
+  "cols": [
+   "AssetName",
+   "Weight",
+   "IsForceUpdateRemote",
+   "IsInStreamAssets"
+  ],
+  "linhas": 3802
+ },
+ {
+  "file": "config/sys/premessage/PreMessage.txt",
+  "bytes": 11141,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "Message",
+   "Message_TW",
+   "Message_EN",
+   "Message_KR",
+   "Message_DE",
+   "Message_PT"
+  ],
+  "linhas": 42
+ },
+ {
+  "file": "config/systemopen/SystemOpen.txt",
+  "bytes": 69,
+  "fmt": "tsv",
+  "cols": [
+   "SystemType",
+   "OpenType",
+   "Param"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/townpatrol/TownPatrol.txt",
+  "bytes": 154,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PlayerLvLimit",
+   "OpenCostDiamond"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/townpatrolevent/TownPatrolEvent.txt",
+  "bytes": 229332,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MinPlayerLv",
+   "EventType",
+   "TotalSeconds",
+   "Param1",
+   "Param2",
+   "Param3",
+   "Param4",
+   "SceneId",
+   "Position",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "RandomItemId",
+   "RandomItemNumber",
+   "Title",
+   "Describe",
+   "Title_TW",
+   "Describe_TW",
+   "Title_EN",
+   "Describe_EN",
+   "Title_DE",
+   "Describe_DE",
+   "Title_KR",
+   "Describe_KR",
+   "Title_PT",
+   "Describe_PT"
+  ],
+  "linhas": 272
+ },
+ {
+  "file": "config/townpatrolfightpower/TownPatrolFightPower.txt",
+  "bytes": 109690,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MinValue",
+   "MaxValue",
+   "GetExp",
+   "GetGold",
+   "RandomTime",
+   "RandomCtrl",
+   "RandomItem",
+   "RandomItemWeight"
+  ],
+  "linhas": 100
+ },
+ {
+  "file": "config/treasure/treasure/Treasure.txt",
+  "bytes": 782,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "TopPicName",
+   "WaitingSecond",
+   "OneMinuteCostDiamond",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/treasure/treasurerefreshdiamond/TreasureRefreshDiamond.txt",
+  "bytes": 406,
+  "fmt": "tsv",
+  "cols": [
+   "Time",
+   "CostDiamond"
+  ],
+  "linhas": 50
+ },
+ {
+  "file": "config/version/Version.txt",
+  "bytes": 163,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "BigVersion",
+   "SmallVersion",
+   "BugVersion",
+   "DownloadURL"
+  ],
+  "linhas": 1
+ },
+ {
+  "file": "config/vip/Vip.txt",
+  "bytes": 3286,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "VIPType",
+   "CostRMB",
+   "CostRMB_TW",
+   "CostRMB_EN",
+   "CostRMB_DE",
+   "CostRMB_KR",
+   "CostRMB_PT",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "PetId",
+   "PetItem",
+   "BuyPowerCnt",
+   "BuyGoldCnt",
+   "PowerUpLimit",
+   "ResetEliteNpcCnt",
+   "BuyArenaCnt",
+   "FreeRefreshStore",
+   "DetectiveCnt",
+   "SnatchCnt",
+   "AttrConquestCnt",
+   "HuntingCnt",
+   "TownPatrol",
+   "HuntingQuickCnt",
+   "ExpeditionBuyBoxCnt",
+   "RuneTowerBuyCnt"
+  ],
+  "linhas": 19
+ },
+ {
+  "file": "config/wartoken/wartokenlv/WarTokenLv.txt",
+  "bytes": 4636,
+  "fmt": "tsv",
+  "cols": [
+   "WarLv",
+   "Exp",
+   "GetWarTokenPoint",
+   "LotteryEggPoint",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "PayGetWarTokenPoint",
+   "PayLotteryEggPoint",
+   "GetGold",
+   "PayGetDiamond",
+   "PayItemId",
+   "PayItemNumber"
+  ],
+  "linhas": 100
+ },
+ {
+  "file": "config/wartoken/wartokenlvrwdpet/WarTokenLvRwdPet.txt",
+  "bytes": 64,
+  "fmt": "tsv",
+  "cols": [
+   "SeasonNumber",
+   "PetId"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/wartoken/wartokenquest/WarTokenQuest.txt",
+  "bytes": 6135,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "TimeType",
+   "TaskType",
+   "Param1",
+   "TaskName",
+   "Describe",
+   "GetWarTokenExp",
+   "TaskName_TW",
+   "Describe_TW",
+   "TaskName_EN",
+   "Describe_EN",
+   "TaskName_DE",
+   "Describe_DE",
+   "TaskName_KR",
+   "Describe_KR",
+   "TaskName_PT",
+   "Describe_PT"
+  ],
+  "linhas": 20
+ },
+ {
+  "file": "config/worldmap/WorldMap.txt",
+  "bytes": 25634,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SceneId",
+   "SceneName",
+   "ShowOrder",
+   "IsOpen",
+   "IsCanFly",
+   "SceneDesc",
+   "FlySceneId",
+   "FlyPosition",
+   "BuildingType",
+   "NpcStar",
+   "NpcGetGold",
+   "NpcGetDiamond",
+   "NpcItem",
+   "NpcItemNumber",
+   "GetGold",
+   "GetDiamond",
+   "GetItem",
+   "ItemNumber",
+   "SceneName_TW",
+   "SceneDesc_TW",
+   "SceneName_EN",
+   "SceneDesc_EN",
+   "SceneName_DE",
+   "SceneDesc_DE",
+   "SceneName_KR",
+   "SceneDesc_KR",
+   "SceneName_PT",
+   "SceneDesc_PT"
+  ],
+  "linhas": 39
+ },
+ {
+  "file": "config/zjfz/atlas/Atlas.txt",
+  "bytes": 10238,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "AtlasName",
+   "SpriteName"
+  ],
+  "linhas": 296
+ },
+ {
+  "file": "config/zjfz/beidongskill/BeiDongSkill.txt",
+  "bytes": 5820,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SpriteName",
+   "Name",
+   "Desc",
+   "TargetAttrType",
+   "AddAttrType",
+   "AddAttrPercent",
+   "Name_TW",
+   "Desc_TW",
+   "Name_EN",
+   "Desc_EN"
+  ],
+  "linhas": 30
+ },
+ {
+  "file": "config/zjfz/characteristics/Characteristics.txt",
+  "bytes": 890,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "AddValueType",
+   "DelValueType",
+   "Name_TW",
+   "Name_EN"
+  ],
+  "linhas": 25
+ },
+ {
+  "file": "config/zjfz/charge/Charge.txt",
+  "bytes": 1971,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ChargeType",
+   "ChargePointID",
+   "Diamond",
+   "Param1",
+   "Name",
+   "Price",
+   "Price_TW",
+   "Name_TW",
+   "ProductId",
+   "ProductId_GooglePlay",
+   "ProductId_AppStore",
+   "Price_EN",
+   "Name_EN"
+  ],
+  "linhas": 13
+ },
+ {
+  "file": "config/zjfz/chengjiu/ChengJiu.txt",
+  "bytes": 14071,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "AchiveType",
+   "Param1",
+   "Param2",
+   "Desc",
+   "PetId",
+   "GetExp",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "Desc_TW",
+   "Desc_EN"
+  ],
+  "linhas": 140
+ },
+ {
+  "file": "config/zjfz/commonrule/CommonRule.txt",
+  "bytes": 6509,
+  "fmt": "tsv",
+  "cols": [
+   "RuleType",
+   "RuleName",
+   "Description",
+   "TitleAtlas",
+   "TitleBg",
+   "RuleName_TW",
+   "Description_TW",
+   "RuleName_EN",
+   "Description_EN"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/zjfz/constvalue/ConstValue.txt",
+  "bytes": 20675,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Value",
+   "Notes"
+  ],
+  "linhas": 333
+ },
+ {
+  "file": "config/zjfz/daoju/DaoJu.txt",
+  "bytes": 192358,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "EnglishName",
+   "ItemType",
+   "IsCarry",
+   "UseType",
+   "Rank",
+   "SalePrice",
+   "Param1",
+   "Param2",
+   "Param3",
+   "Param1List",
+   "Param2List",
+   "Param3List",
+   "CompoundItemID",
+   "ComposeNumber",
+   "ComposeCostGold",
+   "SceneID",
+   "Position",
+   "GiftItem",
+   "GiftItemNumber",
+   "Description",
+   "AtlasId",
+   "LittleSign",
+   "IconName",
+   "Power",
+   "MergeCostGold",
+   "ItemValue",
+   "IsDiscard",
+   "MainAccess",
+   "SubAccess",
+   "ExchangeMaterial",
+   "ExchangePersonalHonor",
+   "BagCategory",
+   "Name_TW",
+   "Description_TW",
+   "Name_EN",
+   "Description_EN",
+   "IconName_EN"
+  ],
+  "linhas": 506
+ },
+ {
+  "file": "config/zjfz/expedition/expedition/Expedition.txt",
+  "bytes": 341,
+  "fmt": "tsv",
+  "cols": [
+   "TimePeriod",
+   "StartTime",
+   "EndTime",
+   "Title",
+   "PetLvLimit",
+   "Title_TW",
+   "Title_EN"
+  ],
+  "linhas": 2
+ },
+ {
+  "file": "config/zjfz/expedition/expeditionlayerrwd/ExpeditionLayerRwd.txt",
+  "bytes": 2234,
+  "fmt": "tsv",
+  "cols": [
+   "Layer",
+   "BackGroundMusic",
+   "GetExp",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "ItemName_EN"
+  ],
+  "linhas": 15
+ },
+ {
+  "file": "config/zjfz/expedition/expeditionrwdbox/ExpeditionRwdBox.txt",
+  "bytes": 331,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PassLevel",
+   "VIPBuyCostDiamond",
+   "GetDiamond",
+   "GetGold",
+   "ItemId",
+   "ItemNumber"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/zjfz/firstname/FirstName.txt",
+  "bytes": 7527,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FirstName",
+   "FirstName_TW",
+   "FirstName_EN"
+  ],
+  "linhas": 280
+ },
+ {
+  "file": "config/zjfz/goldbuy/GoldBuy.txt",
+  "bytes": 1034,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Time",
+   "CostDiamond",
+   "GetGold"
+  ],
+  "linhas": 60
+ },
+ {
+  "file": "config/zjfz/gongnengkaifang/GongNengKaiFang.txt",
+  "bytes": 1268,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "FuncName",
+   "OpenLv",
+   "Desc",
+   "FuncName_TW",
+   "Desc_TW",
+   "FuncName_EN",
+   "Desc_EN"
+  ],
+  "linhas": 10
+ },
+ {
+  "file": "config/zjfz/guanka/GuanKa.txt",
+  "bytes": 51867,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MapName",
+   "MapId",
+   "Diffculty",
+   "PointId",
+   "CostPower",
+   "NeedPlayerLv",
+   "GetExp",
+   "GetGold",
+   "ItemId",
+   "ItemNumber",
+   "YingXiongID",
+   "YingXiongLv",
+   "Degree",
+   "Star",
+   "AtlasName",
+   "SpriteName",
+   "StageMusic",
+   "MapName_TW",
+   "MapName_EN"
+  ],
+  "linhas": 270
+ },
+ {
+  "file": "config/zjfz/guide/Guide.txt",
+  "bytes": 4734,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "GuideType",
+   "TriggerType",
+   "TriggerParam1",
+   "WaitingUIName",
+   "NoticeType",
+   "IsTips",
+   "IsLeft",
+   "IsBlackBg",
+   "LightRadius",
+   "TalkWidgetPosition",
+   "IsHand",
+   "HandPosition",
+   "HandRotation",
+   "IsClickPath",
+   "UIName",
+   "UICtrlPath",
+   "GuideTip",
+   "AfterGuideTalk",
+   "SingleGuideTalk",
+   "ExtendParam1",
+   "ExtendParam2",
+   "ExtendParam3",
+   "EndCondition",
+   "JumpLocation",
+   "GuideTip_TW",
+   "GuideTip_EN"
+  ],
+  "linhas": 19
+ },
+ {
+  "file": "config/zjfz/juesejingyan/JueSeJingYan.txt",
+  "bytes": 6763,
+  "fmt": "tsv",
+  "cols": [
+   "Lv",
+   "Exp",
+   "addexp",
+   "MaxPower",
+   "AddPower",
+   "PowerTopLimit",
+   "PowerRestoreInterval",
+   "SpriteMaxLv",
+   "MaxFatigue",
+   "AddFatigue",
+   "FatigueRestoreInterval",
+   "PetLv",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy"
+  ],
+  "linhas": 100
+ },
+ {
+  "file": "config/zjfz/lastname/LastName.txt",
+  "bytes": 1525,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "LastName",
+   "LastName_TW",
+   "LastName_EN"
+  ],
+  "linhas": 30
+ },
+ {
+  "file": "config/zjfz/loadingtips/LoadingTips.txt",
+  "bytes": 16690,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Tip",
+   "Tip_TW",
+   "Tip_EN"
+  ],
+  "linhas": 73
+ },
+ {
+  "file": "config/zjfz/message/Message.txt",
+  "bytes": 81447,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "Message",
+   "Message_TW",
+   "Message_EN"
+  ],
+  "linhas": 815
+ },
+ {
+  "file": "config/zjfz/petadvanced/PetAdvanced.txt",
+  "bytes": 2947,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetType",
+   "AdvancedLevel",
+   "Quality",
+   "SubLevel",
+   "LevelLimit",
+   "Item1",
+   "Item2",
+   "Item3",
+   "Item4",
+   "Item5",
+   "Item6",
+   "StarLimit",
+   "CostGold"
+  ],
+  "linhas": 26
+ },
+ {
+  "file": "config/zjfz/petadvancedcomposite/PetAdvancedComposite.txt",
+  "bytes": 6661,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "CompositeItem",
+   "CostGold",
+   "NeedItem1",
+   "ItemNumber1",
+   "NeedItem2",
+   "ItemNumber2",
+   "NeedItem3",
+   "ItemNumber3",
+   "NeedItem4",
+   "ItemNumber4",
+   "NeedItem5",
+   "ItemNumber5"
+  ],
+  "linhas": 144
+ },
+ {
+  "file": "config/zjfz/petadvancedpromotion/PetAdvancedPromotion.txt",
+  "bytes": 585,
+  "fmt": "tsv",
+  "cols": [
+   "AdvancedLevel",
+   "LastPromotionDegree",
+   "NextPromotionDegree",
+   "TotalWeight",
+   "ResetCostDiamond"
+  ],
+  "linhas": 25
+ },
+ {
+  "file": "config/zjfz/petintimacy/PetIntimacy.txt",
+  "bytes": 6329,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "IntimacyLv",
+   "MinValue",
+   "MaxValue",
+   "TotalWeight",
+   "ConvertCostDiamond",
+   "LockCostItem",
+   "LockItemNumber",
+   "CostGold",
+   "NeedItem",
+   "ItemNumber",
+   "RandomCtrl"
+  ],
+  "linhas": 30
+ },
+ {
+  "file": "config/zjfz/petitem/PetItem.txt",
+  "bytes": 291,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "IsEgg",
+   "PetId",
+   "Name",
+   "Level",
+   "IsShiny",
+   "Ability",
+   "Sex",
+   "Characteristics",
+   "IndividualValue",
+   "SkillId",
+   "CarryItemId",
+   "ItemName"
+  ],
+  "linhas": 2
+ },
+ {
+  "file": "config/zjfz/petstar/PetStar.txt",
+  "bytes": 4684,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Star",
+   "SubStar",
+   "TotalWeight",
+   "ResetCostDiamond"
+  ],
+  "linhas": 166
+ },
+ {
+  "file": "config/zjfz/pettrain/PetTrain.txt",
+  "bytes": 4943,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "TrainLv",
+   "Degree",
+   "SubDegree",
+   "NeedExp",
+   "NeedExpMyth",
+   "NeedExpLegend",
+   "NeedExpEpic",
+   "NeedExpOther",
+   "TotalWeight",
+   "ResetCostDiamond"
+  ],
+  "linhas": 101
+ },
+ {
+  "file": "config/zjfz/pettrainbreak/PetTrainBreak.txt",
+  "bytes": 437,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Degree",
+   "SubDegree",
+   "CostGold",
+   "StarLimit"
+  ],
+  "linhas": 20
+ },
+ {
+  "file": "config/zjfz/pettrainitem/PetTrainItem.txt",
+  "bytes": 3978,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "PetType",
+   "PetRank",
+   "ItemId"
+  ],
+  "linhas": 90
+ },
+ {
+  "file": "config/zjfz/petupstarlv/PetUpStarLv.txt",
+  "bytes": 12659,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PetType",
+   "Star",
+   "SubStar",
+   "LvLimit",
+   "CostGold",
+   "NeedItem",
+   "ItemNumber",
+   "NeedPetNumber"
+  ],
+  "linhas": 166
+ },
+ {
+  "file": "config/zjfz/petwashcharacter/PetWashCharacter.txt",
+  "bytes": 123,
+  "fmt": "tsv",
+  "cols": [
+   "Rank",
+   "CostGold",
+   "NeedRankPet"
+  ],
+  "linhas": 5
+ },
+ {
+  "file": "config/zjfz/power/Power.txt",
+  "bytes": 158,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "StartTime",
+   "EndTime",
+   "PowerNumber",
+   "CostDiamond"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/zjfz/powerbuy/PowerBuy.txt",
+  "bytes": 541,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Time",
+   "CostDiamond",
+   "GetPower",
+   "CumulativeConsumption"
+  ],
+  "linhas": 23
+ },
+ {
+  "file": "config/zjfz/renwu/RenWu.txt",
+  "bytes": 61667,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "QuestType",
+   "Param1",
+   "Param2",
+   "Desc",
+   "PetId",
+   "GetExp",
+   "GetPower",
+   "GetDiamond",
+   "GetGold",
+   "ItemId",
+   "ItemNumber",
+   "Desc_TW",
+   "Desc_EN"
+  ],
+  "linhas": 446
+ },
+ {
+  "file": "config/zjfz/reward/accumulatelogin/AccumulateLogin.txt",
+  "bytes": 591,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "Days",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetItem",
+   "RuneId",
+   "ItemName_EN"
+  ],
+  "linhas": 8
+ },
+ {
+  "file": "config/zjfz/reward/dailysign/DailySign.txt",
+  "bytes": 1504,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetId",
+   "PetName",
+   "VipDouble",
+   "ItemName_EN"
+  ],
+  "linhas": 28
+ },
+ {
+  "file": "config/zjfz/reward/dailysignbox/DailySignBox.txt",
+  "bytes": 289,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "SignDay",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "PetId",
+   "PetName"
+  ],
+  "linhas": 3
+ },
+ {
+  "file": "config/zjfz/reward/levelreward/LevelReward.txt",
+  "bytes": 1862,
+  "fmt": "tsv",
+  "cols": [
+   "Id",
+   "Level",
+   "GetPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "ItemName",
+   "PetId",
+   "BikeId",
+   "GoankeItem",
+   "ItemName_EN"
+  ],
+  "linhas": 13
+ },
+ {
+  "file": "config/zjfz/senlin/SenLin.txt",
+  "bytes": 24872,
+  "fmt": "tsv",
+  "cols": [
+   "Layer",
+   "NpcName",
+   "Model",
+   "GetExp",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "PetRank",
+   "Level",
+   "Star",
+   "Degree",
+   "Train",
+   "Intimacy",
+   "IncreaseHP",
+   "IncreaseAtk",
+   "IncreaseDef",
+   "IncreaseSpAtk",
+   "IncreaseSpDef",
+   "IncreaseSpd"
+  ],
+  "linhas": 300
+ },
+ {
+  "file": "config/zjfz/store/Store.txt",
+  "bytes": 1845,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "ItemId",
+   "Name",
+   "TabIndex",
+   "StoreType",
+   "Price",
+   "DailyRandom",
+   "DailyBuyLimit",
+   "IsUnlockTalkNpcId",
+   "UnlockType",
+   "Param1",
+   "Name_EN"
+  ],
+  "linhas": 26
+ },
+ {
+  "file": "config/zjfz/townpatrol/townpatrol/TownPatrol.txt",
+  "bytes": 134,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "PlayerLvLimit",
+   "OpenCostDiamond"
+  ],
+  "linhas": 6
+ },
+ {
+  "file": "config/zjfz/townpatrol/townpatrolfightpower/TownPatrolFightPower.txt",
+  "bytes": 35689,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MinValue",
+   "MaxValue",
+   "GetExp",
+   "GetGold",
+   "RandomTime",
+   "RandomCtrl",
+   "RandomItem",
+   "RandomItemWeight"
+  ],
+  "linhas": 100
+ },
+ {
+  "file": "config/zjfz/vip/Vip.txt",
+  "bytes": 1738,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "VIPType",
+   "CostRMB",
+   "CostRMB_TW",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemNumber",
+   "PetId",
+   "BuyPowerCnt",
+   "BuyGoldCnt",
+   "PowerUpLimit",
+   "ResetEliteNpcCnt",
+   "BuyArenaCnt",
+   "FreeRefreshStore",
+   "DetectiveCnt",
+   "SnatchCnt",
+   "AttrConquestCnt",
+   "HuntingCnt",
+   "TownPatrol",
+   "HuntingQuickCnt",
+   "ExpeditionBuyBoxCnt",
+   "CostRMB_EN"
+  ],
+  "linhas": 16
+ },
+ {
+  "file": "config/zjfz/yingxiong/YingXiong.txt",
+  "bytes": 5912,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "Name",
+   "SpriteName",
+   "AtlasName",
+   "Type",
+   "Rank",
+   "ActiveSkillId",
+   "PassiveSkillId",
+   "HP",
+   "Attack",
+   "Defense",
+   "SpecialAttack",
+   "SpecialDefense",
+   "Speed",
+   "SumValue",
+   "Desc",
+   "Name_TW",
+   "Desc_TW",
+   "Name_EN",
+   "Desc_EN"
+  ],
+  "linhas": 30
+ },
+ {
+  "file": "config/zjfz/yingxionglevel/YingXiongLevel.txt",
+  "bytes": 3676,
+  "fmt": "tsv",
+  "cols": [
+   "MonsterType",
+   "Exp"
+  ],
+  "linhas": 7
+ },
+ {
+  "file": "config/zjfz/zhandouskill/ZhanDouSkill.txt",
+  "bytes": 15586,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "SpriteName",
+   "Name",
+   "Desc",
+   "SkillType",
+   "PerformanceType",
+   "TargetType",
+   "AtkNumber",
+   "Power",
+   "HealHp",
+   "HealPercent",
+   "CasterEffectName",
+   "CasterEfxPos",
+   "FlyingEffectName",
+   "FlyingEfxPos",
+   "HiterEffectName",
+   "HiterEfxPos",
+   "Name_TW",
+   "Desc_TW",
+   "Name_EN",
+   "Desc_EN"
+  ],
+  "linhas": 60
+ },
+ {
+  "file": "config/zjfz/zhentanmiling/ZhenTanMiLing.txt",
+  "bytes": 10271,
+  "fmt": "tsv",
+  "cols": [
+   "ID",
+   "MinPlayerLv",
+   "Rank",
+   "WaitingSecond",
+   "OneMinuteCostDiamond",
+   "TeamFightPower",
+   "GetGold",
+   "GetDiamond",
+   "ItemId",
+   "ItemName",
+   "ItemNumber",
+   "SpecialPetRank",
+   "SpecialPetStar",
+   "SpecialPetDegree",
+   "SpecialItem",
+   "SpecialItemNumber"
+  ],
+  "linhas": 162
+ },
+ {
+  "file": "config/zjfz/zhentanmilingrefresh/ZhenTanMiLingRefresh.txt",
+  "bytes": 406,
+  "fmt": "tsv",
+  "cols": [
+   "Time",
+   "CostDiamond"
+  ],
+  "linhas": 50
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZAtlas1.txt",
+  "bytes": 48719,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1955
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZAtlas2.txt",
+  "bytes": 16145,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 643
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZAtlas3.txt",
+  "bytes": 6818,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 267
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZAtlas4.txt",
+  "bytes": 9609,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 379
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZAtlas5.txt",
+  "bytes": 6573,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 267
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZAtlas6.txt",
+  "bytes": 8310,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 339
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZAtlas7.txt",
+  "bytes": 8022,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 331
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZNoAlphaAtlas.txt",
+  "bytes": 682,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 27
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZNoAlphaAtlas2.txt",
+  "bytes": 681,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 27
+ },
+ {
+  "file": "dependent/ui/atlas/atlas/ZJFZNoAlphaAtlas3.txt",
+  "bytes": 681,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 27
+ },
+ {
+  "file": "dependent/ui/atlas/opengamead1atlas/OpenGameAD1Atlas.txt",
+  "bytes": 14955,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 587
+ },
+ {
+  "file": "model/zjfz/sprite/baihelinghu/baihelinghu.atlas.txt",
+  "bytes": 1909,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 131
+ },
+ {
+  "file": "model/zjfz/sprite/baihelinghu/baihelinghu.txt",
+  "bytes": 126692,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 4266
+ },
+ {
+  "file": "model/zjfz/sprite/baiheyaohu/baiheyaohu.atlas.txt",
+  "bytes": 1721,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 117
+ },
+ {
+  "file": "model/zjfz/sprite/baiheyaohu/baiheyaohu.txt",
+  "bytes": 117999,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 3953
+ },
+ {
+  "file": "model/zjfz/sprite/baiheyouhu/baiheyouhu.atlas.txt",
+  "bytes": 1689,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 117
+ },
+ {
+  "file": "model/zjfz/sprite/baiheyouhu/baiheyouhu.txt",
+  "bytes": 77094,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2917
+ },
+ {
+  "file": "model/zjfz/sprite/bansenbanlong/bansenbanlong.atlas.txt",
+  "bytes": 200,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/bansenbanlong/bansenbanlong.txt",
+  "bytes": 1646,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/beikehailongshou/beikehailongshou.atlas.txt",
+  "bytes": 206,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/beikehailongshou/beikehailongshou.txt",
+  "bytes": 1582,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/binfenmeirenyu/binfenmeirenyu.atlas.txt",
+  "bytes": 202,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/binfenmeirenyu/binfenmeirenyu.txt",
+  "bytes": 1587,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/bingdonghaishi/bingdonghaishi.atlas.txt",
+  "bytes": 202,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/bingdonghaishi/bingdonghaishi.txt",
+  "bytes": 1687,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/bingjinmenghu/bingjinmenghu.atlas.txt",
+  "bytes": 1929,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 131
+ },
+ {
+  "file": "model/zjfz/sprite/bingjinmenghu/bingjinmenghu.txt",
+  "bytes": 106106,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 3595
+ },
+ {
+  "file": "model/zjfz/sprite/bingjinyouhu/bingjinyouhu.atlas.txt",
+  "bytes": 1310,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 89
+ },
+ {
+  "file": "model/zjfz/sprite/bingjinyouhu/bingjinyouhu.txt",
+  "bytes": 67755,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2360
+ },
+ {
+  "file": "model/zjfz/sprite/bingleimofashi/bingleimofashi.atlas.txt",
+  "bytes": 202,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/bingleimofashi/bingleimofashi.txt",
+  "bytes": 1636,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/bingyuxielonggu/bingyuxielonggu.atlas.txt",
+  "bytes": 1939,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 131
+ },
+ {
+  "file": "model/zjfz/sprite/bingyuxielonggu/bingyuxielonggu.txt",
+  "bytes": 113096,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 4094
+ },
+ {
+  "file": "model/zjfz/sprite/chimuhuoyi/chimuhuoyi.atlas.txt",
+  "bytes": 194,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/chimuhuoyi/chimuhuoyi.txt",
+  "bytes": 1741,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/cilijiqiren/cilijiqiren.atlas.txt",
+  "bytes": 701,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 47
+ },
+ {
+  "file": "model/zjfz/sprite/cilijiqiren/cilijiqiren.txt",
+  "bytes": 14308,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 618
+ },
+ {
+  "file": "model/zjfz/sprite/daodongheixie/daodongheixie.atlas.txt",
+  "bytes": 3460,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 236
+ },
+ {
+  "file": "model/zjfz/sprite/daodongheixie/daodongheixie.txt",
+  "bytes": 47765,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/donggudongshi/donggudongshi.atlas.txt",
+  "bytes": 200,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/donggudongshi/donggudongshi.txt",
+  "bytes": 2266,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/doujianzhanma/doujianzhanma.atlas.txt",
+  "bytes": 1423,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 96
+ },
+ {
+  "file": "model/zjfz/sprite/doujianzhanma/doujianzhanma.txt",
+  "bytes": 78487,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2720
+ },
+ {
+  "file": "model/zjfz/sprite/duanzuixiewushen/duanzuixiewushen.atlas.txt",
+  "bytes": 2362,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 159
+ },
+ {
+  "file": "model/zjfz/sprite/duanzuixiewushen/duanzuixiewushen.txt",
+  "bytes": 34392,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 873
+ },
+ {
+  "file": "model/zjfz/sprite/dundinusha/dundinusha.atlas.txt",
+  "bytes": 808,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 54
+ },
+ {
+  "file": "model/zjfz/sprite/dundinusha/dundinusha.txt",
+  "bytes": 38244,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1358
+ },
+ {
+  "file": "model/zjfz/sprite/heisenyeshu/heisenyeshu.atlas.txt",
+  "bytes": 1720,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 117
+ },
+ {
+  "file": "model/zjfz/sprite/heisenyeshu/heisenyeshu.txt",
+  "bytes": 111041,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 3925
+ },
+ {
+  "file": "model/zjfz/sprite/heiyuhaidaoya/heiyuhaidaoya.atlas.txt",
+  "bytes": 200,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/heiyuhaidaoya/heiyuhaidaoya.txt",
+  "bytes": 1835,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/honglianshuijingshou/honglianshuijingshou.atlas.txt",
+  "bytes": 2459,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 166
+ },
+ {
+  "file": "model/zjfz/sprite/honglianshuijingshou/honglianshuijingshou.txt",
+  "bytes": 125888,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 4311
+ },
+ {
+  "file": "model/zjfz/sprite/huchengbaoleixiang/huchengbaoleixiang.atlas.txt",
+  "bytes": 210,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/huchengbaoleixiang/huchengbaoleixiang.txt",
+  "bytes": 1699,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/hunpaijiuyouhou/hunpaijiuyouhou.atlas.txt",
+  "bytes": 2029,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 138
+ },
+ {
+  "file": "model/zjfz/sprite/hunpaijiuyouhou/hunpaijiuyouhou.txt",
+  "bytes": 85307,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2985
+ },
+ {
+  "file": "model/zjfz/sprite/hunpaiwanmingwang/hunpaiwanmingwang.atlas.txt",
+  "bytes": 1724,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 117
+ },
+ {
+  "file": "model/zjfz/sprite/hunpaiwanmingwang/hunpaiwanmingwang.txt",
+  "bytes": 86670,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2975
+ },
+ {
+  "file": "model/zjfz/sprite/jiankeyixia/jiankeyixia.atlas.txt",
+  "bytes": 196,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/jiankeyixia/jiankeyixia.txt",
+  "bytes": 1731,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/jidiyoubao/jidiyoubao.atlas.txt",
+  "bytes": 1193,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 82
+ },
+ {
+  "file": "model/zjfz/sprite/jidiyoubao/jidiyoubao.txt",
+  "bytes": 65712,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2395
+ },
+ {
+  "file": "model/zjfz/sprite/jinjiayandi/jinjiayandi.atlas.txt",
+  "bytes": 1729,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 117
+ },
+ {
+  "file": "model/zjfz/sprite/jinjiayandi/jinjiayandi.txt",
+  "bytes": 124312,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 4207
+ },
+ {
+  "file": "model/zjfz/sprite/jinzhoumowangya/jinzhoumowangya.atlas.txt",
+  "bytes": 204,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/jinzhoumowangya/jinzhoumowangya.txt",
+  "bytes": 2245,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/jixiemuou/jixiemuou.atlas.txt",
+  "bytes": 2516,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 173
+ },
+ {
+  "file": "model/zjfz/sprite/jixiemuou/jixiemuou.txt",
+  "bytes": 74140,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2743
+ },
+ {
+  "file": "model/zjfz/sprite/juyihuoniao/juyihuoniao.atlas.txt",
+  "bytes": 1626,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 110
+ },
+ {
+  "file": "model/zjfz/sprite/juyihuoniao/juyihuoniao.txt",
+  "bytes": 94087,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 3331
+ },
+ {
+  "file": "model/zjfz/sprite/lieyihuoniao/lieyihuoniao.atlas.txt",
+  "bytes": 1406,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 96
+ },
+ {
+  "file": "model/zjfz/sprite/lieyihuoniao/lieyihuoniao.txt",
+  "bytes": 80594,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2828
+ },
+ {
+  "file": "model/zjfz/sprite/longtouheitun/longtouheitun.atlas.txt",
+  "bytes": 200,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/longtouheitun/longtouheitun.txt",
+  "bytes": 1675,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/mifagutongzhong/mifagutongzhong.atlas.txt",
+  "bytes": 204,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/mifagutongzhong/mifagutongzhong.txt",
+  "bytes": 1628,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/nengyuanchuanshanjia/nengyuanchuanshanjia.atlas.txt",
+  "bytes": 214,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/nengyuanchuanshanjia/nengyuanchuanshanjia.txt",
+  "bytes": 1603,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/qinghuoheilong/qinghuoheilong.atlas.txt",
+  "bytes": 202,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/qinghuoheilong/qinghuoheilong.txt",
+  "bytes": 1651,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/senluolingman/senluolingman.atlas.txt",
+  "bytes": 2032,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 138
+ },
+ {
+  "file": "model/zjfz/sprite/senluolingman/senluolingman.txt",
+  "bytes": 76229,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2822
+ },
+ {
+  "file": "model/zjfz/sprite/senluoxianlu/senluoxianlu.atlas.txt",
+  "bytes": 2534,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 173
+ },
+ {
+  "file": "model/zjfz/sprite/senluoxianlu/senluoxianlu.txt",
+  "bytes": 120160,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 4093
+ },
+ {
+  "file": "model/zjfz/sprite/senluoyouya/senluoyouya.atlas.txt",
+  "bytes": 1902,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 131
+ },
+ {
+  "file": "model/zjfz/sprite/senluoyouya/senluoyouya.txt",
+  "bytes": 80814,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2945
+ },
+ {
+  "file": "model/zjfz/sprite/shengqiangtianqi/shengqiangtianqi.atlas.txt",
+  "bytes": 1412,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 96
+ },
+ {
+  "file": "model/zjfz/sprite/shengqiangtianqi/shengqiangtianqi.txt",
+  "bytes": 44431,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1620
+ },
+ {
+  "file": "model/zjfz/sprite/shenhaifeiyu/shenhaifeiyu.atlas.txt",
+  "bytes": 1207,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 82
+ },
+ {
+  "file": "model/zjfz/sprite/shenhaifeiyu/shenhaifeiyu.txt",
+  "bytes": 61847,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2214
+ },
+ {
+  "file": "model/zjfz/sprite/shiguangbaizhong/shiguangbaizhong.atlas.txt",
+  "bytes": 206,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/shiguangbaizhong/shiguangbaizhong.txt",
+  "bytes": 1732,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/shouliekuanquan/shouliekuanquan.atlas.txt",
+  "bytes": 1724,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 117
+ },
+ {
+  "file": "model/zjfz/sprite/shouliekuanquan/shouliekuanquan.txt",
+  "bytes": 80173,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2774
+ },
+ {
+  "file": "model/zjfz/sprite/tiejiajiansha/tiejiajiansha.atlas.txt",
+  "bytes": 200,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/tiejiajiansha/tiejiajiansha.txt",
+  "bytes": 1700,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/wanwuchuangshilong/wanwuchuangshilong.atlas.txt",
+  "bytes": 210,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/wanwuchuangshilong/wanwuchuangshilong.txt",
+  "bytes": 1764,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/weifengyaohu/weifengyaohu.atlas.txt",
+  "bytes": 198,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/weifengyaohu/weifengyaohu.txt",
+  "bytes": 1746,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/wokeanling/wokeanling.atlas.txt",
+  "bytes": 194,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/wokeanling/wokeanling.txt",
+  "bytes": 1693,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/wuzhaomo/wuduzhaomo.atlas.txt",
+  "bytes": 2462,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 166
+ },
+ {
+  "file": "model/zjfz/sprite/wuzhaomo/wuduzhaomo.txt",
+  "bytes": 28462,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/xiaoyihuoniao/xiaoyihuoniao.atlas.txt",
+  "bytes": 1297,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 89
+ },
+ {
+  "file": "model/zjfz/sprite/xiaoyihuoniao/xiaoyihuoniao.txt",
+  "bytes": 62705,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2197
+ },
+ {
+  "file": "model/zjfz/sprite/xiehuojisi/xiehuojisi.atlas.txt",
+  "bytes": 194,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/xiehuojisi/xiehuojisi.txt",
+  "bytes": 1736,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/xingchenyueyi/xingchenyueyi.atlas.txt",
+  "bytes": 200,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/xingchenyueyi/xingchenyueyi.txt",
+  "bytes": 1741,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/xinghuizuangshilong/xinghuizuangshilong.atlas.txt",
+  "bytes": 2144,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 145
+ },
+ {
+  "file": "model/zjfz/sprite/xinghuizuangshilong/xinghuizuangshilong.txt",
+  "bytes": 75435,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 2658
+ },
+ {
+  "file": "model/zjfz/sprite/yaofenghuanhu/yaofenghuanhu.atlas.txt",
+  "bytes": 200,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/yaofenghuanhu/yaofenghuanhu.txt",
+  "bytes": 1727,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/yaonvmeidongsha/yaonvmeidongsha.atlas.txt",
+  "bytes": 204,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/yaonvmeidongsha/yaonvmeidongsha.txt",
+  "bytes": 1731,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/yishishouhuzhe/yishishouhuzhe.atlas.txt",
+  "bytes": 202,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/yishishouhuzhe/yishishouhuzhe.txt",
+  "bytes": 1744,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/youminghaidaochuan/youminghaidaochuan.atlas.txt",
+  "bytes": 1510,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 103
+ },
+ {
+  "file": "model/zjfz/sprite/youminghaidaochuan/youminghaidaochuan.txt",
+  "bytes": 94503,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 3322
+ },
+ {
+  "file": "model/zjfz/sprite/yuhuoqimeila/yuhuoqimeila.atlas.txt",
+  "bytes": 198,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/yuhuoqimeila/yuhuoqimeila.txt",
+  "bytes": 1670,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/zhanshumoyou/zhanshumoyou.atlas.txt",
+  "bytes": 1930,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 131
+ },
+ {
+  "file": "model/zjfz/sprite/zhanshumoyou/zhanshumoyou.txt",
+  "bytes": 94205,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 3458
+ },
+ {
+  "file": "model/zjfz/sprite/zhuanshengxiaoma/zhuanshengxiaoma.atlas.txt",
+  "bytes": 206,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/zhuanshengxiaoma/zhuanshengxiaoma.txt",
+  "bytes": 1689,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/zhuhuosishenguan/zhuhuosishenguan.atlas.txt",
+  "bytes": 206,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 12
+ },
+ {
+  "file": "model/zjfz/sprite/zhuhuosishenguan/zhuhuosishenguan.txt",
+  "bytes": 1759,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 1
+ },
+ {
+  "file": "model/zjfz/sprite/zuzouemoling/zuzouemoling.atlas.txt",
+  "bytes": 1842,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 124
+ },
+ {
+  "file": "model/zjfz/sprite/zuzouemoling/zuzouemoling.txt",
+  "bytes": 95709,
+  "fmt": "texto",
+  "cols": [],
+  "linhas": 3299
+ }
+]
