@@ -88,3 +88,7 @@ YapuDev-Borderless.lnk
 # --- ambientes virtuais e cache do Python ---
 tools/**/.venv/
 tools/**/__pycache__/
+
+# --- folhas de contato e resultados de teste (regerados por script) ---
+sprites_todos.png
+testes*.xml
